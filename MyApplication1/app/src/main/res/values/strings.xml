@@ -1,0 +1,1983 @@
+<resources>
+    <string name="app_name">Tranverse</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <!-- Fonts -->
+    <string name="font_thin">fonts/UniversNexrforHSBC-Thin.otf</string>
+    <string name="font_thin_it">fonts/UniversNexrforHSBC-ThinIt.otf</string>
+    <string name="font_bold">fonts/UniversNextforHSBC-Bold.otf</string>
+    <string name="font_light">fonts/UniversNextforHSBC-Light.otf</string>
+    <string name="font_light_it">fonts/UniversNextforHSBC-LightIt.otf</string>
+    <string name="font_medium">fonts/UniversNextforHSBC-Medium.otf</string>
+    <string name="font_regular">fonts/UniversNextforHSBC-Regular.otf</string>
+    <string name="font_ultlt">fonts/UniversNextforHSBC-UltLt.otf</string>
+    <string name="font_ultlt_it">fonts/UniversNextforHSBC-UltLtIt.otf</string>
+
+    <!-- Action bar -->
+    <string name="action_bar_title_my_fx">My FX</string>
+    <string name="action_bar_title_pay">Pay</string>
+    <string name="action_bar_title_input_amount">Input amount</string>
+    <string name="action_bar_title_me2me_domestic_transfer">Domestic transfer</string>
+    <string name="action_bar_title_me2me_global_transfer">Global transfer</string>
+    <string name="action_bar_title_me2me_domestic_limit_order_transfer">Set your rate</string>
+    <string name="action_bar_title_me2me_limit_order_target_rate">Set rate alert</string>
+    <string name="action_bar_title_me2me_limit_order_select_expiry_date">Select a expiry date</string>
+    <string name="action_bar_title_review">Review</string>
+    <string name="action_bar_title_transfer">Transfer</string>
+    <string name="action_bar_title_transfer_verification">Transfer verification</string>
+    <string name="action_bar_title_set_your_rate_verification">Set your rate verification</string>
+    <string name="action_bar_title_confirm">Transfer confirmation</string>
+    <string name="action_bar_title_set_your_rate_confirm">Set your rate confirmation</string>
+    <string name="action_bar_title_target_rate">About Rate</string>
+    <string name="action_bar_title_target_rate_about">*About Rate</string>
+    <string name="action_bar_title_target_rate_fee">About Rate and Fees</string>
+
+    <!--temp for show & tell-->
+    <string name="action_bar_title_add_new_payee">Add New Payee</string>
+    <string name="action_bar_title_account_details">Account details</string>
+    <string name="action_bar_title_contact_us">Contact us</string>
+    <string name="action_bar_title_help">Help</string>
+    <string name="action_bar_title_legal">Legal</string>
+    <string name="action_bar_title_search_bank_address">Search for bank\'s address</string>
+    <string name="action_bar_title_accessibility">Accessibility settings</string>
+    <string name="action_bar_title_privacy">Privacy</string>
+    <string name="action_bar_title_eula">End User License Agreement</string>
+    <string name="action_bar_title_terms_condition">Terms and Conditions</string>
+    <string name="action_bar_title_important_notes">Important Notes</string>
+    <string name="action_bar_title_contact">Contact</string>
+    <string name="action_bar_title_personalize_settings">Personalize Settings</string>
+    <string name="action_bar_title_hsbc_singapore_fx">HSBC Singapore FX</string>
+
+    <string name="action_bar_title_bank_number">Bank number</string>
+    <string name="action_bar_title_account_number">Account number</string>
+    <string name="action_bar_title_iban">IBAN</string>
+
+    <!-- Confirmation page save photo to gallery permission dialog -->
+    <string name="permission_denied_option_dialog_title">Enable access photo gallery</string>
+    <string name="permission_denied_option_dialog_message">We don\'t have access to your photo gallery. You can enable access in Privacy Settings</string>
+
+    <!-- Common -->
+    <string name="common_transfer">Transfer</string>
+    <string name="common_chart">FX Chart</string>
+    <string name="common_add_to_watchlist">Add to Watchlist</string>
+    <string name="common_set_alert">Rate alert</string>
+    <string name="common_order_watch">Set your rate</string>
+
+    <!-- Disclaimer -->
+    <string name="disclaimer">© Thomson Reuters 2012.  All rights reserved.  Republication or redistribution of Thomson Reuters content, including by framing or similar means, is prohibited without the prior written consent of Thomson Reuters.  Thomson Reuters and the Thomson Reuters logo are registered trademarks and trademarks of Thomson Reuters and its affiliated companies.\n\nFX market news and data on this site is provided by Thomson Reuters and/or its third party content providers.  Neither Thomson Reuters nor its third party content providers shall be liable for any errors, inaccuracies or delays in content, or for any actions taken in reliance thereon. THOMSON REUTERS EXPRESSLY DISCLAIMS ALL WARRANTIES, EXPRESSED OR IMPLIED, AS TO THE ACCURACY OF ANY OF THE CONTENT PROVIDED, OR AS TO THE FITNESS OF THE INFORMATION FOR ANY PURPOSE.  Although Thomson Reuters makes reasonable efforts to ensure the accuracy of the information provided, Thomson Reuters does not guarantee the accuracy or reliability and accept no liability (whether in tort or contract or otherwise) for any loss or damage arising from any errors, inaccuracies or omissions.</string>
+
+
+    <!-- Button -->
+    <string name="btn_next">Next</string>
+    <string name="btn_onboarding_next">Next</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_done">Done</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_go_to_my_activity">Go to My Activity</string>
+    <string name="btn_transfer">Transfer</string>
+    <string name="btn_limit_order">Set your rate</string>
+    <string name="btn_apply">Apply</string>
+    <string name="news_btn_apply">Apply</string>
+    <string name="btn_view_chart">View chart</string>
+
+    <string name="btn_accept">Accept</string>
+    <string name="btn_go_to_my_fx">Go to My FX</string>
+    <string name="btn_make_another_payment">Make another payment</string>
+    <string name="btn_return_to_my_fx">Return to My FX</string>
+    <string name="btn_proceed">Proceed</string>
+    <string name="btn_onboarding_proceed">Proceed</string>
+
+    <!-- Cell -->
+    <string name="cell_hint_select_country">Select country</string>
+
+    <!-- Disclaimer -->
+    <string name="disclaimer_limit_order">Please note that the mobile number and email address that is recorded in the Bank\'s systems will be used for this FX Target Limit Order or FX Rate Alert. If your details are incorrect, please update your information with the Bank before placing your FX Target Limit Order or FX Rate Alert.</string>
+    <string name="disclaimer_price_alert">You will be notified when your target exchange rate is reached.</string>
+    <string name="disclaimer_price_alert_notification">Please note that the mobile number and email address that is recorded in the Bank\'s systems will be used for this FX Target Limit Order or FX Rate Alert. If your details are incorrect, please update your information with the Bank before placing your FX Target Limit Order or FX Rate Alert.</string>
+
+    <!-- Language -->
+    <string-array name="language_menu">
+        <item name="language_english">English</item>
+        <item name="language_zh_hk">中文(繁體)</item>
+        <item name="language_zh_cn">中文(简体)</item>
+    </string-array>
+
+    <string name="error_general">Error</string>
+    <!-- Logon -->
+    <string name="language_english">English</string>
+    <string name="language_traditional_chinese">繁體</string>
+    <string name="language_simplified_chinese">简体</string>
+    <string name="language_zh_hk">中文(繁體)</string>
+    <string name="language_zh_cn">中文(简体)</string>
+
+    <string name="logon_special_alert">Special alert</string>
+
+    <string name="logon_password_position_first">1st</string>
+    <string name="logon_password_position_second">2nd</string>
+    <string name="logon_password_position_third">3rd</string>
+    <string name="logon_password_position_fourth">4th</string>
+    <string name="logon_password_position_fifth">5th</string>
+    <string name="logon_password_position_sixth">6th</string>
+    <string name="logon_password_position_last">last</string>
+    <string name="logon_password_position_second_last">2nd last</string>
+
+    <string name="logon_button_title">Log on</string>
+    <string name="logon_cam_pref_error">You are logged on without Security Device. To use the Stock Trading function, please log on again with your Security Device.</string>
+    <string name="logon_cam_pref_error_title">Additional security required</string>
+    <string name="logon_cam10_company">The Hongkong and Shanghai Banking Corporation Limited</string>
+    <string name="logon_cam10_error_account_locked">Your account has been locked.</string>
+    <string name="logon_cam10_error_wrong_username">Your username was not recognised, please check that you have entered it correctly and try again.</string>
+    <string name="logon_cam10_greeting_morning">Good Morning</string>
+    <string name="logon_cam10_instruction">Please enter username</string>
+    <string name="logon_cam10_remember_me">Remember me</string>
+    <string name="logon_cam30_first">1st</string>
+    <string name="logon_cam30_fifth">5th</string>
+    <string name="logon_cam30_forth">4th</string>
+    <string name="logon_cam30_help_message">Your password is not case sensitive and must be between 8 and 30 characters. It must include letters and numbers. As a good practice do not use the same password across different websites and refrain from using easy to guess information such as your name or date of birth.\n\nForgot your password?\nIf you forget your password, please log on to HSBC Internet Banking on your desktop computer to reset your password.</string>
+    <string name="logon_cam30_help_title">Password</string>
+    <string name="logon_cam30_last">last</string>
+    <string name="logon_cam30_second">2nd</string>
+    <string name="logon_cam30_second_last">2nd last</string>
+    <string name="logon_cam30_sixth">6th</string>
+    <string name="logon_cam30_third">3rd</string>
+    <string name="logon_cam3040_account_locked">Your account has been locked.</string>
+    <string name="logon_cam3040_token_activation">Your account has been locked.</string>
+    <string name="logon_cam3040_wrong_credential">One or more of the fields you have completed is incorrect. Please enter the correct details.</string>
+    <string name="logon_cam40_instruction">Please enter security code</string>
+    <string name="logon_deferactivation_error_common">Error when trying defer SOTP activation.</string>
+    <string name="logon_info_not_match_message">The information you entered does not match our records. Please try again.</string>
+    <string name="logon_info_not_match_title">Information does not match</string>
+    <string name="logon_lock_message">For your security, you have been locked out of online banking due to too many failed log on attemps. Please call us to restore your access.</string>
+    <string name="logon_lock_premier_contact">HSBC Premier customers        (852) 987654321\nHSBC Advance customers        (852) 987654321\nOther customers        (852) 987654321</string>
+    <string name="logon_lock_title">Log on is locked</string>
+    <string name="logon_memorable_answer_help_message">Memorable answer is your existing password if you have not yet set up your memorable question and answer.\nSimply enter that in the field to continue.\n\nForgot your memorable answer?\nIf you forget your memorable answer, please log on to HSBC Internet Banking on your desktop computer to reset your memorable answer.</string>
+    <string name="logon_memorable_answer_help_title">Memorable answer</string>
+    <string name="logon_menu_item_enduser_licence_agreement">End User License Agreement</string>
+    <string name="logon_menu_item_hyperlink_policy">Hyperlink Policy</string>
+    <string name="logon_menu_item_important_notes">Important Notes</string>
+    <string name="logon_menu_item_maintainance_schedule">Maintainence Schedule</string>
+    <string name="logon_menu_item_privacy_security">Privacy and Security</string>
+    <string name="logon_menu_item_security_fraud">Security and Fraud</string>
+    <string name="logon_menu_item_security_tips">Security Tips</string>
+    <string name="logon_menu_item_tos">Terms of Use</string>
+    <string name="logon_network_error_message">There is an issue connecting to online banking. Please try again</string>
+    <string name="logon_profile_locked_title">Profile Locked: FXLS-00001 (%1$s)</string>
+    <string name="logon_rcc_switch_title">Without security device</string>
+    <string name="logon_remember_me">Remember me</string>
+    <string name="logon_security_device_activate_later_button">Activate later</string>
+    <string name="logon_security_device_help_message_first">Press and hold the </string>
+    <string name="logon_security_device_help_message_second"> to turn on your Security Device, then enter your Security Device PIN. Press the </string>
+    <string name="logon_security_device_help_message_third"> to generate a security code.</string>
+    <string name="logon_security_device_help_title">Security device</string>
+    <string name="logon_security_device_instruction">Please enter security code.</string>
+    <string name="logon_security_device_reason_not_within">A security device has been ordered for you, but you have not yet activated it. Your Security Device will generate the security code you need to log on.\n\nOnce you have activated your Security Device you will be able to access mobile banking.\n\nPlease log on to HSBC Internet Banking on your desktop computer to activate your Security Device.</string>
+    <string name="logon_security_device_reason_within">Please activate your Security Device on the HSBC online banking website, otherwise you won\'t be able to access our online and banking mobile banking services.\n\nYou\'ve got %1$d days left to activate it and continue using this app.</string>
+    <string name="logon_security_device_report_lost_message">To report a lost, stolen or broken Security Device, Please call</string>
+    <string name="logon_security_device_switch_title">With security device</string>
+    <string name="logon_security_device_title">Activate your\nSecurity Device</string>
+    <string name="logon_security_device_tut_button_title">How to generating a code</string>
+    <string name="logon_security_device_tut_page_1">Press and hold the green button bottom right hand corner to turn on your Security Device, then enter your Security Device PIN.</string>
+    <string name="logon_security_device_tut_page_2">With the HSBC welcome screen displayed, press the green button bottom right hand corner to generate a security code.</string>
+    <string name="logon_security_device_tut_page_3">The security code will be shown on your Security Device screen.</string>
+    <string name="logon_security_device_tut_page_title">Generating a code</string>
+    <string name="logon_system_message_title">System Message</string>
+    <string name="logon_username_forgot_message">Forgot your username? Please call: </string>
+    <string name="logon_username_help_message">Username is the name you use for identification when accessing our Internet banking service. You choose your Username when applying for our Internet banking service.</string>
+    <string name="logon_username_help_title">Username</string>
+    <string name="logon_username_verify_fail">Your username was not recognised. Please check your details and try again.</string>
+
+    <string name="eula_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="greeting_morning">Good morning</string>
+
+    <string name="common_all">All</string>
+    <string name="common_amount">Amount</string>
+    <string name="common_apply">Apply</string>
+    <string name="common_ask">Ask</string>
+    <string name="common_ask_price">Ask price</string>
+    <string name="common_bid">Bid</string>
+    <string name="common_bid_price">Bid price</string>
+    <string name="common_buy">Buy</string>
+    <string name="common_buy_long">Buy</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_clear">Clear</string>
+    <string name="common_close">Close</string>
+    <string name="common_confirm">Confirm</string>
+    <string name="common_contact">Contact</string>
+    <string name="common_contact_us">Contact us</string>
+    <string name="common_continue">Continue</string>
+    <string name="common_default_account">Default Securities Account</string>
+    <string name="common_default_settlement_account">Default Settlement Account</string>
+    <string name="common_delay">Delay</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_deleted">Deleted</string>
+    <string name="common_details">Detailed Quote</string>
+    <string name="common_disclaimer">Disclaimer</string>
+    <string name="common_done">Done</string>
+    <string name="common_edit">Edit</string>
+    <string name="common_date">Date</string>
+    <string name="common_expiry_date">Expiry date</string>
+    <string name="common_from">From</string>
+    <string name="common_home">Home</string>
+    <string name="common_hsbc_name">The Hong Kong and Shanghai Banking Comporation Limited.</string>
+    <string name="common_instruction">Instruction</string>
+    <string name="common_loading">Please wait...</string>
+    <string name="common_lotsize">Lot size</string>
+    <string name="common_lotsize_unit">Shares</string>
+    <string name="common_market">Market</string>
+    <string name="common_na">-</string>
+    <string name="common_news">News</string>
+    <string name="common_next">Next</string>
+    <string name="common_no">No</string>
+    <string name="common_not_available">N/A</string>
+    <string name="common_ok">OK</string>
+    <string name="common_order_reference_no">Order reference no</string>
+    <string name="common_picker_title_sortby">Sorted by</string>
+    <string name="common_preview">Preview order</string>
+    <string name="common_previous">Previous</string>
+    <string name="common_price">Price</string>
+    <string name="common_quantity">Quantity</string>
+    <string name="common_quickbuy">Quick Buy</string>
+    <string name="common_realtime">Realtime</string>
+    <string name="common_reference_short">Ref:</string>
+    <string name="common_reminder">Reminder</string>
+    <string name="common_retry">Retry</string>
+    <string name="common_rounddown">Round Down</string>
+    <string name="common_save">Save</string>
+    <string name="common_savings">Savings</string>
+    <string name="common_sell">Sell</string>
+    <string name="common_sell_long">Sell</string>
+    <string name="common_stockcode">Stock code</string>
+    <string name="common_stockname">Stock name</string>
+    <string name="common_tnc_short">Copyright. The Hong Kong and Shanghai Banking Corporation Limited 2016. All rights reserved.</string>
+    <string name="common_to">To</string>
+    <string name="common_trade_cancel">Cancel</string>
+    <string name="common_trade_modify">Modify</string>
+    <string name="common_try_again">Try again</string>
+    <string name="common_undo">UNDO</string>
+    <string name="common_verify">Verify</string>
+    <string name="me_to_any_payment_verification">Payment verification</string>
+    <string name="common_verifying">Verifying</string>
+    <string name="common_version">Version</string>
+    <string name="common_volume">Volume</string>
+    <string name="common_watchlist">Watchlist</string>
+    <string name="common_yes">Yes</string>
+    <string name="common_country">Country</string>
+    <string name="common_currency">Currency</string>
+    <string name="common_insights">Insights</string>
+    <string name="common_at">At</string>
+    <string name="common_on">On</string>
+    <string name="common_negative_amount_format">(%1$s)</string>
+    <string name="common_no_result">No Results</string>
+
+    <string name="android_on_main_screen_logout_message">Do you want to log off %1$s?</string>
+
+    <string name="more_help_walkthrough_show_next_time">Show next time</string>
+
+    <string name="more_landing_contact_us">Contact us</string>
+    <string name="more_landing_help">Help</string>
+    <string name="more_landing_logoff">Log off</string>
+    <string name="more_landing_logoff_alert_description">Are you sure you want to log off?</string>
+    <string name="more_landing_order_status">My activity</string>
+    <string name="more_landing_settings">Settings</string>
+    <string name="more_legal_disclamier_interent_privacy">Disclaimer &amp; Internet Privacy</string>
+    <string name="more_legal_terms_conditions">Terms and Conditions</string>
+    <string name="more_privacy_agree_content">We would like to store information in the app about how you use it. This information does not identify you personally, but will make the app more relevant to you and will enable certain functionality. You can see details of the information that would be stored by clicking on the Stored Information button below.</string>
+    <string name="more_privacy_agreed">Agreed.</string>
+    <string name="more_privacy_save">Save</string>
+    <string name="more_privacy_stored_information">Stored Information</string>
+    <string name="more_privacy_stored_information_content">your log on preferences\nYour in-app setting, including app default landing page, up/down colour indicator, language, default securities account and news for you</string>
+    <string name="more_settings_app_default_page">Landing page</string>
+    <string name="more_settings_appdefaultpage_markets">Markets</string>
+    <string name="more_settings_appdefaultpage_news">News</string>
+    <string name="more_settings_appdefaultpage_portfolio">Portfolio</string>
+    <string name="more_settings_appdefaultpage_quickbuy">Quick Buy</string>
+    <string name="more_settings_appdefaultpage_watchlist">Watchlist</string>
+    <string name="more_settings_customize_watchlist">Customize Watchlist</string>
+    <string name="more_settings_default_account_title">Default app account</string>
+    <string name="more_settings_down">Down</string>
+    <string name="more_settings_general_title">General</string>
+    <string name="more_settings_language">Language</string>
+    <string name="more_settings_privacy">Privacy and Securities</string>
+    <string name="more_settings_privacy_title">Privacy</string>
+    <string name="more_settings_securities_account">Default Securities Account</string>
+    <string name="more_settings_up">Up</string>
+    <string name="more_settings_up_down_colour">Up / Down colour</string>
+    <string name="more_settings_version_title">Version</string>
+    <string name="more_settings_watchlist_title">Watchlist</string>
+
+    <string name="more_contactus_advance">HSBC Advance customers</string>
+    <string name="more_contactus_advance_tel">6562278886</string>
+    <string name="more_contactus_advance_tel_display">(65) 6227 8886</string>
+    <string name="more_contactus_fraud_alert">Fraud Alert: Bogus Calls</string>
+    <string name="more_contactus_fraud_alert_more_detail">More details</string>
+    <string name="more_contactus_personal_banking">Personal Banking customers</string>
+    <string name="more_contactus_personal_banking_tel">6564722669</string>
+    <string name="more_contactus_personal_banking_tel_display">(65) 6472 2669</string>
+    <string name="more_contactus_premier">HSBC Premier customers</string>
+    <string name="more_contactus_premier_tel">6562278889</string>
+    <string name="more_contactus_premier_tel_display">(65) 6227 8889</string>
+
+    <string name="ic_checking_error_desc">Explanation of Risks for Listed Derviatives in Hong Kong and Overseas Markets is required. To proceed the order, please visit our HSBC Internet Banking website to place the order.</string>
+    <string name="ic_checking_error_title">Declaration Required</string>
+    <string name="ic_form_accept_button_title">Accept</string>
+    <string name="ic_form_agree">Agree</string>
+    <string name="ic_form_do_not_agree">Do not agree</string>
+    <string name="ic_form_important_notes">Important Notes</string>
+    <string name="ic_form_stored_information">Stored Information</string>
+    <string name="ic_form_terms_and_cons_text">Please read The Hongkong and Shanghai Banking Corporation Limited\'s ("we", "us", "our") "Notice relating to the Personal Data (Privacy) Ordinance", "Privacy and Security" and "Important Notes for HSBC Mobile Banking". If you would like to read them again after acceptance, you can visit "i" button which is located at the homepage of the HSBC Mobile Banking App ("App").\n\n\nImportant Notes for HSBC Mobile Banking \n\nHSBC Mobile Banking is part of HSBC Internet Banking service provided by us. All transactions conducted via the App is subject to the "Terms and Conditions for HSBC Internet Banking".\n\nDue to the nature of the Internet, messages and transactions may be subject to interruption, transmission blackout, delayed transmission or incorrect data transmission. We are not liable for malfunctions in communications facilities beyond our control that may affect the accuracy or timeliness of messages and transactions you send.\n\nHSBC Mobile Banking may carry additional risks. These include any loss or damage caused to your data or mobile device (including its setting), any interception, interruption or corruption in the transmission of instruction or messages, and any unauthorized use of password due to the auto-password-saving feature of certain mobile devices. We are not responsible for any of such risks. We are pleased to provide HSBC Mobile Banking service to you, but you have to accept these risks and all consequences arising from these risks.\n\nInvestment involves risk. The price of securities may move up or down. Losses may be incurred as well as profits made as a result of buying and selling securities.\n\nWe provide no advice or guidance on investment orders placed via HSBC Internet Banking. By placing investment orders via HSBC Internet Banking, you are deemed to acknowledge that (i) you have read and understood all relevant product literature and (ii) the order is made based on your own judgment without any advice from us.\n\nYour risk tolerance level and the risk rating of a product are important information to help you assess whether the product is suitable for you. Please ensure that (i) you have completed your risk profiling questionnaire with us within the past 12 months and (ii) the risk rating of the product you intend to subscribe is at or below your risk tolerance level. A product with risk rating higher than your risk tolerance level may not be suitable for you. If you have any doubt about the suitability of a product, please contact us to obtain further information about the product before subscribing</string>
+    <string name="ic_form_terms_and_cons_text_bold">Important Notes for HSBC Mobile Banking</string>
+    <string name="ic_form_use_of_stored_information_content">We would like to store information in the App about how you use the App. This information does not identify you personally, but will make the App more relevant to you and will enable certain functionality. By clicking on the "Stored Information" button below, you can see details of the information that would be stored in the App.</string>
+    <string name="ic_form_use_of_stored_information_detail">We will store certain information on your device specific to you and your use of this app. The information is:\n(i) Your log on preference.\n(ii) Your default app setting preference.\nYou may continue to use this app even if you do not allow the above information to be stored. If you choose not to allow the information to be stored, any previously stored items will be deleted. \nAny information you do allow to be stored will only be stored on this device. It will not be sent back to HSBC and will not be shared with any third party.</string>
+    <string name="ic_form_use_of_stored_information_title">Use of Stored Information</string>
+
+    <string name="common_copyright_symbol">\u00a9</string>
+
+    <string name="general_on_exit_message">Are you sure to exit?</string>
+    <string name="close_app_alert_close_app">Close app</string>
+    <!-- End Logon -->
+
+    <!--  Use these instead of string file  -->
+    <string name="logon_rcc_instruction"><![CDATA[Enter <b>%1$s</b>, <b>%2$s</b> and <b>%3$s</b> characters of your password.]]></string>
+
+    <!--Contact Builder-->
+    <string name="hsbc_replace_from">HSBC</string>
+    <string name="hsbc_replace_to">H S B C</string>
+    <string name="phone_number"> phone number </string>
+    <string name="action_call">call</string>
+
+    <!-- My Fx -->
+    <string name="myfx_global_currency_balance_title">Your global currency balances</string>
+    <string name="myfx_pie_chart_other">Others</string>
+    <string name="myfx_error_description">Unable to access your account balance.</string>
+
+    <!-- Fx tab bar -->
+    <string name="tabbar_myfx_button_label">My FX</string>
+    <string name="tabbar_pay_button_labell">Pay</string>
+    <string name="tabbar_quickpay_button_label">Quick FX</string>
+    <string name="tabbar_markets_button_label">Market</string>
+    <string name="tabbar_insight_button_label">Insights</string>
+    <string name="tabbar_news_button_label">News</string>
+
+    <!-- Me to me -->
+    <!-- Transfer Money -->
+    <string name="metome_amount_input_navigation_title">to</string>
+    <string name="metome_amount_input_keypad_next_button">Next</string>
+    <string name="metome_amount_input_switch_to_sell_label">Switch to sell %1$s</string>
+    <string name="metome_amount_input_switch_to_buy_label">"Switch to buy %1$s"</string>
+    <string name="metome_amount_input_buy_title_label">"Buy"</string>
+    <string name="metome_amount_input_sell_title_label">"Sell"</string>
+    <string name="btn_metome_transfer_now">Next</string>
+
+    <!-- Confirm rate -->
+    <string name="confirm_rate_convert_now_button">Convert Now</string>
+    <string name="confirm_rate_convert_later_button">Convert if rate is&#8230;</string>
+    <string name="confirm_rate_reminder_label">Preferential exchange rates of different major currencies combinations are available to HSBC customers</string>
+    <string name="confirm_rate_net_rate_title_label">Net Rate</string>
+    <string name="confirm_rate_market_rate_title_label">Market Rate</string>
+    <string name="confirm_rate_disclaimer_label">Include fees</string>
+    <string name="confirm_rate_buy_title_label">Buy</string>
+    <string name="confirm_rate_sell_title_label">Sell</string>
+    <string name="confirm_rate_navigation_title">to</string>
+    <string name="search_for_country_code_hint">Search for country name or code</string>
+
+    <!-- Pay -->
+    <string name="pay_header_label">Fast and flexible options for\npayment and sending money</string>
+    <string name="pay_title_label">Select payment</string>
+    <string name="pay_subtitle_label">What kind of payment would you like to do?</string>
+    <string name="pay_by_contacts_title_label">Global Payment</string>
+    <string name="pay_by_contacts_desc_label">Setup quick and secure payments to friends and family\nworldwide.</string>
+    <string name="cross_border_wire_title_label">Cross Border Wire</string>
+    <string name="pay_by_bank_details_title_label">Worldwide Transfer</string>
+    <string name="pay_by_bank_details_desc_label">Send money to any bank account worldwide. It\'s quick, secure and trackable.</string>
+
+    <!-- Transfer Account List -->
+    <string name="account_multiple_currency_premier_title">HSBC Premier</string>
+    <string name="account_single_currency_title">HSBC %1$s Savings</string>
+    <string name="account_list_sub_account_title">%1$s Savings</string>
+    <string name="transfer_account_title">Transfer</string>
+    <string name="transfer_account_select_account_from_label">From</string>
+    <string name="transfer_account_select_account_to_label">To</string>
+    <string name="transfer_account_select_account_label">Select account</string>
+    <string name="transfer_account_select_from_account_label">Send from</string>
+    <string name="transfer_account_select_to_account_label">Send to</string>
+    <string name="transfer_account_select_account_type">HSBC Premier</string>
+    <string name="transfer_account_select_account">HSBC</string>
+    <string name="transfer_account_mca">HK Premier</string>
+    <string name="transfer_account_standalone">HK</string>
+    <string name="transfer_account_sort_by">Sort by</string>
+    <string name="limitorder_select_from_account_label">Set rate from</string>
+    <string name="limitorder_select_to_account_label">Set rate to</string>
+    <string name="account_list_cannot_find">Can\’t find your account?</string>
+    <string name="account_list_find_out_why"><u>Find out why</u></string>
+
+
+    <!-- Me2Any P2P -->
+    <!-- Transfer form -->
+    <string name="me_to_any_amount_input_title">Send to</string>
+    <string name="me2any_transfer_form_credit_rate">\%1$s 1 = %2$s %3$s*</string>
+    <string name="me2any_transfer_form_credit_rate_without_star">\%1$s 1 = %2$s %3$s</string>
+    <string name="me2any_transfer_form_debit_rate">(%1$s 1 = %2$s %3$s)</string>
+    <string name="me2any_transfer_form_includes_fee">Includes %1$s %2$s</string>
+    <string name="me2any_transfer_form_debit_amount">%1$s %2$s</string>
+    <string name="transfer_form_no_additional_fees">No fees apply</string>
+    <string name="me2any_transfer_form_remark">*This is an indicative rate</string>
+    <string name="transfer_form_no_fees_apply">No fees apply</string>
+    <string name="transfer_form_expires">Expiry date</string>
+    <string name="transfer_form_transfer_date">Transfer date</string>
+    <string name="transfer_form_same_currency_rate_na">No FX involved</string>
+    <string name="transfer_form_same_currency">Same currency</string>
+    <string name="transfer_form_same_currency_rate">1.0000</string>
+    <!-- End Transfer form -->
+    <!-- End Me2Any P2P -->
+
+    <!-- Me2Me -->
+    <!-- Transfer form -->
+    <string name="me2me_domestic_transfer_order_selection_cell_fee">No fees apply</string>
+
+    <string name="me2me_domestic_transfer_order_selection_cell_title">AT CURRENT RATE</string>
+    <string name="transfer_form_current_rate_stronger_currency_rate_format">%1$s 1 = %2$s %3$s</string>
+    <string name="transfer_form_current_rate_weak_currency_rate_format">(%1$s 1 = %2$s %3$s)</string>
+    <string name="me2me_domestic_transfer_order_selection_cell_right_slider">Set your rate</string>
+
+    <string name="me2me_transfer_form_order_selection_cell_set_rate_title">Set rate alert at</string>
+    <string name="me2me_domestic_transfer_limit_order_order_selection_cell_debit_currency">%1$s 1 = </string>
+    <string name="me2me_domestic_transfer_limit_order_order_selection_cell_credit_rate" formatted="false">(Approx. %1$s%% from current rate)</string>
+    <string name="me2me_order_selection_cell_slider_label_current_rate">Set Your Rate</string>
+    <string name="me2me_order_selection_cell_slider_label_limit_order">Current rate</string>
+    <string name="me2me_order_calendar_cell_date_label_title">ON</string>
+    <string name="me2me_order_calendar_cell_date_label_convert_now">ON</string>
+    <string name="me2me_order_calendar_cell_date_label_limit_order">ON OR BEFORE</string>
+    <string name="metome_limitorder_rate_Title">Set your Client Target Conversion Rate</string>
+    <string name="price_alert_set_rate_title">Execute transfer if rate hits</string>
+    <string name="set_your_rate_form_title">Set your Client Target Conversion Rate</string>
+
+    <string name="me2me_calender_cell_status_current_rate">ON</string>
+    <!--<string name="me2me_calender_cell_status_limit_order">ON OR BEFORE</string>-->
+    <string name="me2me_calender_cell_status_limit_order">On or before</string>
+    <string name="today_display_date">%1$s (today)</string>
+
+    <string name="me2me_transfer_form_select_order_type_tab_bar_current_rate_title">Use current rate</string>
+    <string name="me2me_transfer_form_select_order_type_tab_bar_set_rate_title">Set your rate</string>
+
+    <string name="transfer_currency_selection_title">Select a transfer currency</string>
+    <string name="currency_selection_title">Select a currency</string>
+    <string name="set_rate_disable_state">Set rate does not applicable for this transaction</string>
+    <string name="set_rate_disable_state_same_currency">Set rate unapplicable for same currency transaction</string>
+    <string name="set_expiry_date">Please select a transfer date</string>
+    <string name="transfer_date_format">%1$s (%2$s) on %3$s</string>
+    <!-- End Transfer form -->
+
+    <!-- Amount Input -->
+    <string name="me2me_amount_input_send">Send</string>
+    <string name="me2me_amount_input_switch_currency_title">Switch to&#160;</string>
+    <string name="me2me_amount_input_init_hint">0.00</string>
+    <string name="me2me_amount_input_calculator">Calculator</string>
+    <string name="me2any_amount_input_title">Input amount</string>
+    <!-- End Amount Input -->
+
+    <!-- Purpose of payment -->
+    <string name="me2me_pop_title">Purpose of payment</string>
+    <string name="me2me_select_pop_title">Select purpose of payment</string>
+    <string name="me2me_pop_remark">Please read the Important Notes before you slide to send.\n\nOnce you have accepted the rate shown, this payment and rate will be confirmed. If this payment cannot be made, the rate will be cancelled. If there has been movement in exchange rates which leads to a loss or a gain, this will be passed on to your account. By accepting the rate you are agreeing to this. If you have checked all of your payment details and wish to accept the rate shown, please slide the “slide to send” bar to proceed.</string>
+    <string name="me2me_pop_transfer">Any cancellation after you proceed is subject to cost.\n\nThe rates displayed are indicative. If you do not instruct us to execute the transaction immediately by sliding to send, the time lag may result in a rate change and your transaction will be executed at the actual exchange rate at the time you instruct us to proceed.\n\nAny conversion of foreign currency may result in gain or loss.  In event any error occurs in the Bank’s systems or in any information provided hereunder due to market disruption, anomaly or event outside of the Bank’s control, the Bank reserves the right to rectify such error or take any action as appropriate on a case-by-case basis.\n\nPlease note that any transfer limit you may have set in Personal Internet Banking for transfers between your own account(s) will not be applied in this App.</string>
+    <string name="me2me_select_pop_outward_cell_title">Purpose of payment (outward)</string>
+    <string name="me2me_select_pop_inward_cell_title">Purpose of payment</string>
+    <string name="me2me_select_pop_outward_hint">Select purpose of payment (outward)</string>
+    <string name="me2me_select_pop_inward_hint">Select purpose of payment (inward)</string>
+    <string name="me2me_select_pop_option_staff_compensation">Staff compensation</string>
+    <string name="me2me_select_pop_option_non_life_insurance_compensation">Non-life insurance compensation</string>
+    <string name="me2me_select_pop_option_overseas_fund_deposit">Overseas fund deposit from resident</string>
+    <string name="me2me_select_pop_option_other">Other</string>
+    <string name="me2me_select_pop_option_other_hint">(32-character limit)</string>
+    <string name="me2me_select_pop_notes">Note</string>
+    <string name="me2me_select_pop_notes_hint_optional">Input your note (optional)</string>
+    <string name="me2me_select_pop_notes_content_title">Input your note</string>
+    <string name="me2any_message_to_payee_title">Message to payee</string>
+    <string name="me2any_message_to_payee_hint">Input message to payee (optional)</string>
+
+    <string name="purpose_of_payment_other_title">Your purpose of payment</string>
+    <string name="purpose_of_payment_other_hint">Enter your purpose of payment (32 characters)</string>
+    <string name="purpose_of_payment_other_error">Please use English characters only.</string>
+    <!-- End Purpose of payment -->
+
+    <!-- Review -->
+    <string name="me2me_review_cell_title_instruction">Instruction</string>
+    <string name="me2me_review_cell_title_from">From</string>
+    <string name="me2me_review_cell_title_to">To</string>
+    <string name="me2me_review_cell_title_rate">Rate</string>
+    <string name="me2me_review_cell_title_fee">Fee</string>
+    <string name="me2me_review_cell_title_fees">Fees</string>
+    <string name="me2me_review_cell_title_execution_date">Execution date</string>
+    <string name="me2me_review_cell_title_execution_on">Execution on</string>
+    <string name="me2me_review_cell_title_pop_outward">Purpose of payment (outward)</string>
+    <string name="me2me_review_cell_title_pop_outward_multiline">Purpose of payment\n(outward)</string>
+    <string name="me2me_review_cell_title_pop">Purpose of payment</string>
+    <string name="me2me_review_cell_title_pop_inward">Purpose of payment (inward)</string>
+    <string name="me2me_review_cell_title_pop_inward_multiline">Purpose of payment\n(inward)</string>
+    <string name="me2me_review_cell_title_note">Note</string>
+    <string name="me2me_review_cell_note_empty">No note input</string>
+    <string name="new_payee_review_cell_title_secret_password">Secret password</string>
+    <string name="new_payee_review_cell_title_notification_language">Notification language</string>
+    <string name="new_payee_alert_dialog_title_secret_password">Create a Secret Password</string>
+    <string name="new_payee_review_cell_intro_secret_password">The payee will need this password to retrieve your payment invitation</string>
+
+    <string name="me2me_review_cell_content_instruction_domestic">Domestic Transfer</string>
+    <string name="me2me_review_cell_content_instruction_limit_order">Set Your Rate</string>
+    <string name="me2me_review_cell_content_instruction_global">Global transfer</string>
+    <string name="me2me_review_cell_content_fee_no_additional_fees">No fees apply</string>
+    <!--<string name="me2me_review_cell_content_date">today</string>-->
+    <string name="me2me_review_cell_content_update_time">Update at %1$s</string>
+    <string name="me2me_review_rate_have_update_title">Rate has updated</string>
+    <string name="me2me_review_rate_have_update_content">Updated at %1$s to 1 %2$s = %3$s %4$s</string>
+    <string name="me2me_review_rate_have_update_cancel_payment">Cancel payment</string>
+    <string name="me2me_review_rate_have_update_update_payment">Update payment</string>
+
+    <string name="review_order_cell_title_target_rate">Target rate</string>
+    <string name="review_order_cell_title_client_target_conversion_rate">Client Target \nConversion Rate</string>
+    <string name="review_order_cell_title_watched_rate">HSBC Watched Rate</string>
+    <string name="review_order_cell_title_expiry_date">Expiry Date</string>
+    <string name="review_order_cell_targe_rate_value">%1$s 1 = %2$s %3$s</string>
+    <string name="review_order_currency_pair_value">%1$s to %2$s</string>
+    <!-- End review -->
+
+    <!-- Confirmation -->
+    <string name="confirmation_status_success">Your instruction has been successfully processed</string>
+    <string name="set_your_rate_confirmation_status_success">Your instruction has been completed successfully.</string>
+    <string name="set_your_rate_confirmation_status_reference_number">Ref&#58; %1$s</string>
+    <string name="confirmation_status_reference_number">Reference number&#58; %1$s</string>
+    <string name="confirmation_status_pay_by_bank_reference_number">Reference No.&#58; %1$s</string>
+    <string name="confirmation_status_reference">using HSBC\'s instant global transfer mechanism</string>
+    <string name="confirmation_update_balance_value">%1$s %2$s</string>
+    <string name="confirmation_pay_by_bank_previous_balance_value">Previously&#58; %1$s %2$s</string>
+
+    <string name="me2me_confirmation_updated_balance_cell_title">Updated balance</string>
+    <string name="me2me_confirmation_disclaimer">Account balances may take time to update in My FX and order status</string>
+
+    <string name="me2any_confirmation_share_secret_pw_title">Please share your secret password with the payee</string>
+    <string name="me2any_confirmation_share_secret_pw_content">Secret password&#58; %1$s</string>
+    <string name="me2any_confirmation_updated_balance_title">Updated balance</string>
+    <string name="me2any_confirmation_disclaimer">Your instruction was submitted successfully.\n\nPLEASE NOTE: AS A SECURITY MEASURE, ANY HIGH VALUE FUND TRANSFER MAY ONLY BE PROCESSED ON CONDITION THAT THE BANK MAKES A SUCCESSFUL CALL TO THE ACCOUNT HOLDER. SUCH TRANSFER WILL ONLY BE CARRIED OUT AFTER THE ACCOUNT HOLDER CONFIRMS HIS/HER INSTRUCTION.</string>
+
+    <string name="share_secret_pw_subject">HSBC secret password</string>
+    <string name="share_secret_pw_message_body">The secret password for receiving your HSBC payment is: %1$s</string>
+    <string name="share_panel_selection_title">Secret Password Sharing Panel</string>
+    <string name="pay_confirmation_sharing_header">To complete your transfer of %1$s %2$s, please share these instructions with %3$s</string>
+    <string name="pay_confirmation_sharing_title">%1$s, to collect your money</string>
+    <string name="pay_confirmation_sharing_password_title">Secret word</string>
+    <string name="pay_confirmation_sharing_step1_title">Go to our website:\n%1$s</string>
+    <string name="pay_confirmation_sharing_step1_website">gtff.hsbc.com</string>
+    <string name="pay_confirmation_sharing_step2_title">Enter the reference code you have received via text or email</string>
+    <string name="pay_confirmation_sharing_step3_title">Enter the secret word displayed below</string>
+    <string name="pay_confirmation_sharing_button_title">Save to photo gallery</string>
+    <string name="pay_confirmation_sharing_banner_save_success">Successfully saved in photo gallery</string>
+    <!-- End confirmation -->
+
+    <!-- End Me2Me -->
+
+    <!-- Slider bar-->
+    <string name="slider_bar_start">Slide to send</string>
+    <string name="slider_bar_slide_to_set">Slide to set</string>
+    <string name="slider_bar_end">Loading</string>
+    <string name="slider_bar_success">Successful</string>
+
+    <!-- Pie chart -->
+    <string name="pie_chart_title_local_currency_balance">Global balance</string>
+
+    <!-- Country Name -->
+    <string name="country_hk">Hong Kong</string>
+    <string name="country_au">Australia</string>
+    <string name="country_at">Austria</string>
+    <string name="country_be">Belgium</string>
+    <string name="country_br">Brazil</string>
+    <string name="country_ca">Canada</string>
+    <string name="country_cn">China</string>
+    <string name="country_dk">Denmark</string>
+    <string name="country_eg">Egypt</string>
+    <string name="country_de">Germany</string>
+    <string name="country_jp">Japan</string>
+    <string name="country_kp">Korea</string>
+    <string name="country_my">Malaysia</string>
+    <string name="country_nz">New Zealand</string>
+    <string name="country_ph">Philippines</string>
+    <string name="country_qa">Qatar</string>
+    <string name="country_ru">Russia</string>
+    <string name="country_sg">Singapore</string>
+    <string name="country_ch">Switzerland</string>
+    <string name="country_tw">Taiwan</string>
+    <string name="country_uk">United Kingdom</string>
+    <string name="country_us">United States</string>
+    <string name="country_th">Thailand</string>
+    <string name="country_je">Jersey</string>
+    <string name="country_in">India</string>
+    <string name="country_fr">France</string>
+    <string name="country_ge">Greece</string>
+    <string name="country_mt">Malta</string>
+    <string name="country_mx">Mexico</string>
+    <string name="country_bh">Bahrain</string>
+    <string name="country_om">Oman</string>
+    <string name="country_qr">Qatar</string>
+    <string name="country_ae">UAE</string>
+    <string name="country_bn">Brunei</string>
+    <string name="country_id">Indonesia</string>
+    <string name="country_lk">Sri Lanka</string>
+    <string name="country_vn">Vietnam</string>
+    <string name="country_lb">Lebanon</string>
+    <string name="country_bm">Bermuda</string>
+    <string name="country_gr">Greece</string>
+    <string name="country_other">Other</string>
+
+    <!-- Banner -->
+    <string name="banner_rate_updated_time_with_new_rate">Updated at %1$s \n%2$s</string>
+    <string name="banner_rate_updated_time">Updated at %1$s</string>
+
+    <!--Transfer Form-->
+    <string name="me_to_any_transfer_form_title">Send to</string>
+    <string name="me_to_any_transfer_form_transfer_now_btn">Transfer now</string>
+    <string name="me_to_any_transfer_form_sub_account_balance">Balance: %1$s %2$s</string>
+    <string name="me2any_calender_cell_status_current_rate">On</string>
+
+    <!--Transfer Debit Account List-->
+    <string name="me_to_any_debit_account_list_title">Send money</string>
+
+    <!--Existing Payee-->
+    <string name="existing_payee_send_to">Send to</string>
+    <string name="existing_payee_pay_money">Pay money</string>
+    <string name="existing_payee_pay_money_to">Make payment to</string>
+    <string name="select_payment_contact_existing_payee_indicator_label">Existing Payee</string>
+    <string name="select_payment_contact_new_payee_indicator_label">New payee</string>
+    <string name="existing_payee_search_hint">Search for payee</string>
+    <string name="existing_payee_empty_list_title">No payees yet</string>
+    <string name="existing_payee_empty_list_subtitle">To start making payments you need to tap the ‘Add new payee’ button below</string>
+    <string name="existing_payee_empty_add_new_payee">Add new payee</string>
+    <string name="existing_payee_country_format">%1$s - %2$s</string>
+    <string name="new_payee_tab_label">Add New Payee</string>
+    <!--New Payee-->
+    <string name="new_payee_title">Send to</string>
+    <string name="new_payee_search_title">Your address book</string>
+    <string name="new_payee_pay_by_phone">Pay by phone number</string>
+    <string name="new_payee_pay_by_email">Pay by email address</string>
+    <string name="new_payee_add_by_phone">Add by phone</string>
+    <string name="new_payee_add_by_email">Add by email</string>
+    <string name="new_payee_why_cant_see">Can\'t see all your contacts?</string>
+    <string name="new_payee_add_manually">Add manually</string>
+    <string name="new_payee_pay">Pay</string>
+    <string name="new_payee_pay_to">Make payment to</string>
+    <string name="new_payee_search_hint">Search for available contacts</string>
+    <string name="new_payee_no_access_title">No access to contacts</string>
+    <string name="new_payee_no_access_subtitle">We don\'t have access to your contacts. You can enable access in Privacy Settings.</string>
+    <string name="new_payee_no_contacts_title">No available contacts</string>
+    <string name="new_payee_no_contacts_subtitle">Only properly formatted phone numbers and email addresses will be shown here</string>
+    <string name="new_payee_why_cant_see_info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="new_payee_select_country_title">Select country</string>
+    <string name="new_payee_select_country_search_hint">Search for a country</string>
+    <string name="new_payee_name_input_title">Name</string>
+    <string name="new_payee_name_input_title_error">Name must be in English. Tap to edit.</string>
+    <string name="new_payee_first_name_input_title">First name</string>
+    <string name="new_payee_first_name_input_title_error">Please use English characters only</string>
+    <string name="new_payee_last_name_input_title">Last name</string>
+    <string name="new_payee_last_name_input_title_error">Please use English characters only</string>
+    <string name="new_payee_details_title">Payee details</string>
+    <string name="new_payee_select_contact_title">Contact details</string>
+    <string name="new_payee_select_country_code_title">Country code</string>
+    <string name="new_payee_select_contact_subtitle">Select your preferred contact method</string>
+    <string name="setup_notification_contact_subtitle">Select your preferred contact method</string>
+    <string name="new_payee_input_email_error">Email format incorrect</string>
+    <string name="new_payee_input_phone_error">Mobile number format incorrect</string>
+
+    <!-- set Notification-->
+    <string name="set_notification_title">Set notification</string>
+    <string name="set_notification_missing_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</string>
+    <string name="set_notification_language_subheader_hints">Notification language</string>
+    <string name="set_notification_language_hints">Select notification language</string>
+    <string name="set_notification_email_hints">Enter email address</string>
+    <string name="set_notification_phone_hints">Mobile number</string>
+    <string name="set_notification_mobile_number">Mobile number (if any)</string>
+    <string name="set_notification_select_country_title">Select country code</string>
+    <string name="set_notification_select_language">Select language</string>
+    <string name="set_notification_email_title">Email</string>
+    <string name="set_notification_phone_title">Mobile</string>
+    <string name="set_notification_country_code_hints">Code</string>
+    <string name="set_notification_country_code_placeholder">+852</string>
+
+    <!-- limit order review-->
+    <string name="review_order_instruction_date">Instruction date</string>
+    <string name="review_order_expiry_date">Expiry date</string>
+    <string name="review_order_notification">Mode of notification</string>
+    <string name="transfer_form_information_dialog_current_rate_title">HSBC Current Rate</string>
+    <string name="transfer_form_information_dialog_current_rate_content">This is the indicative foreign exchange rate HSBC will use to convert your money from the original currency into the selected currency. The HSBC exchange rate is based on the real time market level with a markup margin that represent HSBC\'s operation cost and reasonable profit to provide this service.</string>
+    <string name="transfer_form_information_dialog_markup_margin_title">The Markup Margin</string>
+    <string name="transfer_form_information_dialog_markup_margin_content">For HSBC to offer foreign exchange services to retail customers, the operation costs and a reasonable profit margin will be covered in the markup margin applied to the market FX rate. HSBC\'s markup margin is determined by a number of factors, including (but not limited to) the currency pairs, customer segments and transaction amount. In general, the markup margin will decrease as transaction amount increases.</string>
+    <string name="transfer_form_information_dialog_additional_fee_title">Additional Fee</string>
+    <string name="transfer_form_information_dialog_additional_fee_content">In some situation, HSBC may levy a service fee for handling certain type of transaction. When a fee is levied, this will be reflected in the HSBC Current Rate for your ease of reference.</string>
+    <string name="transfer_form_information_dialog_market_rate_title">Market Rate</string>
+    <string name="transfer_form_information_dialog_market_rate_content">This is the rate we display in the trend charts. They represent the indicative level of exchange rates quoted between financial institutions in the global foreign exchange market to settle wholesale foreign exchange. The rates are provided by a third party data provider. The Market Rate will usually be different to HSBC Current Rate quoted for transactional purpose for our customers in the same moment. The former rate does not include HSBC\'s markup margin which has been applied to the latter.</string>
+    <string name="transfer_form_information_dialog_target_fx_rate_title">Target FX Rate</string>
+    <string name="transfer_form_information_dialog_target_fx_rate_content">The Target FX Rate feature allows customer to set a  currency to be converted to another currency at specified rate, when the specified rate corresponds to the HSBC Rate (inclusive of markup margin). When the market condition reaches a level for your order to be executed, the system will automatically convert the original currency to your chosen currency. You will receive the exact amount of the chosen currency corresponding to the Target FX Rate that you have selected.</string>
+    <string name="transfer_form_information_dialog_reference_watch_rate_title">Reference Watch Rate</string>
+    <string name="transfer_form_information_dialog_reference_watch_rate_content">This is the indicative level of Market Rate at which HSBC will execute your limit order at the Target FX Rate you have selected. The Reference Watch Rate is calculated by removing the Markup Margin from your Target FX Rate. It is provided as a comparison against the Interbank Market Level. However, please note that market FX rate quoted by third party news agency are indicative, and may not match the exact level used by HSBC in the Interbank market. Therefore, we do not guarantee that your limit order will be executed when your Reference Watch Rate has been matched against the third party data source.</string>
+
+    <!-- Calendar -->
+    <string name="general_time_stamp_format">yyyy-MM-dd\'T\'HH:mm:ss.SSSZ</string>
+    <string name="quote_date_format">HH:mm dd MMM yyyy</string>
+    <string name="general_date_format_2">MMMM, yyyy</string>
+    <string name="calendar_month_apr">April</string>
+    <string name="calendar_month_aug">August</string>
+    <string name="calendar_month_dec">December</string>
+    <string name="calendar_month_feb">February</string>
+    <string name="calendar_month_jan">January</string>
+    <string name="calendar_month_jul">July</string>
+    <string name="calendar_month_jun">June</string>
+    <string name="calendar_month_mar">March</string>
+    <string name="calendar_month_may">May</string>
+    <string name="calendar_month_nov">November</string>
+    <string name="calendar_month_oct">October</string>
+    <string name="calendar_month_sept">September</string>
+    <string name="calendar_weekday_fri">F</string>
+    <string name="calendar_weekday_mon">M</string>
+    <string name="calendar_weekday_sat">S</string>
+    <string name="calendar_weekday_sun">S</string>
+    <string name="calendar_weekday_thur">T</string>
+    <string name="calendar_weekday_tue">T</string>
+    <string name="calendar_weekday_wed">W</string>
+
+    <!--setup notification-->
+    <string name="notification_result">Result</string>
+    <string name="notification_instruction">Please select how you\'d like to be notified if your Client Target Conversion Rate is reached.</string>
+    <string name="set_your_rate_notification_instruction">Please select how you\'d like to be notified if your target is reached.</string>
+
+    <string name="me2me_transfer_remark">Any cancellation is subject to cost.\n\nThe rates are indicative and will only be executed as the actual exchange rate when the rate is accepted before the rate is lapsed.\n\n Any conversion of foreign currency may result in gain or loss.In event any error occurs in the Bank’s systems or in any information provided hereunder due to market disruption, anomaly or event outside of the Bank’s control, the Bank reserves the right to rectify such error or take any action as appropriate on a case-by-case basis.</string>
+    <string name="set_rate_remark">Please read important notes on service details and account handling.</string>
+
+
+    <string name="title_result">Result</string>
+
+    <!--metoany review order-->
+    <string name="metoany_review_order_header">Transfer</string>
+
+    <!-- news -->
+    <string name="news_filter_all">All news</string>
+    <string name="news_headlines_error_message">Articles are still being prepared. Please try\nagain later</string>
+    <string name="news_headlines_empty_msg">No news results</string>
+    <string name="news_headlines_empty_msg_descrp">There are no results for your selection.\nPlease select again.</string>
+    <string name="news_error_default_title">System error</string>
+    <string name="news_error_default_msg">The service you have requested is temporarily\nunavailable.Please try again.</string>
+    <string name="news_disclaimer">Market information shown is provided by<![CDATA[ <a href="http://fxow-ui-app.cf.cloud.hk.hsbc/fxow/marketInformation/news">Thomson Reuters</a>]]></string>
+    <string name="news_info_segment_control_news">News</string>
+    <string name="news_info_segment_control_insights">Insights</string>
+
+    <string name="insights_launch_in_browser">Launch in browser</string>
+    <string name="insights_go_wealth_insights_button">Go to Wealth Insights</string>
+    <string name="insights_back_to_app_button">Back to App</string>
+    <string name="insights_alert_title">Other HSBC Services</string>
+    <string name="insights_alert_note">You have to leave %1$s to access other HSBC services.</string>
+    <string name="insights_url"><![CDATA[]]></string>
+    <string name="insights_header">Get the insight edge with \nHSBC Wealth Insights</string>
+    <string name="insights_desc">Explore HSBC’s own views and research \non asset class trends, wealth needs, and \neconomic events around the world.</string>
+
+
+    <string name="general_refresh">Refresh</string>
+    <string name="general_loading">Loading</string>
+
+    <!--filter-->
+    <string name="news_filter">Filter</string>
+    <string name="news_filter_select_currency_pairs">Select Currency pairs</string>
+    <string name="news_filter_select_region">Select Region/Country</string>
+    <string name="news_filter_back">Back</string>
+    <string name="news_filter_currency_pairs">Currency pairs</string>
+    <string name="news_filter_region">Region/Country</string>
+    <string name="news_filter_select_all">Select all</string>
+    <string name="news_filter_filtered_by">Filtered by</string>
+
+    <!--onboarding-->
+    <string name="onboarding_title">Contact details</string>
+    <string name="onboarding_instruction">Your phone number or email address will be used as the default for the purpose of transaction notifications.</string>
+    <string name="onboarding_disclaimer">I hereby confirm that my contact details above are correct and agree to use these details as the default for the purpose of transaction notifications.</string>
+    <string name="onboarding_error_title">Contact details are unavailable</string>
+    <string name="onboarding_error_content">We need your phone number and email address to send you transaction notifications. Please update your contact details in HSBC online banking in order to avoid this message in the future.</string>
+    <string name="onboarding_contact_details_verification_title">Verification Required</string>
+    <string name="onboarding_contact_details_verification_content">To access payment functions, please complete verification of your contact details when you log in to FXMA. Your phone number and email address are required for sending notification to third-party beneficiaries.</string>
+    <string name="common_phone">Phone</string>
+    <string name="common_email">Email</string>
+    <string name="onboarding_learn_more">Learn more</string>
+    <string name="onboarding_learn_more_title1">What if I did not verify my contacts?</string>
+    <string name="onboarding_learn_more_content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+    <string name="onboarding_learn_more_title2">How to update my contacts?</string>
+    <string name="onboarding_learn_more_content2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+    <string name="onboarding_reminder_title">Reminder</string>
+    <string name="onboarding_reminder_content">Your phone number and email address are required for sending notification to third-party payment beneficiaries. If you do not verify your contact, you may not be able to access payment functions. If you would like to update your contact details, please go HSBC online banking.</string>
+    <string name="onboarding_note">Not the right contact details?  Please contact HSBC to update.</string>
+    <string name="onboarding_no_record">No record</string>
+    <string name="onboarding_terms">Terms and Conditions</string>
+
+
+    <!--personalize settings-->
+    <string name="onboarding_personalize_settings_header">Home currency</string>
+    <string name="onboarding_personalize_settings_content">Your home currency will be used as the default for any currency related in %1$s.</string>
+    <string name="onboarding_personalize_settings_home_currency">Home currency</string>
+    <string name="onboarding_personalize_settings_home_default">SGD</string>
+    <string name="onboarding_why_cant_see">Why I Can\'t find my contact?</string>
+    <string name="onboarding_contact">
+    HSBC requires your contact details so we can notify you when your transactions are complete.\n\n
+        1. Global transfers – Used to notify forward-dated transactions\n\n
+        2. Set rate order – Used to notify when order is fulfilled or expired\n\n
+        3. Price alert – Used to notify when rate hits alert threshold\n\n
+        4. Cross border wires – SMS sent to valid mobile number. E-mail not used for notifications. If none on record, we will send a paper advice\n\n
+
+         If the details are incorrect, please call the following numbers to update your contact details:\n\n
+    For HSBC Premier Customers \n
+    Please call (65) 6227 8889 \n
+\n
+    For Advance Customers \n
+    Please call (65) 6227 8886 \n
+\n
+    For Personal Banking Customers\n
+    Please call (65) 6472 2669
+    </string>
+
+    <!--fxChart-->
+    <string name="chart_type_line">Line</string>
+    <string name="chart_date_1_day">1d</string>
+    <string name="chart_date_5_day">5d</string>
+    <string name="chart_date_1_month">1m</string>
+    <string name="chart_date_3_month">3m</string>
+    <string name="chart_date_6_month">6m</string>
+    <string name="chart_date_1_year">1y</string>
+    <string name="chart_date_3_year">3y</string>
+    <string name="chart_date_5_year">5y</string>
+    <string name="chart_date_short_day">%1$dD</string>
+    <string name="chart_date_short_min">%1$dmin</string>
+    <string name="chart_date_short_month">%1$dM</string>
+    <string name="chart_date_short_week">%1$dW</string>
+    <string name="chart_date_short_year">%1$dY</string>
+
+    <string name="date_format_chart_daily">dd MMM</string>
+    <string name="date_format_chart_monthly">MMM</string>
+    <string name="date_format_chart_yearly">yyyy</string>
+    <string name="date_format_date_short">dd MMM yyyy</string>
+    <string name="date_format_date_full">dd MMMM yyyy</string>
+    <string name="date_format_date_time_short">HH:mm dd MMM yyyy</string>
+    <string name="date_format_date_time_standard">yyyy-MM-dd HH:mm</string>
+    <string name="date_format_transaction_period_selection">dd MMM yyyy</string>
+    <string name="date_format_market_info_update">HH:mm dd MMM yyyy</string>
+    <string name="date_format_quote_time">HH:mm \'on\' dd MMM yyyy</string>
+    <string name="date_format_time_standard">HH:mm:ss</string>
+    <string name="date_format_time_news_date">MMMM dd, yyyy h:mma</string>
+    <string name="date_format_time_market_date">dd MMMM yyyy, HH:mm:ss</string>
+    <string name="date_format_time_chart_date_time_full">dd MMMM yyyy, HH:mm</string>
+    <string name="date_format_time_chart_date_one_day">hh a</string>
+    <string name="date_format_market_info_last_updated">Last updated at %1$s (%2$s) on %3$s</string>
+
+
+    <string name="chart_disclaimer">Market information shown is provided by <a href='market-data-disclaimer-help://ThomsonReuters'>Thomson Reuters</a>.</string>
+    <string name="chart_low">Low:</string>
+    <string name="chart_high">High:</string>
+    <string name="chart_market_rate_title">Market rate</string>
+    <string name="chart_currency_pair_prefix">%1$s/%2$s</string>
+
+    <string name="chart_period_1_day_long_form">1 days</string>
+    <string name="chart_period_5_day_long_form">5 days</string>
+    <string name="chart_period_1_month_long_form">1 month</string>
+    <string name="chart_period_3_month_long_form">3 months</string>
+    <string name="chart_period_6_month_long_form">6 months</string>
+    <string name="chart_period_1_year_long_form">1 year</string>
+    <string name="chart_period_3_year_long_form">3 years</string>
+    <string name="chart_period_5_year_long_form">5 years</string>
+
+    <!-- Market Disclaimer -->
+    <string name="market_disclaimer">Market information shown is provided by Thomson Reuters.</string>
+    <string name="disclaimer_company_name">Thomson Reuters</string>
+    <string name="disclaimer_opening_head_tag"><![CDATA[<a href=\'market-data-disclaimer-help://]]></string>
+    <string name="disclaimer_opening_tail_tag">\'></string>
+    <string name="disclaimer_closing_tag"><![CDATA[</a>]]></string>
+    <string name="disclaimer_url">file:///android_asset/contact_us/disclaimerdetails.html</string>
+
+
+    <!-- Chart-->
+    <string name="chart_landing_page_transfer">Transfer</string>
+    <string name="chart_landing_page_limit_order">Set your rate</string>
+    <string name="chart_landing_page_price_alert">Rate alert</string>
+    <string name="chart_landing_page_current_rate_title">Indicative HSBC Current Rate</string>
+    <string name="chart_landing_page_target_rate_title">Client Target Conversion Rate</string>
+
+    <!--Price Alert-->
+    <string name="price_alert_title">Set rate alert</string>
+    <string name="go_to_rate_alert_activity">Go to Rate Alert Activity</string>
+    <string name="price_alert_currency_pair_title">Currency pair</string>
+    <string name="price_alert_rate_title">Indicative HSBC Current Rate</string>
+    <string name="price_alert_rate_disclaimer">*Indicative HSBC Current Rate displayed is for reference only</string>
+    <string name="price_alert_set_target_rate">Set Your Rate</string>
+    <string name="price_alert_input_view_chart">View chart</string>
+    <string name="price_alert_target_rate">Client Target Conversion Rate: </string>
+    <string name="price_alert_current_rate_format">%1$s*</string>
+    <string name="HSBC_watched_rate">HSBC Watched Rate: </string>
+    <string name="price_alert_cell_set_rate_title">Set rate alert at</string>
+    <string name="review_order_cell_title_instruction">Set rate alert</string>
+
+    <!--Currency Full Name-->
+    <string name="currency_full_name_aed">Arab Emirates Dirham</string>
+    <string name="currency_full_name_aud">Australian Dollar</string>
+    <string name="currency_full_name_bhd">Bahraini Dinar</string>
+    <string name="currency_full_name_cad">Canadian Dollar</string>
+    <string name="currency_full_name_chf">Swiss Franc</string>
+    <string name="currency_full_name_cny">Yuan Renminbi</string>
+    <string name="currency_full_name_czk">Czech Koruna</string>
+    <string name="currency_full_name_dkk">Danish Krone</string>
+    <string name="currency_full_name_eur">Euro</string>
+    <string name="currency_full_name_gbp">Pound Sterling</string>
+    <string name="currency_full_name_hkd">Hong Kong Dollar</string>
+    <string name="currency_full_name_inr">Indian Rupee</string>
+    <string name="currency_full_name_jpy">Yen</string>
+    <string name="currency_full_name_kwd">Kuwaiti Dinar</string>
+    <string name="currency_full_name_mxn">Mexican Nuevo Peso</string>
+    <string name="currency_full_name_nok">Norwegian Krone</string>
+    <string name="currency_full_name_nzd">New Zealand Dollar</string>
+    <string name="currency_full_name_omr">Omani Rial</string>
+    <string name="currency_full_name_php">Philippine Peso</string>
+    <string name="currency_full_name_pln">Polish Zloty</string>
+    <string name="currency_full_name_qar">Qatari Rial</string>
+    <string name="currency_full_name_rub">Russian Ruble</string>
+    <string name="currency_full_name_sar">Saudi Riyal</string>
+    <string name="currency_full_name_sek">Swedish Krona</string>
+    <string name="currency_full_name_sgd">Singapore Dollar</string>
+    <string name="currency_full_name_thb">Thai Baht</string>
+    <string name="currency_full_name_try">Turkish Lira</string>
+    <string name="currency_full_name_usd">US Dollar</string>
+    <string name="currency_full_name_zar">South African Rand</string>
+    <string name="currency_full_name_bmd">Bermudian Dollar</string>
+    <string name="currency_full_name_bnd">Brunei Dollar</string>
+    <string name="currency_full_name_egp">Egyptian Pound</string>
+    <string name="currency_full_name_idr">Indonesian Rupiah</string>
+    <string name="currency_full_name_jod">Jordanian Dinar</string>
+    <string name="currency_full_name_lbp">Lebanese Pound</string>
+    <string name="currency_full_name_lkr">Sri Lanka Rupee</string>
+    <string name="currency_full_name_myr">Malaysian Ringgit</string>
+    <string name="currency_full_name_vnd">Vietnamese Dong</string>
+    <string name="currency_full_name_twd">New Taiwan dollar</string>
+    <string name="currency_full_name_xau">Gold</string>
+    <string name="currency_full_name_ils">New Israeli Sheqel</string>
+    <string name="currency_full_name_huf">Forint</string>
+
+
+    <string name="currency_full_name_international" />
+
+    <string name="currency_item_format">%1$s - %2$s</string>
+
+    <!-- waring-->
+    <string name="input_value_waring">Client Target Conversion Rate is out of allowable range.</string>
+    <string name="input_value_waring_watchlist">Your rate goal is out of allowable range.</string>
+
+    <!-- Calculator-->
+    <string name="calculator_edit_currency_title">Add currency</string>
+    <string name="calculator_edit_currency_maximum_error_banner_title">Please remove one currency before adding a new one</string>
+    <string name="calculator_edit_currency_less_error_banner_title">Please add one more currency before removing this</string>
+    <string name="calculator_btn_apply_format">Apply (%1$d/%2$d)</string>
+    <string name="calculator_currency_rate_format">%1$s 1 = %2$s %3$s</string>
+    <string name="calculator_update_currency_success_banner_title">Successfully updated</string>
+
+    <!--market-->
+    <string name="market_info_segment_control_watchlist">Watchlist</string>
+    <string name="market_info_segment_control_top_movers">Top movers</string>
+    <string name="market_info_segment_control_heatmap">Heatmap</string>
+    <string name="market_info_segment_control_calculator">Calculator</string>
+    <string name="market_info_title">Market</string>
+    <string name="heatmap_sorting_title">Base</string>
+    <string name="dropdown_period_type">Select period</string>
+    <string name="heatmap_topindicator_pricechange_none">% movement</string>
+    <string name="heatmap_topindicator_pricechange_plus7_plus">+7%</string>
+    <string name="heatmap_topindicator_pricechange_minus7_plus">-7%</string>
+    <string name="heatmap_topindicator_pricechange_plus">+%1$s%%</string>
+    <string name="heatmap_topindicator_pricechange_minus">-%1$s%%</string>
+
+    <string name="heatmap_cell_percentage_change_position">+%1$s%%</string>
+    <string name="heatmap_cell_percentage_change_negative">%1$s%%</string>
+
+    <string name="heatmap_period_fiveday">5 days</string>
+    <string name="heatmap_period_onemonth">1 month</string>
+    <string name="heatmap_period_threemonth">3 months</string>
+    <string name="heatmap_period_sixmonth">6 months</string>
+    <string name="heatmap_period_oneyear">1 year</string>
+
+    <string name="heatmap_currency_title">Select base currency</string>
+    <string name="market_info_last_updated_time">Last Updated %1$s</string>
+    <string name="market_info_last_updated_time_timezone">%1$s (%2$s)</string>
+    <string name="market_info_last_updated_time_timezone_set_edit_rate">%1$s (%2$s) on %3$s</string>
+    <string name="market_info_last_updated_time_timezone_XXXX">%1$s on %2$s</string>
+    <string name="chart_info_last_updated_time_timezone">%1$s (%2$s)</string>
+    <string name="market_info_updated_time_timezone">Updated at %1$s %2$s</string>
+
+    <string name="heatmap_pull_to_load_more">Swipe up to load more</string>
+
+    <string name="top_movers_title">Market top movers</string>
+    <string name="top_movers_currency_pair_title">Currency pair</string>
+    <string name="top_movers_market_rate_title">Market rate</string>
+    <string name="watchlist_market_rate_title">Market rate &amp; 1 day &#916;</string>
+    <string name="watchlist_set_rate">Your rate goal</string>
+    <string name="top_movers_variance_title">% +/-</string>
+    <string name="top_movers_percent_change_format">%1$s%%</string>
+    <string name="top_movers_positive_change_format">+  %1$s</string>
+
+    <!-- quickFx-->
+    <string name="quickfx_done">Done</string>
+    <string name="common_add">Add</string>
+    <string name="common_remove">Remove</string>
+    <string name="common_remove_quickfx_favourites">Remove</string>
+    <string name="quickfx_favourites">Favourites</string>
+    <string name="quickfx_recent_activity">Recent activity</string>
+    <string name="quickfx_heading_count">( %1$s / %2$s )</string>
+    <string name="quickfx_item_exceed_maximum_title">Item exceeds maximum</string>
+    <string name="quickfx_item_exceed_maximum_content">You can only save up to 6 favourites. Please remove existing favourites to add new items.</string>
+    <string name="quickfx_item_delete_content">Are you sure to remove this from favourites?</string>
+    <string name="quickfx_item_favourite_no_item_title">No favourites added</string>
+    <string name="quickfx_item_favourite_no_item_content">You don\'t have any favourites yet. Press \"Add new favourite\" from the button below to add from your recent activity.</string>
+    <string name="quickfx_item_favourite_repeat_adding">Recent activity has already been added</string>
+    <string name="common_pay">Pay</string>
+    <string name="quickfx_no_activities_title">No recent activity</string>
+    <string name="quickfx_no_activities_content">You have not made any activities</string>
+    <string name="quickfx_added_favourite">Added to favourites</string>
+    <string name="quickfx_help_title">How to Manage My Quick FX</string>
+    <string name="quickfx_help_content_heading1">Quick star at Recent activities</string>
+    <string name="quickfx_help_content_content1">Tap and hold on any of the tiles to access Quick FX edit mode from which you can easily add maximum six recent activities to favourites by tapping the \"+\" button on the tiles. If you already have six favourites, you\'ll have to first remove one by tapping \"x\" button before adding new favourites.</string>
+    <string name="quickfx_help_content_heading2">Star at transaction history</string>
+    <string name="quickfx_help_content_content2">Tap on burger menu and go to transaction history, then tap on \"Star\" icon to star particular transaction as favourites to Quick Fx.</string>
+    <string name="quickfx_item_source_target_title">%1$s %2$s %3$s</string>
+    <string name="quickfx_add_favorites">Add new favourites</string>
+    <string name="quickfx_add_more_favorites">Add new favourites</string>
+    <string name="quickfx_remove_favorites">Are you sure you want to remove this activity from favourites?</string>
+
+    <!--watchlist-->
+    <string name="watchlist_topmover_title">Market top movers</string>
+    <string name="watchlist_topmover_see_all">See all</string>
+    <string name="watchlist_topmover_currency_pair_format">%1$s/%2$s</string>
+    <string name="watchlist_topmover_inverse_rate_format" formatted="false">%1$s 1 = %2$s %3$s</string>
+    <string name="watchlist_topmover_percentage_change_format">(%1$s%%)</string>
+    <string name="watchlist_is_coming_soon">Watchlist is coming soon</string>
+    <string name="watchlist_set_target_rate_title_1">Set your rate goal</string>
+    <string name="watchlist_set_target_rate_title_2">Edit your rate goal</string>
+    <string name="watchlist_todays_rate">Today’s rate is</string>
+    <string name="watchlist_set_target_subheading">Please input your target rate</string>
+    <string name="watchlist_set_target_rate_button">Confirm</string>
+    <string name="watchlist_empty">You don\'t have anything \nin your Watchlist</string>
+    <string name="watchlist_add_currency_pair">Add a currency pair</string>
+    <string name="watchlist_market_rate">%1$s 1 = %2$s %3$s</string>
+    <string name="watchlist_goal_achieved">Goal achieved</string>
+    <string name="watchlist_set_alert">Set rate alert</string>
+    <string name="watchlist_order_watch">Order Watch</string>
+
+
+    <string name="target_rate_seek_bar_display_percentage">%1$.2f%%</string>
+    <string name="target_rate_credit_rate" formatted="false">(Approx. %1$s%% from current rate)</string>
+    <string name="target_rate_edit_rate" formatted="false">(Approx. %1$s%% from initial rate)</string>
+
+    <!-- settings -->
+    <string name="user_lastlogon_message">Welcome back, you last logged in at %1$s (%2$s) on %3$s.</string>
+    <string name="user_lastlogon_message_dateformat_date">dd MMMM yyyy</string>
+    <string name="user_lastlogon_message_dateformat_time">hh:mm a</string>
+    <string name="more_landing_price_alert">Rate alert</string>
+    <string name="more_settings_app_default_settings_title">Default app settings</string>
+    <string name="more_settings_default_app_account_title">Default app account</string>
+    <string name="more_settings_personal_preferences_title">Personal preference</string>
+    <string name="more_settings_information_title">Information</string>
+    <string name="more_settings_touch_id">Log on with Touch ID</string>
+    <string name="more_settings_accessibility">Accessibility</string>
+    <string name="more_settings_notifications">Notification settings</string>
+    <string name="title_settings">Notifications</string>
+    <string name="title_faq">FAQ</string>
+    <string name="more_settings_calculator">Calculator default value</string>
+
+    <string name="accessibility_heading">HSBC is committed to providing a mobile experience that is accessible to the widest possible audience. \n\nYou can adjust your accessibility settings in your mobile phone settings.</string>
+    <string name="accessibilty_textsize">Adjust your text size</string>
+    <string name="accessibilty_textsize_settings">Settings > Accessibility > Visibility enhancements > Font size and style </string>
+    <string name="accessibilty_talkback">Enable Talkback</string>
+    <string name="accessibilty_talkback_settings">Settings > Accessibility > Talkback</string>
+    <string name="privacy_text">We would like to store information in the app about how you use it. This information does not identify you personally, but will make the app more relevant to you and will enable certain functionality. You can see the details of the information that would be stored by clicking on the Stored Information button below.</string>
+    <string name="privacy_header">Use of stored information</string>
+    <string name="i_agreed">I agreed.</string>
+
+    <string name="more_help_faq">FAQ</string>
+    <string name="more_help_cross_border_desclaimer">Cross-border disclosure</string>
+    <string name="more_help_feature_highlights">Feature highlights</string>
+    <string name="more_help_feedback">Feedback</string>
+    <string name="more_help_legal">Legal</string>
+    <string name="more_help_tutorial">Tutorial</string>
+    <string name="more_help_cross_border_desclaimer_content"><![CDATA[This app is provided by HSBC Expat for the use of existing customers of HSBC Expat only. Please do not download this app if you are not an existing customer of HSBC Expat.<br><br>
+HSBC Expat, a division of HSBC Bank plc, Jersey branch and is regulated in Jersey by the Jersey Financial Services Commission for Banking, General Insurance Mediation, Fund Services and Investment Business.
+
+Please be aware that HSBC Bank plc, Jersey Branch is not authorised or licensed outside of Jersey for the provision of the services and/ or products available through this app. We cannot guarantee that the services and products available through this app are authorised to be offered outside of Jersey.<br><br>
+
+        This App is not intended for download or use by any person in any jurisdiction where such download or use would not be permitted by law or regulation. The information provided through the app is not intended for use by persons located in or resident in jurisdictions where the distribution of such material may be considered marketing or promotional and where that activity is restricted. ]]>
+</string>
+
+    <!--orderStatus-->
+    <string name="order_status_sent">Sent</string>
+    <string name="order_status_to">To</string>
+    <string name="order_status_receive">Receives</string>
+    <string name="order_status_rate_to_be_applied">Rate to be applied</string>
+    <string name="order_status_to_be_applied">To be applied</string>
+    <string name="order_status_rate_display">\%1$s 1 = %2$s %3$s</string>
+    <string name="order_status_processed">Processed</string>
+    <string name="order_status_error">Error</string>
+    <string name="order_status_pending">Pending</string>
+    <string name="order_status_declined">Declined</string>
+    <string name="order_status_processing">Processing</string>
+    <string name="order_status_cancel">Cancelled</string>
+    <string name="order_status_expired">Expired</string>
+    <string name="order_status_failed">Failed</string>
+    <string name="order_status_returned">Returned</string>
+    <string name="order_status_refunded">Refunded</string>
+    <string name="order_status_active">Active</string>
+    <string name="order_status_confirmation_number">Ref: %1$s</string>
+
+    <!--Important Notes-->
+    <string name="stored_info_header">Use of stored information</string>
+    <string name="cb_agreed">Agree</string>
+    <string name="cb_do_not_agreed">Do not agree</string>
+
+    <!-- OrderStatus' Pay -->
+    <string name="order_status_pay_refunded">Refunded</string>
+    <string name="my_activity_title">My activity</string>
+    <string name="order_status_select_account_title">Select account</string>
+    <string name="order_status_transaction_type_transfer">Transfer</string>
+    <string name="order_status_transaction_type_pay">Pay</string>
+    <string name="order_status_transaction_type_limit_order">Set your rate</string>
+    <string name="order_status_title_transaction_status">Show me</string>
+    <string name="order_status_picker_title_transaction_status">Show me</string>
+    <string name="order_status_title_transaction_period">Day range</string>
+    <string name="order_status_picker_title_transaction_period">Select period</string>
+    <string name="order_status_transaction_status_category_historical">Historical</string>
+    <string name="order_status_transaction_status_category_pending">Pending</string>
+    <string name="order_status_transaction_status_category_failed">Failed</string>
+    <string name="order_status_transaction_status_category_active">Active</string>
+    <string name="order_status_transaction_period_today">Today</string>
+    <string name="order_status_transaction_period_last_7_days">Last 7 days</string>
+    <string name="order_status_transaction_period_last_30_days">Last 30 days</string>
+    <string name="order_status_transaction_period_last_90_days">Last 90 days</string>
+    <string name="order_status_transaction_period_6_months">6 months</string>
+    <string name="order_status_transaction_period_past_year">Past year</string>
+    <string name="order_status_transaction_period_all">All</string>
+    <string name="order_status_empty_text_no_transfers_yet">You haven\'t made any transfers yet</string>
+    <string name="order_status_empty_text_no_results_title">No results</string>
+    <string name="order_status_empty_text_no_results_desc">There are no results for your selection.\nPlease try again.</string>
+    <string name="order_status_pay_by_contact">Pay by contact</string>
+    <string name="order_status_pay_by_bank_details">Pay by bank details</string>
+    <string name="order_status_pay_secret_pw">Secret password:</string>
+    <string name="order_status_days_to_be_accepted_format_one">%d day to be accepted</string>
+    <string name="order_status_days_to_be_accepted_format_other">%d days to be accepted</string>
+
+    <string name="order_status_cancel_title">Are you sure you want to cancel this FX Target Limit Order?</string>
+    <string name="order_status_target_rate_display">Client Target Conversion Rate: %1$s  1 = %2$s %3$s</string>
+    <string name="order_status_watch_rate_display">HSBC Watched Rate: %1$s  1 = %2$s %3$s</string>
+
+    <!-- Rate update-->
+    <string name="rate_update_format">\%1$s 1 = %2$s %3$s</string>
+    <!--<string name="rate_update_date_format">\'at\' hh:mm:ss \'(%1$s)\' \'on\' dd MMMM yyyy</string>-->
+    <string name="rate_update_date_format">\'Updated at\' dd MMMM yyyy, hh:mm:ss \'(%1$s)\'</string>
+    <string name="rate_discovery_date_format"> hh:mm:ss dd MMMM yyyy \'(%1$s)\'</string>
+    <string name="rate_update_dialog_date_format">\'at\' dd MMMM yyyy, hh:mm:ss \'(%1$s)\'</string>
+    <string name="rate_update_amount_comparison_format">(%1$s %2$s %3$s than previous rate)</string>
+    <string name="rate_update_popup_title">The rate was updated</string>
+    <string name="rate_update_popup_previous_amount_title">Previous transfer amount: </string>
+    <string name="rate_update_popup_current_amount_title">Transfer amount is now: </string>
+    <string name="common_higher">higher</string>
+    <string name="common_lower">lower</string>
+
+    <string name="order_status_cancel_popup_title">Are you sure want to cancel this payment\?</string>
+    <string name="order_status_cancel_popup_previous_amount_title">Previous transfer amount</string>
+    <string name="order_status_cancel_popup_current_amount_title">Refund amount is now</string>
+    <string name="order_status_cancel_popup_disclaimer">Please note that it may take up to 10 minutes to process your cancellation instruction.</string>
+    <string name="order_status_disclaimer">Rate will updated automatically if no action Fin 20 seconds</string>
+    <string name="cbw_rate_pop_up_disclaimer">Rate will be updated automatically if no action is taken in 20 seconds</string>
+
+    <!-- PriceAlert -->
+    <string name="price_alert_summary_title">Rate alert</string>
+    <string name="price_alert_summary_title_search_type">Show me</string>
+    <string name="price_alert_summary_picker_title_search_type">Show me</string>
+    <string name="price_alert_summary_title_period">Day range</string>
+    <string name="price_alert_summary_picker_title_period">Select period</string>
+    <string name="price_alert_summary_search_type_historical">Historical</string>
+    <string name="price_alert_summary_search_type_active">Active</string>
+    <string name="price_alert_summary_set_price_alert">Set a rate alert</string>
+    <string name="price_alert_summary_cancel_title">Are you sure you want to cancel this FX rate alert?</string>
+    <string name="price_alert_summary_cancel_content">Please note that it may take up to 10 minutes to process your cancellation instruction.</string>
+    <string name="price_alert_empty_text_no_results_title">No results</string>
+    <string name="price_alert_empty_text_no_results_desc">There are no results for your selection. \nPlease select again.</string>
+    <string name="price_alert_empty_text_no_any_alert_yet_title">You haven\'t set \nany rate alert yet</string>
+    <string name="price_alert_summary_expiry_on">Expiry on: %s</string>
+    <string name="price_alert_summary_status_view_effective_date_format">on %s</string>
+    <string name="price_alert_summary_rate_pair_format">%1$s 1 = %2$s %3$s</string>
+    <string name="price_alert_summary_equal">=</string>
+    <string name="price_alert_cancel_details"><![CDATA[<html>Are you sure you want to cancel this <br>%1$s rate alert expiring on %2$s ?</html>]]></string>
+    <string name="order_summary_cancel_details"><![CDATA[<html>Ref: %1$s<br>Are you sure you want to cancel this <br>%2$s FX Target Limit Order expiring on %3$s ?</html>]]></string>
+    <string name="target_rate_pair">%1$s 1 = %2$s %3$s</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="price_alert_yes">Yes</string>
+    <string name="price_alert_view_fx_chart">View chart</string>
+
+    <string name="currency_other">Others</string>
+
+    <!-- Pay by bank -->
+    <string name="pay_by_bank_select_account_details_description">%1$s\'s %2$s bank account.</string>
+    <string name="pay_by_bank_new_payee_name_format">%1$s %2$s</string>
+    <string name="pay_by_bank_new_payee_account_holder">Account holder name</string>
+    <string name="pay_by_bank_new_payee_personal_details">Payee\'s personal details</string>
+    <string name="pay_by_bank_new_payee_country_of_residence_cell_title">Country of residence</string>
+    <string name="pay_by_bank_new_payee_country_of_residence_hint">Select country of residence</string>
+    <string name="pay_by_bank_new_payee_address_title">Address</string>
+    <string name="pay_by_bank_new_payee_address_error">Incorrect address</string>
+    <string name="pay_by_bank_new_payee_address_hint">Address</string>
+    <string name="pay_by_bank_new_payee_city_title">City / Town, State / Province</string>
+    <string name="pay_by_bank_new_payee_city_error">Please enter in alphanumeric characters.</string>
+    <string name="pay_by_bank_new_payee_city_hint">City / Town, State / Province</string>
+    <string name="pay_by_bank_new_payee_postal_code_title">Postal code</string>
+    <string name="pay_by_bank_new_payee_postal_code_error">Incorrect postal code</string>
+    <string name="pay_by_bank_new_payee_postal_code_hint">Postal code (optional)</string>
+    <string name="new_payee_bank_details">Payee\'s bank details</string>
+    <string name="new_payee_country_title">Country of bank account</string>
+    <string name="new_payee_country_hint">Select country of bank account</string>
+    <string name="new_payee_account_details_title">Account details</string>
+    <string name="new_payee_account_details_hint">Select account details</string>
+    <string name="pay_by_bank_account_details_send_money_to">You\'re sending money to</string>
+    <string name="pay_by_bank_account_details_select_account">In %1$s, you need the following account details to complete the payment.</string>
+    <string name="new_payee_iban_title">International bank account number (IBAN)</string>
+    <string name="new_payee_account_title">Account number</string>
+    <string name="new_payee_iban_hint">Select IBAN</string>
+    <string name="new_payee_bank_type_title">Bank number and account number</string>
+    <string name="new_payee_llc_label_title">BIC/ %1$s and Account Number</string>
+    <string name="new_payee_bank_number_title">Bank number</string>
+    <string name="new_payee_bank_number_hint">Select bank number</string>
+    <string name="new_payee_bank_address">Bank\'s address</string>
+    <string name="pay_by_bank_payee_pay_money">Pay money</string>
+    <string name="pay_by_bank_existing_payee_search_hint">Search by first name</string>
+
+    <string name="pay_by_bank_review_payee_details">Payee\'s details</string>
+    <string name="pay_by_bank_review_account_number">Account number</string>
+    <string name="pay_by_bank_review_memos">Memos</string>
+    <string name="pay_by_bank_review_ref_note">Your reference note</string>
+    <string name="pay_by_bank_search_hint">Search by bank name</string>
+    <string name="pay_by_bank_search_bank_address_hint">Search by bank name, city and postal code</string>
+    <string name="search_bank_address_title">Looking for bank identifier code?</string>
+    <string name="search_bank_address_desc">Simply enter the bank name, city, \npostal code in the search field above.</string>
+    <string name="pay_by_bank_payee_account_number">Enter payee\'s account number</string>
+    <string name="pay_by_bank_back">Back</string>
+    <string name="pay_by_bank_confirmation_action_bar_title">Payment confirmation</string>
+    <string name="price_alert_confirmation_action_bar_title">Set rate alert confirmation</string>
+    <string name="pay_by_bank_confirmation_updated_balance_title">Updated balances</string>
+    <string name="pay_by_bank_confirmation_previous_balance_value">Previously: %1$s %2$s</string>
+
+    <string name="bank_code_entry_title_bic">Enter BIC/ %1$s</string>
+    <string name="bank_code_entry_title_bankCode">Enter BIC/ Bank Code and Account Number</string>
+    <string name="bank_code_entry_title_iban">Enter payee\'s IBAN</string>
+    <string name="bank_code_entry_error_bic">The bank number doesn\'t match our records. Please try again.</string>
+    <string name="bank_code_entry_error_iban">The IBAN number doesn\'t match our records. Please try again.</string>
+    <string name="bank_code_entry_search_btn_title_finder">Bank identifier finder</string>
+    <string name="bank_code_entry_search_btn_title_not_sure">Not sure if information is correct?</string>
+    <string name="bank_code_entry_search_btn_desc">Use our bank search tool to quickly locate the identifier for the recipient\'s bank.</string>
+    <string name="bank_code_entry_title_account_number">Enter payee\'s account number</string>
+
+    <string name="pay_by_bank_new_payee_select_country_title">Select payee\'s bank account country</string>
+    <string name="pay_by_bank_payee_country_title">Select payee\'s country of residence</string>
+
+    <string name="bank_number_action_bar_title">Bank number</string>
+    <string name="account_number_action_bar_title">Account number</string>
+    <string name="iban_action_bar_title">IBAN</string>
+
+    <string name="fee_selection_title">Fees</string>
+    <string name="fee_selection_instruction">Please select your fees payment preference.</string>
+    <string name="fee_selection_disclaimer">If charges are paid by beneficiary, the amount to credit will be minus the overseas charges. If charges are paid from my account, the amount to debit will not include the charges.  If charges are to be shared, local charges will be paid by remitter, overseas by beneficiary. Overseas charges are levied by the intermediary and/or beneficiary banks to facilitate the remittance.</string>
+    <string name="fee_selection_paid_by_you_display">Charges to be paid by you</string>
+    <string name="fee_selection_paid_by_payee_display">Charges to be paid by payee</string>
+
+    <string name="pay_by_bank_alert_title">Do you want to cancel this journey?</string>
+    <string name="pay_by_bank_alert_cancel">Cancel the payment</string>
+    <string name="pay_by_bank_alert_continue">Continue with payment</string>
+
+    <string name="pay_by_bank_purpose_of_payment_title">Tell us what this money is for</string>
+    <string name="pay_by_bank_purpose_of_payment_your_reference_note_title">Your reference note</string>
+    <string name="pay_by_bank_purpose_of_payment_your_reference_note_hint">Your reference note (24 characters)</string>
+    <string name="pay_by_bank_purpose_of_payment_message_to_payee_hint">Message to payee (66 characters)</string>
+
+    <string name="pay_by_bank_existing_payee_empty_list_subtitle">Once you\'ve transferred money to a payee, their details will be shown here</string>
+
+    <string name="review_order_note_general_empty_message">No note input</string>
+    <string name="review_order_notes_message_to_payee_empty_message">No message input</string>
+
+    <string name="pay_by_bank_confirmation_title">Sending %1$s %2$s to\n%3$s</string>
+    <string name="pay_by_bank_confirmation_account_number_desc">Account number: %1$s</string>
+    <string name="pay_by_bank_amount_input_action_bar_title">Make payment to</string>
+    <string name="pay_by_bank_from_account_action_bar_title">Pay money from</string>
+    <string name="pay_by_bank_fees_apply_label">Fees apply</string>
+    <string name="pay_by_bank_no_fees_apply_label">No fees apply</string>
+
+    <string name="country_selection_content_format">%1$s - %2$s</string>
+    <string name="country_code_selection_content_format">%1$s %2$s</string>
+
+    <string name="me2any_pay_by_bank_fee_pay_by_sender">Paid by you</string>
+    <string name="me2any_pay_by_bank_fee_pay_by_receiver">Paid by payee</string>
+
+    <!-- Secret Password-->
+    <string name="me2any_pay_to_contact_save_to_gallery_copy_success_label">Secret password copied to clipboard.</string>
+
+    <!-- SSL Pinning -->
+
+    <!-- this error is used to check if its a ssl error. this is checked in various areas in the app this constant is also mapped in APIError class in hsbcnetwork module-->
+    <string name="ssl_pinning_error">SSL pinning error</string>
+
+    <string name="ssl_pinning_error_title">Thank you for accessing the HSBC FXMA app.</string>
+    <string name="ssl_pinning_error_desc">Service is currently unavailable. Please try again later. \n \n \n REF: 495</string>
+    <string name="ssl_pinning_btn_text">Close App</string>
+    <string name="title_activity_sslpinning_error">SSLPinningErrorActivity</string>
+
+    <!-- Get better rate strings-->
+    <string name="better_rate_value"><![CDATA[Get a better rate of <br />%1$s <b>1</b> = <b>%2$s</b> %3$s<br />if you transfer %4$s %5$s]]></string>
+    <string name="better_rate_note">Tap to increase amount or press close\nto use your current amount</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="swipe_close_rate_discovery">Swipe down to close recent activities</string>
+    <string name="swipe_open_rate_discovery">Swipe up to see recent activities</string>
+    <string name="search_for_currency">Search for a currency</string>
+
+    <string-array name="listOfCurrency">
+        <item>USD/THB</item>
+        <item>USD/SGD</item>
+        <item>USD/NZD</item>
+        <item>USD/JPY</item>
+        <item>USD/HKD</item>
+        <item>USD/GBP</item>
+        <item>USD/EUR</item>
+        <item>USD/CNY</item>
+        <item>USD/CNH</item>
+        <item>USD/CHF</item>
+        <item>USD/CAD</item>
+        <item>USD/AUD</item>
+        <item>THB/USD</item>
+        <item>THB/SGD</item>
+        <item>THB/NZD</item>
+        <item>THB/JPY</item>
+        <item>THB/HKD</item>
+        <item>THB/GBP</item>
+        <item>THB/EUR</item>
+        <item>THB/CNY</item>
+        <item>THB/CNH</item>
+        <item>THB/CHF</item>
+        <item>THB/CAD</item>
+        <item>THB/AUD</item>
+        <item>SGD/USD</item>
+        <item>SGD/THB</item>
+        <item>SGD/NZD</item>
+        <item>SGD/JPY</item>
+        <item>SGD/HKD</item>
+        <item>SGD/GBP</item>
+        <item>SGD/EUR</item>
+        <item>SGD/CNY</item>
+        <item>SGD/CNH</item>
+        <item>SGD/CHF</item>
+        <item>SGD/CAD</item>
+        <item>SGD/AUD</item>
+        <item>NZD/USD</item>
+        <item>NZD/THB</item>
+        <item>NZD/SGD</item>
+        <item>NZD/JPY</item>
+        <item>NZD/HKD</item>
+        <item>NZD/GBP</item>
+        <item>NZD/EUR</item>
+        <item>NZD/CNY</item>
+        <item>NZD/CNH</item>
+        <item>NZD/CHF</item>
+        <item>NZD/CAD</item>
+        <item>NZD/AUD</item>
+        <item>JPY/USD</item>
+        <item>JPY/THB</item>
+        <item>JPY/SGD</item>
+        <item>JPY/NZD</item>
+        <item>JPY/HKD</item>
+        <item>JPY/GBP</item>
+        <item>JPY/EUR</item>
+        <item>JPY/CNY</item>
+        <item>JPY/CNH</item>
+        <item>JPY/CHF</item>
+        <item>JPY/CAD</item>
+        <item>JPY/AUD</item>
+        <item>HKD/USD</item>
+        <item>HKD/THB</item>
+        <item>HKD/SGD</item>
+        <item>HKD/NZD</item>
+        <item>HKD/JPY</item>
+        <item>HKD/GBP</item>
+        <item>HKD/EUR</item>
+        <item>HKD/CNY</item>
+        <item>HKD/CNH</item>
+        <item>HKD/CHF</item>
+        <item>HKD/CAD</item>
+        <item>HKD/AUD</item>
+        <item>GBP/USD</item>
+        <item>GBP/THB</item>
+        <item>GBP/SGD</item>
+        <item>GBP/NZD</item>
+        <item>GBP/JPY</item>
+        <item>GBP/HKD</item>
+        <item>GBP/EUR</item>
+        <item>GBP/CNY</item>
+        <item>GBP/CNH</item>
+        <item>GBP/CHF</item>
+        <item>GBP/CAD</item>
+        <item>GBP/AUD</item>
+        <item>EUR/USD</item>
+        <item>EUR/THB</item>
+        <item>EUR/SGD</item>
+        <item>EUR/NZD</item>
+        <item>EUR/JPY</item>
+        <item>EUR/HKD</item>
+        <item>EUR/GBP</item>
+        <item>EUR/CNY</item>
+        <item>EUR/CNH</item>
+        <item>EUR/CHF</item>
+        <item>EUR/CAD</item>
+        <item>EUR/AUD</item>
+        <item>CNY/USD</item>
+        <item>CNY/THB</item>
+        <item>CNY/SGD</item>
+        <item>CNY/NZD</item>
+        <item>CNY/JPY</item>
+        <item>CNY/HKD</item>
+        <item>CNY/GBP</item>
+        <item>CNY/EUR</item>
+        <item>CNY/CHF</item>
+        <item>CNY/AUD</item>
+        <item>CNH/USD</item>
+        <item>CNH/SGD</item>
+        <item>CNH/JPY</item>
+        <item>CNH/HKD</item>
+        <item>CNH/EUR</item>
+        <item>CNH/CHF</item>
+        <item>CHF/USD</item>
+        <item>CHF/THB</item>
+        <item>CHF/SGD</item>
+        <item>CHF/NZD</item>
+        <item>CHF/JPY</item>
+        <item>CHF/HKD</item>
+        <item>CHF/GBP</item>
+        <item>CHF/EUR</item>
+        <item>CHF/CNY</item>
+        <item>CHF/CNH</item>
+        <item>CHF/CAD</item>
+        <item>CHF/AUD</item>
+        <item>CAD/USD</item>
+        <item>CAD/THB</item>
+        <item>CAD/SGD</item>
+        <item>CAD/NZD</item>
+        <item>CAD/JPY</item>
+        <item>CAD/HKD</item>
+        <item>CAD/GBP</item>
+        <item>CAD/EUR</item>
+        <item>CAD/CNY</item>
+        <item>CAD/CNH</item>
+        <item>CAD/CHF</item>
+        <item>CAD/AUD</item>
+        <item>AUD/USD</item>
+        <item>AUD/THB</item>
+        <item>AUD/SGD</item>
+        <item>AUD/NZD</item>
+        <item>AUD/JPY</item>
+        <item>AUD/HKD</item>
+        <item>AUD/GBP</item>
+        <item>AUD/EUR</item>
+        <item>AUD/CNY</item>
+        <item>AUD/CNH</item>
+        <item>AUD/CHF</item>
+        <item>AUD/CAD</item>
+
+    </string-array>
+    <string name="root_head">Using a rooted device?</string>
+    <string name="root_info">Your device may be less secure and at risk of fraudulent transactions. For this reason, we’re unable to let you continue using the app on this device.
+        \nTo use the app, you’ll need to install it on a device that’s not been rooted.
+        \nFor more information, please visit our [mobile support site]</string>
+
+    <string name="emulator_head">Sorry, we have to stop you here</string>
+    <string name="emulator_info">This app has not been designed for use on this type of device. Please download and install the latest version of the app via Apple App Store for iOS devices, or Google Play Store for Android devices.</string>
+
+    <string name="head_key">Security message on third party keyboard</string>
+    <string name="key_info">If you use a third party keyboard, your device may be less secure and at risk of fraudulent transactions.  If you choose to continue, HSBC will not be liable for any loss, cost or damage of any kind incurred or suffered. </string>
+
+    <string name="head_screen_read">Security message on screen reader</string>
+    <string name="infor_screen_read">If you use a screen reader with unknown source, your device may be less secure and at risk of fraudulent transactions.  If you choose to continue, HSBC will not be liable for any loss, cost or damage of any kind incurred or suffered. </string>
+
+    <string name="repackaging">Sorry, we have to stop you here</string>
+    <string name="info_repackaging">This app seems to have been modified. It may be less secure and at risk of fraudulent transactions.\nFor your security, please uninstall this app and download the latest version from Google Play Store.</string>
+
+    <string name="action_close">Close</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_apply">Apply</string>
+
+    <!--supported currencies-->
+    <string name="AED">UAE Dirham</string>
+    <string name="AFN">Afghani</string>
+    <string name="ALL">Lek</string>
+    <string name="AMD">Armenian Dram</string>
+    <string name="ANG">Netherlands Antillan Guilder</string>
+    <string name="AOA">Kwanza</string>
+    <string name="ARS">Argentine Peso</string>
+    <string name="AUD">Australian Dollar</string>
+    <string name="AWG">Aruban Guilder</string>
+    <string name="AZM">Azerbaijanian Manat</string>
+    <string name="AZN">Azerbaijanian Manat</string>
+    <string name="BAM">Convertible Marks</string>
+    <string name="BBD">Barbados Dollar</string>
+    <string name="BDT">Taka</string>
+    <string name="BGN">Lev</string>
+    <string name="BHD">Bahraini Dinar</string>
+    <string name="BIF">Burundi Franc</string>
+    <string name="BMD">Bermudian Dollar</string>
+    <string name="BND">Brunei Dollar</string>
+    <string name="BOB">Boliviano</string>
+    <string name="BOV">Mvdol</string>
+    <string name="BRL">Brazillian Rieas</string>
+    <string name="BSD">Bahamian Dollar</string>
+    <string name="BTN">Ngultrum</string>
+    <string name="BWP">Pula</string>
+    <string name="BYR">Belarussian Ruble</string>
+    <string name="BZD">Belize Dollar</string>
+    <string name="CAD">Canadian Dollar</string>
+    <string name="CDF">Franc Congolais</string>
+    <string name="CHE">WIR Euro</string>
+    <string name="CHF">Swiss Franc</string>
+    <string name="CHW">WIR Franc</string>
+    <string name="CLF">Unidades de fomento</string>
+    <string name="CLP">Chilean Peso</string>
+    <string name="CNY">Yuan Renminbi</string>
+    <string name="COP">Colombian Peso</string>
+    <string name="COU">Unidad de Valor Real</string>
+    <string name="CRC">Costa Rican Colon</string>
+    <string name="CSD">Serbian Dinar</string>
+    <string name="CUC">Peso Convertible</string>
+    <string name="CUP">Cuban Peso</string>
+    <string name="CVE">Cape Verde Escudo</string>
+    <string name="CYP">Cyprus Pound</string>
+    <string name="CZK">Czech Koruna</string>
+    <string name="DJF">Djibouti Franc</string>
+    <string name="DKK">Danish Krone</string>
+    <string name="DOP">Dominican Peso</string>
+    <string name="DZD">Algerian Dinar</string>
+    <string name="EEK">Kroon</string>
+    <string name="EGP">Egyptian Pound</string>
+    <string name="ERN">Nakfa</string>
+    <string name="ETB">Ethiopian Birr</string>
+    <string name="EUR">Euro</string>
+    <string name="FJD">Fiji Dollar</string>
+    <string name="FKP">Falkland Islands Pound</string>
+    <string name="GBP">Pound Sterling</string>
+    <string name="GEL">Lari</string>
+    <string name="GHC">Cedi</string>
+    <string name="GHS">Cedi</string>
+    <string name="GIP">Gibraltar Pound</string>
+    <string name="GMD">Dalasi</string>
+    <string name="GNF">Guinea Franc</string>
+    <string name="GTQ">Quetzal</string>
+    <string name="GWP">Guinea-Bissau Peso</string>
+    <string name="GYD">Guyana Dollar</string>
+    <string name="HKD">Hong Kong Dollar</string>
+    <string name="HNL">Lempira</string>
+    <string name="HRK">Croatian kuna</string>
+    <string name="HTG">Gourde</string>
+    <string name="HUF">Forint</string>
+    <string name="IDR">Rupiah</string>
+    <string name="ILS">New Israeli Sheqel</string>
+    <string name="INR">Indian Rupee</string>
+    <string name="IQD">Iraqi Dinar</string>
+    <string name="IRR">Iranian Rial</string>
+    <string name="ISK">Iceland Krona</string>
+    <string name="JMD">Jamaican Dollar</string>
+    <string name="JOD">Jordanian Dinar</string>
+    <string name="JPY">Yen</string>
+    <string name="KES">Kenyan Shilling</string>
+    <string name="KGS">Som</string>
+    <string name="KHR">Riel</string>
+    <string name="KMF">Comoro Franc</string>
+    <string name="KPW">North Korean Won</string>
+    <string name="KRW">Won</string>
+    <string name="KWD">Kuwaiti Dinar</string>
+    <string name="KYD">Cayman Islands Dollar</string>
+    <string name="KZT">Ten</string>
+    <string name="LAK">Kip</string>
+    <string name="LBP">Lebanese Pound</string>
+    <string name="LKR">Sri Lanka Rupee</string>
+    <string name="LRD">Liberian Dollar</string>
+    <string name="LSL">Rand"</string>
+    <string name="LTL">Lithuanian Litas</string>
+    <string name="LVL">Latvian Lats</string>
+    <string name="LYD">Lybian Dinar</string>
+    <string name="MAD">Moroccan Dirham</string>
+    <string name="MDL">Moldovan Leu</string>
+    <string name="MGA">Malagasy Ariary</string>
+    <string name="MGF">Malagasy Franc</string>
+    <string name="MKD">Denar</string>
+    <string name="MMK">Kyat</string>
+    <string name="MNT">Tugrik</string>
+    <string name="MOP">Pataca</string>
+    <string name="MRO">Ouguiya</string>
+    <string name="MTL">Maltese Lira</string>
+    <string name="MUR">Mauritius Rupee</string>
+    <string name="MVR">Rufiyaa</string>
+    <string name="MWK">Kwacha</string>
+    <string name="MXN">Mexican Peso</string>
+    <string name="MXV">Mexican Unidad de Inversion (UDI)</string>
+    <string name="MYR">Malaysian Ringgit</string>
+    <string name="MZM">Metical</string>
+    <string name="MZN">Metical</string>
+    <string name="NAD">Rand</string>
+    <string name="NGN">Naira</string>
+    <string name="NIO">Cordoba Oro</string>
+    <string name="NOK">Norwegian Krone</string>
+    <string name="NPR">Nepalese Rupee</string>
+    <string name="NZD">New Zealand Dollar</string>
+    <string name="OMR">Rial Omani</string>
+    <string name="PAB">Balboa"</string>
+    <string name="PEN">Nuevo Sol</string>
+    <string name="PGK">Kina</string>
+    <string name="PHP">Philippine Peso</string>
+    <string name="PKR">Pakistan Rupee</string>
+    <string name="PLN">Zloty</string>
+    <string name="PYG">Guarani</string>
+    <string name="QAR">Qatari Rial</string>
+    <string name="ROL">Leu</string>
+    <string name="RON">Leu</string>
+    <string name="RSD">Serbian Dinar</string>
+    <string name="RUB">Russian Ruble</string>
+    <string name="RWF">Rwanda Franc</string>
+    <string name="SAR">Saudi Riyal</string>
+    <string name="SBD">Solomon Islands Dollar</string>
+    <string name="SCR">Seychelles Rupee</string>
+    <string name="SDD">Sudanese Dinar</string>
+    <string name="SDG">Sudanese Pound</string>
+    <string name="SEK">Swedish Krona</string>
+    <string name="SGD">Singapore Dollar</string>
+    <string name="SHP">Saint Helena Pound</string>
+    <string name="SIT">Tolar</string>
+    <string name="SKK">Slovak Koruna</string>
+    <string name="SLL">Leone</string>
+    <string name="SOS">Somali Shilling</string>
+    <string name="SRD">Surinam Dollar</string>
+    <string name="SRG">Suriname Guilder</string>
+    <string name="STD">Dobra</string>
+    <string name="SVC">El Salvador Colon</string>
+    <string name="SYP">Syrian Pound</string>
+    <string name="SZL">Lilangeni</string>
+    <string name="THB">Baht</string>
+    <string name="TJS">Somoni</string>
+    <string name="TMM">Manat</string>
+    <string name="TMT">Manat</string>
+    <string name="TND">Tunisian Dinar</string>
+    <string name="TOP">Pa4anga</string>
+    <string name="TRY">Turkish Lira</string>
+    <string name="TTD">Trinidad and Tobago Dollar</string>
+    <string name="TWD">New Taiwan Dollar</string>
+    <string name="TZS">Tanzanian Shilling</string>
+    <string name="UAH">Hryvnia</string>
+    <string name="UGX">Uganda Shilling</string>
+    <string name="USD">US Dollar</string>
+    <string name="USN">US Dollar (Next day)</string>
+    <string name="USS">US Dollar (Same day)</string>
+    <string name="UYI">Uruguay Peso en Unidades Indexadas</string>
+    <string name="UYU">Peso Uruguayo</string>
+    <string name="UZS">Uzbekistan Sum</string>
+    <string name="VEB">Bolivar</string>
+    <string name="VEF">Bolivar Fuerte</string>
+    <string name="VND">Dong</string>
+    <string name="VUV">Vatu</string>
+    <string name="WST">Tala</string>
+    <string name="XAF">CFA Franc BEAC</string>
+    <string name="XCD">East Caribbean Dollar</string>
+    <string name="XOF">CFA Franc BCEA</string>
+    <string name="XPF">CFP Franc</string>
+    <string name="YER">Yemeni Rial</string>
+    <string name="ZAR">Rand</string>
+    <string name="ZMK">Zambian Kwacha</string>
+    <string name="ZMW">Kwacha</string>
+    <string name="ZWD">Zimbabwe Dollar</string>
+    <string name="ZWL">Zimbabwe Dollar</string>
+    <string name="default_currency">Default currency</string>
+    <string name="default_bank_account">Default bank Account</string>
+    <string name="info_notn_language">Select your preferred notification language.</string>
+    <string name="title_language">Language</string>
+    <string name="lang_english">English</string>
+    <string name="info_notn_method">Select your preferred notification contact method</string>
+    <string name="title_mobile">Mobile</string>
+    <string name="title_email">Email</string>
+    <string name="action_save">Save</string>
+    <string name="title_touchid">Fingerprint</string>
+    <string name="topuch_id_info_2">If it\'s turned off, you can still logon securely using a different method.</string>
+    <string name="touch_id_info">Select if you\'d prefer to log on to this app with Fingerprint.</string>
+    <string name="cancel_the_setting">Cancel the setting</string>
+    <string name="continue_setting">Continue</string>
+    <string name="cancel_settings">Are you sure you want to cancel this setting?</string>
+    <string name="added_to_favourites">Added to Favourites</string>
+    <string name="failed_add_fav">You can only save up to 6 favourites. Please remove and reinsert your items.</string>
+    <string name="already_add_fav">Recent item is already added to favourites.</string>
+    <string name="watchlist_successfully_added">Successfully added</string>
+    <string name="rate_goal_successfully_added">Successfully set rate goal</string>
+    <string name="rate_goal_successfully_added_edit">Successfully edit rate goal</string>
+
+    <!-- Account Details FAQ -->
+    <string name="faq_bic_desc">You have to quote the BIC of the beneficiary bank into Bank Address Field. Please do not include the preface \"BIC\" or any spaces between the characters, e.g. MIDLGB22123</string>
+    <string name="faq_iban_desc">You have to quote the IBAN of the beneficiary account into the account number field. Please do not include the preface \"IBAN\" or any spaces between the characters, e.g. GB15MIDL40051512345678</string>
+    <string name="faq_bic_heading">Bank Identifier Code (BIC)</string>
+    <string name="faq_bic_example_heading">Example of BIC</string>
+    <string name="faq_iban_example_heading">Example of IBAN</string>
+    <string name="faq_bic_example_text1">MIDL -</string>
+    <string name="faq_bic_example_text2">Bank code</string>
+    <string name="faq_bic_example_text3">GB -</string>
+    <string name="faq_bic_example_text4">Country code</string>
+    <string name="faq_bic_example_text5">22123</string>
+    <string name="faq_bic_example_text6">Bank identifier</string>
+    <string name="faq_iban_example_text1">GB -</string>
+    <string name="faq_iban_example_text2">Country code</string>
+    <string name="faq_iban_example_text3">15 -</string>
+    <string name="faq_iban_example_text4">Check number</string>
+    <string name="faq_iban_example_text5">MIDL -</string>
+    <string name="faq_iban_example_text6">Bank code</string>
+    <string name="faq_iban_example_text7">400515 -</string>
+    <string name="faq_iban_example_text8">Sort code</string>
+    <string name="faq_iban_heading">International Bank Account Number (IBAN)</string>
+    <string name="faq_title_bar">F.A.Q</string>
+    <string name="faq_search_hint">Search for a topic</string>
+    <string name="faq_no_result">No result found</string>
+
+    <string name="promotions_title">Promotions</string>
+    <string name="special_ann_title">Special Announcement</string>
+    <string name="close">Close</string>
+    <string name="update_relaxed_message">New update is available for %1$s</string>
+    <string name="update_relaxed_title">Version update available</string>
+    <string name="update_later">Later</string>
+    <string name="update_now">Update</string>
+    <string name="update_strict_title">Version update available</string>
+    <string name="update_strict_message">We have made an important update to HSBC Singapore FX</string>
+
+    <string name="contacts_warning_title">Contact details not available</string>
+    <string name="contacts_warning_message">We need your phone number and email address to send you transaction notifications. Please update your contact details in HSBC online banking in order to avoid this message in the future.</string>
+
+    <string name="no_promotions_available">No promotion available</string>
+    <string name="no_special_announcement_available">No special announcement available</string>
+
+    <string name="online_banking_page_url">www.hsbc.com.sg</string>
+    <string name="hsbc_critical_error_message">The app is currently unavailable. Please visit our Personal Internet Banking via %1$s or HSBC%2$s mobile banking app to continue your transaction.</string>
+    <string name="hsbc_sorry_page_header">Thank you for accessing the %1$s</string>
+
+    <string name="logon_option_menu_title">Important information</string>
+    <string name="same_currency_label">Same currency</string>
+    <string name="rate_does_not_apply_label">No FX involved</string>
+    <string name="additional_fees">Additional Fee</string>
+    <string name="additional_fees_content">S$0 Fees apply for Premier customers who perform a remittance via Worldwide Transfer and Global Transfers on HSBC’s Personal Internet Banking platform, with a foreign exchange transaction. Non-Premier customers enjoy a low fee of S$10.</string>
+    <string name="full_terms_and_conditions_apply">Full terms and conditions apply.</string>
+    <string name="full_terms_and_conditions_apply_link"><![CDATA[]]></string>
+    <string name="are_you_enjoying_fx_app">Are you enjoying %1$s?</string>
+    <string name="tell_us_why">Tell us why</string>
+    <string name="feedback_message">We love to hear what you enjoy and what you think we can improve on.</string>
+    <string name="no_button_title">No</string>
+    <string name="not_now_button_title">Not now</string>
+    <string name="write_feedback_button_title">Write feedback</string>
+    <string name="do_you_want_to_rate_aap">Do you want to rate %1$s?</string>
+    <string name="go_to_playstore">Go to Play Store</string>
+    <string name="send_email">Send email</string>
+    <string name="feedback_email">global.fxm.feedback@hsbc.com.hk</string>
+    <string name="not_really_button_title">Not really</string>
+    <string name="yes_button_title">Yes</string>
+    <string name="no_connection_title">Something went wrong</string>
+    <string name="no_connection_message">There appears to be a connection issue. Please try again.</string>
+
+    <!--Tips-->
+    <string name="tips_title">Tips</string>
+    <string name="tips_faq_title">FAQ</string>
+    <string name="tips_heatmap_base_currency">Tap to change your \nbase currency</string>
+    <string name="tips_heatmap_chart">Tap to open FX Chart \nto view Market Trend</string>
+    <string name="tips_top_movers">Tap the contextual menu \nicon for more actions</string>
+    <string name="tips_top_movers_currency_pair">Tap the currency pair to bring \nyou directly to FX Chart</string>
+    <string name="tips_calculator_swipe">Swipe left to remove a \ncurrency from the list</string>
+    <string name="tips_calculator_tap">Tap on the currency to \nmake it base currency</string>
+    <string name="tips_chart_tap">Tap on chart to view \nset your rate/ set rate alert area</string>
+    <string name="tips_chart_force_touch">Long press for further \naction at a specific price</string>
+    <string name="tips_transfer">Tap to change\n account or currency</string>
+    <string name="tips_quickfx_swipe_up">Swipe up on the blue \narea to multiply the \namount by 10</string>
+    <string name="tips_quickfx_swipe_down">Swipe down on the blue \narea to divide the \namount by 10</string>
+    <string name="tips_quickfx_tap_amount">Tap on the amount \nto change it manually</string>
+    <string name="tips_quickfx_pull_down">Pull down on the \nrate to refresh</string>
+    <string name="tips_quickfx_swipe_left">Swipe left to remove \nFavourite from the list</string>
+    <string name="tips_watchlist_add_currency_pairs">Tap this icon to add the \ncurrency pairs to your \nWatchlist</string>
+    <string name="tips_watchlist_set_your_rate_goal">Tap this to set your \nrate goal</string>
+    <string name="tips_edit_watchlist_rearrange">Tap and hold this icon to \nrearrange your watchlist</string>
+    <string name="tips_edit_watchlist_delete">Swipe left to delete from \nyour watchlist</string>
+    <string name="tips_set_your_rate_drag_view">Tap, hold and move your \nfinger to adjust rate and \nexpiry date</string>
+    <string name="tips_set_your_rate_target_rate">Tap on the number to \nchange manually</string>
+    <string name="tips_set_your_rate_amount">Tap on the amount to \nchange manually</string>
+    <string name="tips_set_your_rate_expiry_date">Or tap on the expiry date to \nchange manually</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="confirm_button">Confirm Button</string>
+
+    <!--Quick FX-->
+    <string name="quickfx_tab_rate_discovery">&#160;Rate Discovery</string>
+    <string name="quickfx_tab_favourites">&#160;Favourites</string>
+    <string name="rate_discovery_use_rate_for">Use the rate for</string>
+    <string name="rate_currency_same_currency">Same currency</string>
+    <string name="rate_discovery_rate_not_apply">No FX involved</string>
+    <string name="set_up_notification_disclaimer">Please note that the mobile number and email address that is recorded in the Bank\'s systems will be used for this FX Target Limit Order or FX Rate Alert. If your details are incorrect, please update your information with the Bank before placing your FX Target Limit Order or FX Rate Alert.</string>
+    <string name="rate_discovery_default_to_currency">USD</string>
+    <string name="rate_discovery_default_to_amount">1000</string>
+    <string name="rate_discovery_no_time_stamp_needed">No time stamp needed here</string>
+    <string name="button">Button</string>
+    <string name="set_rate_alert_verification">Set rate alert verification</string>
+    <string name="target_rate_min_value">0.05%</string>
+    <string name="metoany_reference_note_or_message_validation_error">Please enter %1$d-%2$d alphanumeric characters</string>
+
+    <!--CBW-->
+    <string name="add_new">add new</string>
+    <string name="timezone_short">SGT</string>
+    <string name="review_important_notes">View important notes</string>
+    <string name="review_terms_conditions">View terms and conditions</string>
+    <string name="review_disclaimer">I have read and agree to these terms and conditions. I understand that the Bank does not guarantee the accuracy, reliability or timeliness of all exchange rates provided under the Services. I also understand that there will inevitably be a time difference, or sometimes a delay, from the time a HSBC Watched Rate meets the prevailing HSBC foreign exchange rate of the relevant currencies quoted by the Bank to the time I actually receive the eAlerts under the Services. I agree not to hold the Bank liable in any way under the Services.</string>
+
+    <string name="tealium_settings_currency_selection">default currency set to: </string>
+    <string name="title_edit_watchlist">Edit Watchlist</string>
+    <string name="target_rate_achieved">Achieved</string>
+    <string name="set_target_rate">Set my rate goal</string>
+    <string name="target_rate_error">Something went wrong</string>
+
+    <!-- call gaping -->
+    <string name="expat">\u0020Expat</string>
+    <string name="AppName">AppName</string>
+    <string name="jer">jer</string>
+    <string name="sg">sg</string>
+    <string name="sgh">sgh</string>
+    <string name="je">je</string>
+    <string name="https">https://</string>
+    <string name="app">app</string>
+    <string name="help_watchlist_set_rate">Click for set rate Help</string>
+
+    <string name="select_from_all_accounts">Select from all accounts</string>
+    <string name="select_from_account">Select from account</string>
+    <string name="all_accounts">All accounts</string>
+
+    <string name="market_rate">Market rate</string>
+    <string name="your_rate">Your rate</string>
+
+    <plurals name="accounts_from_countries">
+        <item quantity="one">%1$d account from %2$d country</item>
+        <item quantity="other">%1$d accounts from %2$d countries</item>
+    </plurals>
+
+    <plurals name="account_selected">
+        <item quantity="one">1 account selected</item>
+        <item quantity="other">All accounts selected</item>
+    </plurals>
+
+    <!--set rate order-->
+    <string name="title_set_your_rate">Set your rate</string>
+    <string name="set_rate_execute">Client Target Conversion Rate is</string>
+    <string name="set_rate_amount_received_credit">and amount received is %1$s</string>
+    <string name="set_rate_amount_received_debit">and amount sent is %1$s</string>
+    <string name="set_rate_date">on or before</string>
+    <string name="set_rate_spot">Current rate %1$s 1 = %2$s %3$s</string>
+    <string name="set_current_rate">HSBC Current Rate %1$s 1 = %2$s %3$s</string>
+    <string name="set_rate_watched">HSBC Watched Rate %1$s 1 = %2$s %3$s</string>
+    <string name="title_activity_graph">GraphActivity</string>
+    <string name="set_rate_target_conversion_line1">Client Target</string>
+    <string name="set_rate_target_conversion_line2">Conversion Rate</string>
+    <string name="action_log_on">Continue</string>
+    <string name="copy_right_mark">© Copyright. HSBC Bank (Singapore) Limited (Company Registration No. 201420624K)</string>
+    <string name="btn_pop_next">Next</string>
+    <string name="rate_update_popup_back_button">Back</string>
+    <string name="watched_rate">HSBC Watched Rate</string>
+    <string name="set_rate_target_warning">Please enter a Client Target Conversion Rate that\'s within the allowable range</string>
+    <string name="set_rate_potential_return">Potential return\n %1$s + %2$s</string>
+
+    <!-- watchlist -->
+    <string name="exceeded_currency_watchlist_popup">Unable to add more currency pairs. Only a maximum of 10 currency pairs allowed. To add a new currency pair, firstly delete an existing currency pair from your list</string>
+
+    <string name="rate_discovery_offline_msg">Rate discovery is offline. \nPull screen to refresh</string>
+    <string name="currency_pair_not_supported">Selected currency pair is not supported. Please set different currency pair.</string>
+    <string name="tealium_quickfx_pay">use rate for pay</string>
+    <string name="tealium_quickfx_transfer">use rate for transfer</string>
+
+    <string name="other">other</string>
+    <string name="others">others</string>
+
+    <string name="quickfx_add_favorites_desc">Add new favourites button</string>
+
+    <string name="btn_continue">Next</string>
+    <string name="pay_by_bank_calendar_title">On</string>
+    <string name="pop_title">Purpose of payment</string>
+    <string name="privacy_and_security_link">https://cdn.hsbc.com.sg/content/dam/hsbc/sg/documents/general/privacy-principles.pdf</string>
+    <string name="terms_of_use_link">https://cdn.hsbc.com.sg/content/dam/hsbc/sg/documents/general/terms-of-use.pdf</string>
+    <string name="hyperlink_policy_link">https://cdn.hsbc.com.sg/content/dam/hsbc/sg/documents/general/hyperlink-policy.pdf</string>
+    <string name="new_payee_iban_title_default">International bank account number (IBAN)</string>
+    <string name="exceeded_currency_watchlist_popup1">Unable to add more currency pairs. Only a maximum of 10 currency pairs allowed. To add a new currency pair, firstly delete an existing currency pair from your list</string>
+    <string name="review_order_country">Country of residence</string>
+
+    <string name="verify_bank_address">Bank\'s address</string>
+
+    <string name="popup_title_error">Error</string>
+
+    <string name="account_overdraft_limit">Overdraft limit %1$s %2$s</string>
+
+    <string name="country_code">Country code</string>
+    <string name="invalid_mobile_number">Invalid mobile number</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="onboarding_editable_email_title">Email</string>
+    <string name="onboarding_editable_email_hints">Enter your email address</string>
+    <string name="onboarding_editable_phone_hints">Mobile number</string>
+
+    <string name="notifn_select_language_note">Select your preferred notification language</string>
+    <string name="notifn_language">Language</string>
+    <string name="notifn_lang_english">English</string>
+    <string name="notifn_your_contact_details_note">Your contact details</string>
+    <string name="notifn_select_country_code_hint">Country code</string>
+    <string name="notifn_select_country_code_title">Country code</string>
+    <string name="notifn_enter_mobile_number_hint">Mobile number</string>
+    <string name="notifn_enter_mobile_number_title">Mobile number</string>
+    <string name="notifn_enter_email_hint">Enter your email address</string>
+    <string name="notifn_enter_email_title">Email</string>
+    <string name="notifn_desclaimer">This contact details only applied within HSBC QuickFX only</string>
+    <string name="notifn_btn_save">Save</string>
+    <string name="notifn_invalid_mobile_number">Invalid mobile number</string>
+    <string name="notifn_invalid_email">Invalid email</string>
+
+    <string-array name="fees">
+        <item>@string/charge_to_my_acc</item>
+        <item>@string/payee_pays_recieving_fee</item>
+        <item>@string/take_from_transfer_amt</item>
+    </string-array>
+    <string name="payee_pays_recieving_fee">If charges are paid by beneficiary, the amount to credit will be minus the overseas charges. If charges are paid from my account, the amount to debit will not include the charges.  If charges are to be shared, local charges will be paid by remitter, overseas by beneficiary. Overseas charges are levied by the intermediary and/or beneficiary banks to facilitate the remittance.</string>
+    <string name="take_from_transfer_amt">If charges are paid by beneficiary, the amount to credit will be minus the overseas charges. If charges are paid from my account, the amount to debit will not include the charges.  If charges are to be shared, local charges will be paid by remitter, overseas by beneficiary. Overseas charges are levied by the intermediary and/or beneficiary banks to facilitate the remittance.</string>
+    <string name="charge_to_my_acc">If charges are paid by beneficiary, the amount to credit will be minus the overseas charges. If charges are paid from my account, the amount to debit will not include the charges.  If charges are to be shared, local charges will be paid by remitter, overseas by beneficiary. Overseas charges are levied by the intermediary and/or beneficiary banks to facilitate the remittance.</string>
+    <string name="heatmap_time_string_format">dd MMMM yyyy</string>
+    <string name="spot_rate_market">%1$s on</string>
+    <string name="btn_my_fx_limit_order">Set your rate</string>
+
+    <string name="transfer_pop_title">Purpose of payment</string>
+    <string name="me2me_select_pop_note_title">Note</string>
+    <string name="me2me_verify_title_rate">Rate</string>
+    <string name="me2me_verify_title_execution_date">Execution date</string>
+    <string name="notification_sub_heading">Select your preferred contact method</string>
+    <string name="set_rate_calendar_month_year">%1$s, %2$s</string>
+    <string name="set_rate_disclaimer_remark">No transaction will occur as a result of an FX Rate Alert</string>
+    <string name="onboarding_editable_contact_details">Your phone number or email address will be used as the default for the purpose of transaction notifications.</string>
+    <string name="logon_disclaimer">This App is provided by HSBC Expat for use of existing customers of HSBC Expat only.  Please do not download this App if you are not an existing customer of HSBC Expat.\n\nHSBC Expat, a division of HSBC Bank plc, Jersey Branch, is regulated in Jersey by the Jersey Financial Services Commission for Banking, General Insurance Mediation, Investment and Fund Services Businesses.\n\nPlease be aware that HSBC Bank plc, Jersey Branch, is not authorised or licensed outside of Jersey for the provision of the services and/or products available through this App.  We cannot guarantee that the services and products available through this App are authorised to be offered outside Jersey.\n\nThis App is not intended for download or use by any person in any jurisdiction where such download or use would not be permitted by law or regulation. The information provided through the App is not intended for use by persons located in or resident in jurisdictions where the distribution of such material may be considered marketing or promotional and where that activity is restricted.</string>
+    <string name="mobile_no_start_zero">Invalid mobile number, if your mobile number starts with a 0, please do not include this.</string>
+    <string name="favorites_remove_item_title">This transaction is no longer valid. Do you want to delete this from your favourites?</string>
+
+    <string name="manage_devices">Manage devices</string>
+    <string name="manage_security">Manage security</string>
+    <string name="my_fx_show_coach_mark_text">Swipe up the screen to  view your accounts, make  a transfer or set your rate</string>
+    <string name="my_fx_show_coach_mark_content_desc">Swipe up the screen to view your accounts, make a transfer or set your rate</string>
+
+    <string name="limit_order_find_out_why">find out why</string>
+    <string name="see_historic_trends">See historic trends</string>
+    <string name="tips_switch_rates">tap here to switch rates</string>
+    <string name="country_region">Country/Region</string>
+
+</resources>

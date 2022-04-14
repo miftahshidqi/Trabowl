@@ -1,0 +1,499 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/hsbc_fx_primary</item>
+        <item name="colorPrimaryDark">@color/hsbc_fx_lightslate</item>
+        <item name="colorAccent">@color/hsbc_fx_lightgray</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="HSBCSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color -->
+        <item name="colorControlActivated">#018580</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#A7A7A7
+        </item>
+
+        <!-- inactive track color (30% transparency) -->
+        <!--<item name="android:colorForeground">@color/hsbc_fx_text
+         </item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar.Transparent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.BlurBackground" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.94</item>
+    </style>
+
+    <style name="LogonOptionMenuActivityTheme" parent="AppTheme.NoActionBar.BlurBackground">
+        <item name="android:backgroundDimAmount">0.90</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- HSBC STMA Alignment Font style -->
+    <style name="HSBCFxTextStyle" />
+
+    <style name="HSBCFxTextStyle.headline1">
+        <item name="android:textSize">30sp</item>
+        <item name="fontPath">@string/font_light</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.headline2">
+        <item name="android:textSize">23sp</item>
+        <item name="fontPath">@string/font_light</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.headline3">
+        <item name="android:textSize">23sp</item>
+        <item name="fontPath">@string/font_regular</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.headline4">
+        <item name="android:textSize">23sp</item>
+        <item name="fontPath">@string/font_medium</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.title1">
+        <item name="android:textSize">19sp</item>
+        <item name="fontPath">@string/font_regular</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.title2">
+        <item name="android:textSize">19sp</item>
+        <item name="fontPath">@string/font_light</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.title3">
+        <item name="android:textSize">19sp</item>
+        <item name="fontPath">@string/font_medium</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.subhead1">
+        <item name="android:textSize">16sp</item>
+        <item name="fontPath">@string/font_medium</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.subhead2">
+        <item name="android:textSize">16sp</item>
+        <item name="fontPath">@string/font_regular</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.subhead3">
+        <item name="android:textSize">16sp</item>
+        <item name="fontPath">@string/font_light</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.subhead4">
+        <item name="android:textSize">14sp</item>
+        <item name="fontPath">@string/font_regular</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.body1">
+        <item name="fontPath">@string/font_medium</item>
+        <item name="android:textSize">@dimen/general_font_size_13</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.body2">
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:textSize">@dimen/general_font_size_13</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.body3">
+        <item name="android:textSize">@dimen/general_font_size_13</item>
+        <item name="fontPath">@string/font_light</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.body4">
+        <item name="fontPath">@string/font_medium</item>
+        <item name="android:textSize">@dimen/general_font_size_14</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.body5">
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:textSize">@dimen/general_font_size_14</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.caption1">
+        <item name="android:textSize">@dimen/general_font_size_12</item>
+        <item name="fontPath">@string/font_regular</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.caption2">
+        <item name="android:textSize">@dimen/general_font_size_12</item>
+        <item name="fontPath">@string/font_light</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.caption3">
+        <item name="android:textSize">9sp</item>
+        <item name="fontPath">@string/font_bold</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.note1">
+        <item name="android:textSize">11sp</item>
+        <item name="fontPath">@string/font_regular</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.note2">
+        <item name="android:textSize">11sp</item>
+        <item name="fontPath">@string/font_light</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.note3">
+        <item name="android:textSize">11sp</item>
+        <item name="fontPath">@string/font_bold</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.bigAmoount">
+        <item name="android:textSize">36sp</item>
+        <item name="fontPath">@string/font_thin</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.Rate">
+        <item name="android:textSize">35sp</item>
+        <item name="fontPath">@string/font_light</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.accentAmount">
+        <item name="android:textSize">30sp</item>
+        <item name="fontPath">@string/font_thin</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.mediumAmount">
+        <item name="android:textSize">13sp</item>
+        <item name="fontPath">@string/font_bold</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.smallAmount">
+        <item name="android:textSize">11sp</item>
+        <item name="fontPath">@string/font_medium</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.bigSymbol">
+        <item name="android:textSize">16sp</item>
+        <item name="fontPath">@string/font_regular</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.button">
+        <item name="android:textSize">16sp</item>
+        <item name="fontPath">@string/font_regular</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.navigationBar">
+        <item name="android:textSize">23sp</item>
+        <item name="fontPath">@string/font_light</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.tabNarOn">
+        <item name="android:textSize">9sp</item>
+        <item name="fontPath">@string/font_medium</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.tabBarOff">
+        <item name="android:textSize">9sp</item>
+        <item name="fontPath">@string/font_regular</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.tile1">
+        <item name="android:textSize">@dimen/general_font_size_15</item>
+        <item name="fontPath">@string/font_regular</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.tile2">
+        <item name="android:textSize">@dimen/font_small_to_medium</item>
+        <item name="fontPath">@string/font_regular</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.16Bold">
+        <item name="android:textSize">16sp</item>
+        <item name="fontPath">@string/font_bold</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.14Medium">
+        <item name="android:textSize">14sp</item>
+        <item name="fontPath">@string/font_medium</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.14Light">
+        <item name="android:textSize">14sp</item>
+        <item name="fontPath">@string/font_light</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.18Light">
+        <item name="android:textSize">18sp</item>
+        <item name="fontPath">@string/font_light</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.22Light">
+        <item name="android:textSize">22sp</item>
+        <item name="fontPath">@string/font_light</item>
+    </style>
+
+    <style name="HSBCFxTextStyle.12_5Regular">
+        <item name="android:textSize">12.5sp</item>
+        <item name="fontPath">@string/font_regular</item>
+    </style>
+
+    <!-- Font style -->
+    <style name="FxTextStyle">
+
+    </style>
+
+    <!-- Divider styles -->
+    <style name="Divider">
+
+    </style>
+
+    <style name="Divider.WhiteBG">
+        <item name="android:alpha">0.4</item>
+        <item name="android:background">@color/hsbc_fx_divider</item>
+    </style>
+
+    <style name="Divider.DarkBG">
+        <item name="android:alpha">0.3</item>
+        <item name="android:background">@color/hsbc_fx_description</item>
+    </style>
+
+    <style name="Divider.LightDivider">
+        <item name="android:background">@color/hsbc_fx_lightdivider</item>
+    </style>
+
+    <style name="ActionBarStyle">
+        <item name="android:layout_height">@dimen/action_bar_height</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="ActionBarButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/action_bar_height</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ActionBarButtonStyle.Left">
+        <item name="android:layout_marginLeft">@dimen/general_tiny_margin_5px</item>
+        <item name="android:paddingLeft">@dimen/general_small_margin_10px</item>
+        <!--<item name="android:layout_marginRight">@dimen/general_tiny_margin_5px</item>-->
+        <!--<item name="android:paddingRight">@dimen/general_small_margin_10px</item>-->
+    </style>
+
+    <style name="ActionBarButtonStyle.Right">
+        <!--<item name="android:paddingLeft">@dimen/general_medium_margin_15px</item>-->
+        <!--<item name="android:paddingRight">@dimen/general_medium_margin_15px</item>-->
+        <item name="android:layout_marginLeft">@dimen/general_small_margin_10px</item>
+        <item name="android:paddingLeft">@dimen/general_small_margin_10px</item>
+        <item name="android:layout_marginRight">@dimen/general_tiny_margin_5px</item>
+        <item name="android:paddingRight">@dimen/general_small_margin_10px</item>
+    </style>
+
+    <style name="FxTextStyle.StandardButton">
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:textSize">@dimen/font_small</item>
+    </style>
+
+    <style name="StandardButtonStyle" parent="FxTextStyle.StandardButton">
+        <item name="android:layout_marginTop">@dimen/general_margin_16dp</item>
+        <item name="android:layout_marginBottom">@dimen/general_margin_16dp</item>
+        <item name="android:layout_marginLeft">@dimen/general_margin_16dp</item>
+        <item name="android:layout_marginRight">@dimen/general_margin_16dp</item>
+        <item name="android:textColor">@color/hsbc_fx_white</item>
+        <item name="android:layout_height">@dimen/button_generic_height</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="BaseButtonStyle" parent="FxTextStyle.StandardButton">
+        <item name="android:textColor">@color/hsbc_fx_white</item>
+        <item name="android:layout_height">@dimen/button_generic_height</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="DialogAnimation">
+
+    </style>
+
+    <style name="DialogAnimation.FadeInOut">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="DialogAnimation.FadeInOut.ScaleUpDown">
+        <item name="android:windowEnterAnimation">@anim/fade_in_and_scale_up</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_and_scale_down</item>
+    </style>
+
+    <style name="FxTextStyle.Body4">
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:textSize">@dimen/font_more_tiny</item>
+    </style>
+
+    <style name="FxTextStyle.Body5">
+        <item name="fontPath">@string/font_medium</item>
+        <item name="android:textSize">@dimen/font_more_tiny</item>
+    </style>
+
+    <style name="FxTextStyle.Logon" />
+
+    <style name="FxTextStyle.Logon.H1">
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:textSize">@dimen/font_bit_larger</item>
+    </style>
+
+    <style name="FxTextStyle.Logon.H2">
+        <item name="fontPath">@string/font_medium</item>
+        <item name="android:textSize">@dimen/font_less_larger</item>
+    </style>
+
+    <style name="FxTextStyle.Logon.SubHeader1">
+        <item name="fontPath">@string/font_light</item>
+        <item name="android:textSize">@dimen/font_small</item>
+    </style>
+
+    <style name="FxTextStyle.Logon.Body1">
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:textSize">@dimen/font_smaller</item>
+    </style>
+
+    <style name="FxTextStyle.Logon.Body2">
+        <item name="fontPath">@string/font_bold</item>
+        <item name="android:textSize">@dimen/font_small</item>
+    </style>
+
+    <style name="TransparentAlertDialogStyle">
+        <item name="android:bottomBright">@color/colorTransparent</item>
+        <item name="android:bottomDark">@color/colorTransparent</item>
+        <item name="android:bottomMedium">@color/colorTransparent</item>
+        <item name="android:centerBright">@color/colorTransparent</item>
+        <item name="android:centerDark">@color/colorTransparent</item>
+        <item name="android:centerMedium">@color/colorTransparent</item>
+        <item name="android:fullBright">@color/colorTransparent</item>
+        <item name="android:fullDark">@color/colorTransparent</item>
+        <item name="android:topBright">@color/colorTransparent</item>
+        <item name="android:topDark">@color/colorTransparent</item>
+    </style>
+
+    <style name="ProgressDialogTransparent" parent="android:Theme.Holo.Dialog">
+        <item name="android:alertDialogStyle">@style/TransparentAlertDialogStyle</item>
+        <item name="android:windowBackground">@color/colorTransparent</item>
+        <item name="android:textColorPrimary">@color/colorTransparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:textColor">@color/colorTransparent</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <!--<item name="android:visibility">invisible</item>-->
+    </style>
+
+    <!--Alert Dialog-->
+    <style name="AlertDialogFragment" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="GeneralLoadingDialogStyle" parent="FloatingDialogView" />
+
+    <style name="SecretPasswordViewDialogFragment" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:backgroundDimAmount">0.8</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowSoftInputMode">stateAlwaysVisible</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="ContactMethodDialogFragment" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="CalculatorNumberPadDialogFragment" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="PayConfirmationSharingDialogFragment" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- date picker -->
+    <style name="DatePickerDay">
+        <item name="android:layout_width">@dimen/date_width_height</item>
+        <item name="android:layout_height">@dimen/date_width_height</item>
+    </style>
+
+    <style name="DatePickerSpace">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/date_width_height</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+    <!--Heat Map-->
+    <style name="HeatMapLegendColorBlock">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/general_tiny_margin_5px</item>
+    </style>
+
+    <style name="FloatingDialogView">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="OptionMenuTextView">
+        <item name="android:textSize">@dimen/general_font_size_16</item>
+        <item name="android:textColor">@color/hsbc_fx_white</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="CopyRightTextView" parent="OptionMenuTextView">
+        <item name="android:textSize">@dimen/general_font_size_10</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/transparentBG</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.8</item>
+    </style>
+
+
+</resources>

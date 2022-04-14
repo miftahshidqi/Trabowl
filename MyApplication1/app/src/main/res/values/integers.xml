@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="animation_short">240</integer>
+    <integer name="animation_medium">400</integer>
+
+    <integer name="input_character_max_length">32</integer>
+    <integer name="input_max_length">35</integer>
+    <integer name="input_multiline_max_length">100</integer>
+    <integer name="pay_by_bank_input_multiline_max_length">66</integer>
+    <integer name="pay_by_bank_input_max_length">24</integer>
+    <integer name="search_input_max_length">32</integer>
+    <integer name="postal_code_max_length">8</integer>
+</resources>

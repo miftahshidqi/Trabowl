@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Content Description -->
+
+    <!-- MyFX -->
+    <string name="content_desc_transfer_cta">Transfer. Option 1 of 2. Select to transfer funds between your accounts at the current market rate</string>
+    <string name="content_desc_set_your_rate_cta">Set rate order. Option 2 of 2. Select to transfer funds between your accounts at a rate you choose.</string>
+    <string name="content_desc_myfx_global_currency_balance_title">Your global account balance by currency. Swipe downward to hear more or continue to primary navigation</string>
+    <string name="content_desc_graph_description">Graph displaying exposure of foreign currency balances based on your local currency</string>
+    <string name="content_desc_global_balance">Your global balance is %1$s %2$s. Swipe downward for currency breakdown or continue to primary navigation</string>
+    <string name="content_desc_myFx_menu">Primary navigation selected. The first option is My FX. Tab 1 of 5. Contains your global currency balances and features to transfer between your accounts</string>
+    <string name="content_desc_pay_menu">Pay. Tab 2 of 5. Contains options to pay other people</string>
+    <string name="content_desc_quickFx_menu">Quick FX. Tab 3 of 5. Contains FX quotes and favourite transactions</string>
+    <string name="content_desc_market_menu">Market information. Tab 4 of 5. Contains heatmap, chart, top movers and calculator</string>
+    <string name="content_desc_insights_menu">Insights. Tab 5 of 5. Contains news and HSBC wealth insights</string>
+    <string name="content_desc_global_accounts_header">Pop up. Tap to hear balances by country and account. Continue to next currency balance</string>
+    <string name="content_desc_alert_icon">Alerts. Button. Set FX rate alerts</string>
+    <string name="content_desc_hamburger_menu">More menu, select for alerts, my activity and device settings</string>
+    <string name="content_desc_myFx_title_bar">My FX heading level 1</string>
+
+    <!-- MyActivity -->
+    <string name="content_desc_back_button">Back. Button. Tap to back to previous screen.</string>
+    <string name="content_desc_faq_button">Help. Button. Tap to read tips and FAQ.</string>
+    <string name="content_desc_close_button">Close. Button. Tap to exit my activity.</string>
+    <string name="content_desc_my_activity_chevron">Pop up. Tap to select another from account.</string>
+    <string name="content_desc_show_me_dropdown">Select status. Dropdown list pop up at the bottom. Swipe to select status.</string>
+    <string name="content_desc_day_range_dropdown">Select day range. Dropdown list pop up at the bottom. Swipe to select day range.</string>
+    <string name="content_desc_transfer">Primary navigation selected. Transfer. Tap 1 of 3. Contains your transfer activities.</string>
+    <string name="content_desc_pay">Pay. Tap 2 of 3. Contains your pay activities.</string>
+    <string name="content_desc_setyourrate">Set your rate. Tap 3 of 3. Contains your set rate activities.</string>
+    <string name="content_desc_today">Select period. Today. Tap to select. Swipe to select another period.</string>
+    <string name="content_desc_last7days">Select period. Last 7 days. Tap to select. Swipe to select another period.</string>
+    <string name="content_desc_last30days">Select period. Last 30 days. Tap to select. Swipe to select another period.</string>
+    <string name="content_desc_last90days">Select period. Last 90 days. Tap to select. Swipe to select another period.</string>
+    <string name="content_desc_6months">Select period. Last 6 months. Tap to select. Swipe to select another period.</string>
+    <string name="content_desc_pastyear">Select period. Past year. Tap to select. Swipe to select another period.</string>
+    <string name="content_desc_active">Select status. Active. Tap to select. Swipe to select another status.</string>
+    <string name="content_desc_historical">Select status. Historical. Tap to select. Swipe to select another status.</string>
+    <string name="content_desc_myactivity_fav_button">Add to favourites. Button. Tap to add to favourites in Quick FX.</string>
+    <string name="content_desc_added_to_fav">Pop up message. Added to Favourities.</string>
+    <string name="content_desc_popup_fav_error">Pop up message. You can only save up to 6 favourites. Please remove and reinsert your items.</string>
+    <string name="content_desc_cancel_setrate">Cancel. Button. Tap to cancel this set rate order.</string>
+    <string name="content_desc_popup_alread_added">Pop up message. Recent item is already added to favourites.</string>
+
+    <!-- Transfers/Setrate -->
+    <string name="content_desc_setrate_close_btn">Close. Button. Tap to exit set your rate.</string>
+    <string name="content_desc_transfers_close_btn">Close. Button. Tap to exit transfer.</string>
+    <string name="content_desc_setrate_from_acc_chevron">Pop up. Tap to select another from account.</string>
+    <string name="content_desc_switch_button">Switch. Button. Tap to switch send and receive amount input.</string>
+    <string name="content_desc_setrate_to_acc_chevron">Pop up. Tap to select another to account.</string>
+    <string name="content_desc_current_rate_tab">Use current rate. Option 1 of 2. Use current rate to make a transfer.</string>
+    <string name="content_desc_set_rate_tab_selected"> Primary navigation selected. Set your rate. Option 2 of 2. Select to set your target rate.</string>
+    <string name="content_desc_fxchart_icon">FX chart. Pop up. Tap to navigate to foreign currency chart.</string>
+    <string name="content_desc_info_icon"> Information. Pop up. Tap to read information about rates.</string>
+    <string name="content_desc_setrate_next_btn">Next. Button. Tap to continue.</string>
+    <string name="content_desc_from_amount">Tap to input another send amount.</string>
+    <string name="content_desc_to_amount">Tap to input another receive amount.</string>
+    <string name="content_desc_me_to_meusecurrentrate">Use current rate. Option 1 of 2. Use current rate to make a transfer.</string>
+    <string name="content_desc_me_to_mesetyourrate">Set your rate. Option 2 of 2. Select to set your target rate.</string>
+    <string name="content_desc_calender_apply_btn">Apply. Button. Tap to apply selected expiry date.</string>
+    <string name="content_desc_calender_close_btn">Close. Button. Tap to exit expiry date selection.</string>
+    <string name="content_desc_notification_language">Pop up. Tap to select notification language.</string>
+    <string name="content_desc_mobile">Option 1 of 2. Swipe to select another contact method.</string>
+    <string name="content_desc_email">Option 2 of 2. Tap to select this contact method.</string>
+    <string name="content_desc_review_info">Rate information. Pop up. Tap to read information about rate.</string>
+    <string name="content_desc_review_page_fees_info">Fees information. Pop up. Tap to read information about fees.</string>
+    <string name="content_desc_review_slider">Confirm Button. Double tap to send.</string>
+    <string name="content_desc_gotoorderstatus">Button. Tap to go to My Activity.</string>
+    <string name="content_desc_returntomyfx">Button. Tap to return to My FX.</string>
+    <string name="content_desc_gotomyfx">Button. Tap to go to My FX.</string>
+    <string name="content_desc_makeanotherpayment">Button. Tap to make another payment.</string>
+    <string name="content_desc_transfers_currency">Currency. Option 1 of 2. Select to sort account by currency.</string>
+    <string name="content_desc_transfers_country">Country. Option 2 of 2. Select to sort account by country.</string>
+    <string name="content_desc_amount_input">Amount %1$s Tap to input a different amount. Number keyboard pop up at the bottom. Swipe to select number on keyboard.</string>
+    <string name="content_desc_switch_currency">Button. Tap to switch to %1$s</string>
+    <string name="content_desc_calculator_button">Calculator. Button. Tap to switch to calculator keyboard. Swipe to select number on keyboard.</string>
+    <string name="content_desc_pop_inputnote">Tap to input your note (optional).</string>
+
+    <string name="content_desc_markets_heatmap_tab">Primary navigation selected. Heatmap. Option 1 of 3. Select to have a quick glimpse of foreign currencies performance.</string>
+    <string name="content_desc_markets_calculator_tab">Primary navigation selected. Calculator. Option 3 of 3. Select to use currency calculator.</string>
+    <string name="content_desc_markets_topmovers_tab">Top movers. Option 2 of 3.  Select to have a quick glimpse of top foreign currencies movement.</string>
+    <string name="content_desc_markets_watchlist_tab">Watchlist. Option 2 of 3.  Select to have a quick glimpse of top foreign currencies movement.</string>
+
+    <!--Heat map content description-->
+    <string name="content_desc_markets_heatmap_base_currency">Base currency. %1$s Tap to change another base currency.</string>
+    <string name="content_desc_markets_heatmap_period">Select period. Dropdown list pop up at the bottom. Swipe upward or downward to select period.</string>
+    <string name="content_desc_markets_heatmap_percentage_change">Percentage of currencies movement.</string>
+    <string name="content_desc_markets_heatmap_percentage_min"> -7% . Minimum percentage movement.</string>
+    <string name="content_desc_markets_heatmap_percentage_max"> +7% . Maximum percentage movement.</string>
+    <string name="content_desc_markets_heatmap_disclaimer">Market information shown is provided by Thomson Reuters</string>
+    <string name="content_desc_markets_heatmap_last_updated_time"> Last updated date %1$s </string>
+    <string name="content_desc_markets_heatmap_currency_selector_close"> Close. Button. Tap to navigate back to heatmap. Swipe upward or downward to select a currency. </string>
+    <string name="content_desc_markets_heatmap_apply_button"> Apply. Button. Tap to apply a selected currency. </string>
+    <string name="content_desc_markets_heatmap_period_cancel"> Cancel. Button. Tap to cancel period selection. </string>
+    <string name="content_desc_markets_heatmap_period_done"> Done. Button. Tap to apply selected period. </string>
+    <string name="content_desc_5days"> Select period. 5 days. Tap to select. Swipe to select another period. </string>
+    <string name="content_desc_1month"> Select period. 1 month. Tap to select. Swipe to select another period. </string>
+    <string name="content_desc_3months"> Select period. 3 months. Tap to select. Swipe to select another period. </string>
+    <string name="content_desc_1year"> Select period. 1 year. Tap to select. Swipe to select another period. </string>
+    <string name="content_desc_markets_heatmap_list_view"> List view. Button. Tap to read a list view of the currencies movement </string>
+    <string name="content_desc_markets_heatmap_grid_view"> Grid view. Button. Tap to read a grid view of the currencies movement. </string>
+    <string name="content_desc_markets_heatmap_gird_view_chevron"> /1%s 2%s. 3%s. Tap to FX chart for currency pair 4%s to 5%s. </string>
+
+    <!-- CBW - Existing Payee -->
+    <string name="content_desc_cbw_hamburger_icon">More menu.  Popup.</string>
+    <string name="content_desc_cbw_close_btn">Close. Button. Double tap to exit payment.</string>
+    <string name="content_desc_cbw_back_icon">Back. </string>
+    <string name="content_desc_cbw_search_btn">Search by first name. Search field. Double tap to edit.</string>
+    <string name="content_desc_cbw_existingpayee">Primary navigation selected. Existing payee. Option 1 of 2. Contains your existing payees for payment.</string>
+    <string name="content_desc_cbw_addnewpayee">New payee. Option 2 of 2. Select to add new payee for payment.</string>
+    <string name="content_desc_cbw_pay_to_any">Pay. Pop up. Tap to pay money to %1$s, account %2$s in %3$s.</string>
+    <string name="content_desc_cbw_currency_dropdown">Receive currency %1$s. Tap to select a different currency to send to your payee.</string>
+    <string name="content_desc_cbw_input_amount">Receive amount %1$s. Tap to input a different amount to send to your payee. Number keyboard pop up at the bottom. Swipe to select number on keyboard.</string>
+    <string name="content_desc_cbw_help_btn">Help.</string>
+    <string name="content_desc_cbw_apply_button">Apply. Button. Tap to apply.</string>
+    <string name="content_desc_pop_close_btn">Close. Button. Tap to exit purpose of payment selection.</string>
+    <string name="content_desc_cbw_pop_list">%1$s. Option %2$d of %3$d. Tap to select. Swipe to select another purpose of payment.</string>
+    <string name="content_desc_cbw_pop_inward">Pop up. Tap to select purpose of payment (inward).</string>
+    <string name="content_desc_cbw_pop_outward">Pop up. Tap to select purpose of payment (outward).</string>
+    <string name="content_desc_cbw_pop_ref_note">Your reference note. Limit of 24 characters. Tap to input your reference note.</string>
+    <string name="content_desc_cbw_pop_message">Message to payee. Limit of 66 characters. Tap to input message to payee.</string>
+    <string name="content_desc_cbw_rate_info_icon">Information. Button. Double tap to read information about rates.</string>
+    <string name="content_desc_cbw_fees_info_icon">Information. Button. Double tap to read information about fees.</string>
+    <string name="content_desc_cbw_next_button">Next. Button. Tap to continue.</string>
+    <string name="content_desc_cbw_from_account">From %1$s %2$s Button. Double tap to select another from account.</string>
+    <string name="content_desc_cbw_to_account">To %1$s %2$s Button. Double tap to select another payee name and account.</string>
+    <string name="content_desc_cbw_close_rate_info_icon">Close. Button. Tap to exit rate information.</string>
+    <string name="content_desc_cbw_close_fees_info_icon">Close. Button. Tap to exit fees information.</string>
+    <string name="content_desc_cbw_receive_input_amount">Receive amount %1$s. Tap to input another receive amount.</string>
+    <string name="content_desc_cbw_chargestobeshared">Charges to be shared. Option 1 of 3. Selected. Swipe to select another option.</string>
+    <string name="content_desc_cbw_allchargestobepaidbybeneficiary">All charges to be paid by beneficiary. Option 2 of 3. Tap to select. Swipe to select another option.</string>
+    <string name="content_desc_cbw_allchargestobepaidfrommyaccount">Receive amount %1$s. Tap to input another receive amount.</string>
+    <string name="content_desc_cbw_fees_disclaimer">If charges are paid by beneficiary, the amount to credit will be minus the overseas charges. If charges are paid from my account, the amount to debit will not include the charges.  If charges are to be shared, local charges will be paid by remitter, overseas by beneficiary. Overseas charges are levied by the intermediary and/or beneficiary banks to facilitate the remittance.</string>
+    <string name="content_desc_cbw_cancel_payment_button">Cancel the payment. Button.</string>
+    <string name="content_desc_cbw_continue_payment_button">Continue with payment. Button.</string>
+
+    <!-- FX Chart -->
+    <string name="content_desc_fxchart_transfer">Transfer.  Option 1 of 3.  Select to transfer funds between your accounts at the current market rate</string>
+    <string name="content_desc_fxchart_setrate">Set your rate.  Option 2 of 3.  Select to transfer funds between your accounts at a rate you choose.</string>
+    <string name="content_desc_fxchart_pricealert">Price alert. Option 3 of 3. Select to set price alert at a rate you choose.</string>
+    <string name="content_desc_fxchart_close_btn">Close. Button. Tap to close FX chart</string>
+    <string name="content_desc_help_watchlist_set_rate">Help Button for Set Rate Watchlist</string>
+    <string name="content_desc_fxchart_title">The current market rate for %1$s to %2$s is %3$s. Double tap to amend the currency.</string>
+    <string name="content_desc_fxchart_source_currency">%1$s. Double tap to amend %2$s. Swipe to go to the next currency.</string>
+    <string name="content_desc_fxchart_target_currency">%1$s. Double tap to amend %2$s. Swipe to continue.</string>
+    <string name="content_desc_5d">5 day chart. Swipe to continue to next period. Double tap for low and high for that period.</string>
+    <string name="content_desc_1m">1 month chart. Swipe to continue to next period. Double tap for low and high for that period.</string>
+    <string name="content_desc_3m">3 month chart. Swipe to continue to next period. Double tap for low and high for that period.</string>
+    <string name="content_desc_6m">6 month chart. Swipe to continue to next period. Double tap for low and high for that period.</string>
+    <string name="content_desc_1y">1 year chart. Swipe to continue to next period. Double tap for low and high for that period.</string>
+    <string name="content_desc_3y">3 years chart. Swipe to continue to next period. Double tap for low and high for that period.</string>
+    <string name="content_desc_5y">5 years chart. Swipe to continue to next period. Double tap for low and high for that period.</string>
+    <string name="content_desc_fxchart_low_rate">Lowest rate is %1$s</string>
+    <string name="content_desc_fxchart_high_rate">Highest rate is %1$s</string>
+    <string name="content_desc_fxchart_chart">FX chart. Graph. Visual representation of FX rate over time period. Interact to select your target rate. Tap and swipe to select next rate. Force touch to set target rate.</string>
+    <string name="content_desc_fxchart_market_info">Market information shown is provided by Thomson Reuters</string>
+    <string name="content_desc_fxchart_shorcut_close_btn">Close. Button. Tap to close FX chart shortcut</string>
+    <string name="content_desc_fxchart_target_rate">The %1s for %2s to %3s is %4s. Swipe to continue.</string>
+    <string name="content_desc_fxchart_setrate_btn">Set your rate.  Option 1 of 2.  Select to transfer funds between your accounts at a rate you choose.</string>
+    <string name="content_desc_fxchart_pricealert_btn">Price alert. Option 2 of 2. Select to set price alert at a rate you choose.</string>
+    <string name="content_desc_fxchart_transfer_btn">Transfer.  Option 1 of 1.  Select to transfer funds between your accounts at the current market rate</string>
+
+    <!--Top Movers Content Description-->
+    <string name="content_desc_top_movers_more_menu_popup_button">More menu.  Popup.</string>
+    <string name="content_desc_top_movers_help_button">Help. Button. Tap to read tips and FAQ.</string>
+    <string name="content_desc_top_movers_contextual_menu">Contextual menu. Button. Tap to select options. Option 1: Transfer. Option 2: FX chart. Option 3: Set rate alert.</string>
+    <string name="content_desc_transfer_option_in_contextual_menu_top_movers">The first option is Transfer. Tab 1 of 3. Contains features to transfer between your accounts.</string>
+    <string name="content_desc_fxchart_option_in_contextual_menu_top_movers">FX chart. Tab 2 of 3. Contains foreign currency chart.</string>
+    <string name="content_desc_fxchart_option_in_contextual_menu_order_watch">Order Watch</string>
+    <string name="content_desc_price_alert_option_in_contextual_menu_top_movers">Set price alert. Tab 3 of 3. Contains features to set price alert.</string>
+    <string name="content_desc_select_period_top_movers">Select period. Dropdown list pop up at the bottom. Swipe to select period.</string>
+
+    <!--Calculator content description-->
+    <string name="content_desc_markets_calculator_input_currency">%1s , 2%s . Tap to change input currency.</string>
+    <string name="content_desc_markets_calculator_input_amount">%1s , 2%s . %3s. Tap to change input amount.</string>
+    <string name="content_desc_markets_calculator_transfer">Transfer. Tab 1 of 4. Contaigitns features to transfer between your accounts.</string>
+    <string name="content_desc_markets_calculator_fx_chart">FX chart. Tab 2 of 4. Contains foreign currency chart.</string>
+    <string name="content_desc_markets_calculator_price_alert">Set price alert. Tab 3 of 4. Contains features to set price alert.</string>
+    <string name="content_desc_markets_calculator_watch_list">Watch list. Tab 4 of 4.</string>
+    <string name="content_desc_markets_calculator_contextual_menu">Contextual menu. Button. Tap to select options. Option 1: Transfer. Option 2: FX chart. Option 3: Set rate alert.</string>
+    <string name="content_desc_markets_calculator_currency">Add currency Button. Tap to add currency.</string>
+    <string name="content_desc_selected_currency_selected"> Selected</string>
+    <string name="content_desc_selected_currency_unselected"> Not Selected</string>
+
+    <!--Price Alert-->
+
+    <string name="content_desc_price_alert_exit">Close. Button. Tap to exit Price alert activity.</string>
+    <string name="content_desc_price_alert_help">Help. Button. Tap to read tips and FAQ.</string>
+    <string name="content_desc_price_alert_set_alert">Button. Tap to set a price alert.</string>
+    <string name="content_desc_price_alert_yes">Yes. Button. Tap to cancel this price alert.</string>
+    <string name="content_desc_price_alert_no">No. Button. Tap to not cancel this price alert.</string>
+    <string name="content_desc_price_alert_status_pending">Pending</string>
+    <string name="content_desc_price_alert_action_cancel">Cancel. Button. Tap to cancel this price alert.</string>
+    <string name="content_desc_price_alert_target_rate">Target rate: %1$s</string>
+    <string name="content_desc_watch_rate">Watch rate: %1$s</string>
+    <string name="content_desc_price_alert_to"> to </string>
+
+    <string name="content_desc_price_alert_status">Select status. Dropdown list pop up at the bottom. Swipe to select status.</string>
+    <string name="content_desc_price_alert_period">Select day range. Dropdown list pop up at the bottom. Swipe to select day range.</string>
+
+    <string name="content_desc_price_alert_currency_selection_close">Close. Button. Tap to exit price alert currency pair selection.</string>
+    <string name="content_desc_price_alert_currency_selection">Currency pair selection</string>
+
+
+    <string name="content_desc_price_alert_view_chart">View chart. Button. Tap to navigate to foreign currency chart.</string>
+    <string name="content_desc_price_alert_next">Next. Button. Tap to continue. </string>
+    <string name="content_desc_price_alert_plus">Plus. Button. Tap to increase your target rate.</string>
+    <string name="content_desc_price_alert_minus">Minus. Button. Tap to decrease your target rate.</string>
+    <string name="content_desc_price_alert_execute">Execute transfer if rate hits at %1$s = %1$s %3$s. Double tap to amend your target rate.</string>
+    <string name="content_desc_price_alert_current_rate">The HSBC current rate for %1$s to %2$s is %3$s.</string>
+    <string name="content_desc_price_alert_pair">Currency pair %1$s and %2$s Double tap to amend the currency.</string>
+    <string name="content_desc_price_alert_set_rate_close_price_alert">Close. Button. Tap to exit price alert.</string>
+    <string name="content_desc_price_alert_set_rate_currency_pair_close">Close. Button. Tap to exit price alert currency pair selection.</string>
+
+
+    <string name="content_desc_price_alert_out_of_range">Warning: Target rate is out of allowable range.</string>
+    <string name="content_desc_price_alert_set_rate_chart">View chart. Pop up. Tap to navigate to foreign currency chart.</string>
+    <string name="content_desc_price_alert_set_rate_title">Execute transfer if rate hits at %1$s 1 = %2$s %3$s. Tap to amend your target rate. Number keyboard pop up at the bottom. Swipe to select number on keyboard.</string>
+    <string name="content_desc_price_alert_set_rate_close">Close. Button. Tap to exit set your rate.</string>
+    <string name="content_desc_price_alert_currency_pair_selection">Currency pair selection</string>
+    <string name="content_desc_price_alert_currency_pair_select1">%1$s. Double tap to amend %1$s. Swipe to go to the next currency.</string>
+    <string name="content_desc_price_alert_currency_pair_select2">%1$s. Double tap to amend %1$s. Swipe to continue.</string>
+
+    <string name="content_desc_price_alert_set_notn_mobile">Mobile. %1$s. Option 1 of 2. Selected. Swipe to select another contact method.</string>
+    <string name="content_desc_price_alert_set_notn_email">Email.  %1$s. Option 2 of 2. Tap to select this contact method.</string>
+
+    <!-- Logon -->
+    <string name="content_desc_logon_three_dots_menu">Important information menu.</string>
+    <string name="content_desc_logon_required">Required</string>
+    <string name="content_desc_logon_continue">Continue. Button.</string>
+    <string name="content_desc_logon_username_start_editing">Enter your username. Text field. Is editing. Character mode. Insertion point at start. Required.</string>
+    <string name="content_desc_logon_username_end_editing">Enter your username. Text field. Is editing. %1$s. Character mode. Insertion point at end. Required.</string>
+    <string name="content_desc_logon_check_box">Tickbox. %1$s. Remember my username. Double tap to toggle setting.</string>
+    <string name="content_desc_logon_close_button">Close.</string>
+    <string name="content_desc_logon_privacyandsecurity">Privacy and security. Link.</string>
+    <string name="content_desc_logon_termsofuse">Terms of use. Link.</string>
+    <string name="content_desc_logon_hyperlinkpolicy">Hyperlink policy. Link.</string>
+    <string name="content_desc_logon_enduserlicenseagreement">End user license agreement. Link.</string>
+    <string name="content_desc_logon_password">Please enter password. Security text field. Required. Double tap to edit.</string>
+    <string name="content_desc_logon_password_start_editing">Please enter password. Security text field, Is editing. Character mode. Insertion point at start. Required.</string>
+    <string name="content_desc_logon_password_end_editing">Please enter password. Security text field. Is editing. %1$s. Character mode. Insertion point at end. Required.</string>
+    <string name="content_desc_logon_continue_with_sec_device">Continue with security device. Button.</string>
+    <string name="content_desc_logon_secondary_password">Enter the %1$s character of your secondary password. Security text field. Is editing. Character mode. Required. </string>
+    <string name="content_desc_logon_security_code_input">Security code. Security text field. Required. Double tap to edit.</string>
+    <string name="content_desc_logon_security_code_continue">Continue with secondary password. Button.</string>
+    <string name="content_desc_logon_security_code_start_editing">Security code. Security text field, Is editing. Character mode. Insertion point at start. Required.</string>
+    <string name="content_desc_logon_security_code_end_editing">Security code. Security text field, Is editing. %1$s. Character mode. Insertion point at end. Required.</string>
+    <string name="content_desc_logon_next_btn">Next. Button. </string>
+    <string name="content_desc_logon_accept">Accept. Button. </string>
+    <string name="content_desc_confirm_button">Confirm Button. Double tap to send.</string>
+
+    <!-- Settings -->
+    <string name="content_desc_main_menu_close">Close.</string>
+    <string name="content_desc_main_menu_close_button">Close.</string>
+    <string name="content_desc_main_menu_myactivity">My Activity. Button. Select to read your activity summary.</string>
+    <string name="content_desc_main_menu_pricealert">Price alert. Button. Select to read your price alert activity summary.</string>
+    <string name="content_desc_main_menu_promotion">Promotion. Button. Select to read promotion details.</string>
+    <string name="content_desc_main_menu_contactus">Contact us. Button. Select to read contact us details.</string>
+    <string name="content_desc_main_menu_logoff">Log off. Button.</string>
+    <string name="content_desc_main_menu_help">Help.</string>
+    <string name="content_desc_main_menu_settings">Settings. Button.</string>
+    <string name="content_desc_main_menu_cancel">Cancel. Button.</string>
+    <string name="content_desc_contact_us_back">Back.</string>
+    <string name="content_desc_contact_us_call_button">Call %1$s. Button.</string>
+    <string name="content_desc_contact_us_fraud_alert">Fraud Alert: Bogus Calls. More details. Button. </string>
+    <string name="content_desc_help_tutorial">Tutorial. Button. Select to read tutorial.</string>
+    <string name="content_desc_help_featurehighlights">Feature highlights. Button. Select to read feature highlights.</string>
+    <string name="content_desc_help_legal">Legal. Button. Select to read legal information.</string>
+    <string name="content_desc_help_faq">FAQ. Button. Select to read FAQ.</string>
+    <string name="content_desc_legal_termsandconditions">Terms and conditions. Button. Select to read terms and conditions.</string>
+    <string name="content_desc_settings_default_currency">Default currency. %1$s. Button. Select to change another default currency.</string>
+    <string name="content_desc_settings_log_on_with_finger">Log on with Touch ID. Button. Select to enable Touch ID logon.</string>
+    <string name="content_desc_settings_accessibility">Accessibility. Button. Select to read how to change accessibility settings.</string>
+    <string name="content_desc_settings_notification">Notification settings. Button. Select to change notification settings.</string>
+    <string name="content_desc_settings_privacy_and_security">Privacy and Security. Button. Select to read privacy and security information.</string>
+
+    <string name="content_desc_select_currency_search">Search for a currency. Search field. Double tap to edit.</string>
+    <string name="content_desc_select_currency_start_editing">Search for a currency. Search field. Is editing. Character mode. Insertion point at start.</string>
+    <string name="content_desc_select_currency_end_editing">Search for a currency. Search field. Is editing. %1$s. Character mode. Insertion point at end.</string>
+
+    <string name="content_desc_select_currency_currency">%1$s. %2$s. Double tap to toggle setting.</string>
+    <string name="cancel_the_setting_button">Cancel the setting. Button</string>
+    <string name="action_save_button">Save. Button.</string>
+    <string name="action_settings_touch_id">Touch ID. %1$s. Double tap to toggle setting.</string>
+
+    <string name="coach_mark_set_rate_order_form">Select from account or to account button and double tap to select another account. Double tap the close button to exit tips.</string>
+    <string name="coach_mark_fx_chart_1">Double tap on chart to hear the rate in set your rate or set rate alert area. Double tap to hear more tips.</string>
+    <string name="coach_mark_fx_chart_2">Select chart area and long press for further action at a specific price. Double tap the close button to exit tips.</string>
+    <string name="coach_mark_heat_map_1">Select base currency button and double tap to change your base currency Double tap to hear more tips.</string>
+    <string name="coach_mark_heat_map_2">Select a currency in percentage change and double tap to open FX chart to view market trend. Double tap the close button to exit tips.</string>
+    <string name="coach_mark_calculator">Select a currency and swipe left to remove the currency from the list. Double tap the close button to exit tips.</string>
+    <string name="coach_mark_top_movers">Select the contextual menu and double tap to read more actions. Double tap the close button to exit tips.</string>
+    <string name="coach_mark_quick_fx_rate_discovery_1">Select from amount or to amount field and swipe up to multiply the amount by 10. Double tap to hear more tips.</string>
+    <string name="coach_mark_quick_fx_rate_discovery_2">Select from amount or to amount field and swipe down to divide the amount by 10. Double tap to hear more tips.</string>
+    <string name="coach_mark_quick_fx_rate_discovery_3">Select from amount or to amount field and double tap to input amount manually. Double tap to hear more tips.</string>
+    <string name="coach_mark_quick_fx_rate_discovery_4">Select your rate field and swipe down with one finger to refresh rate. Double tap the close button to exit tips.</string>
+    <string name="coach_mark_quick_fx_favourite">Select a favourite and swipe left with one finger and double tap the remove button to remove the favourite from the list. Double tap the close button to exit tips.</string>
+    <string name="coach_mark_sr_rate_chart_1">Select set your rate chart and double tap, hold and swipe with one finger to adjust rate and expiry date. Double tap to hear more tips.</string>
+    <string name="coach_mark_sr_rate_chart_2">Select your rate text field and double tap to edit manually. Double tap to hear more tips.</string>
+    <string name="coach_mark_sr_rate_chart_3">Select amount text field and double tap to edit manually. Double tap to hear more tips.</string>
+    <string name="coach_mark_sr_rate_chart_4">Select expiry date text field and double tap to edit manually. Double tap the close button to exit tips.</string>
+    <string name="coach_mark_help_button">Help.</string>
+    <string name="clear_text">Clear Text</string>
+
+
+    <!--Rate Discovery-->
+    <string name="content_desc_ratediscovery">Primary navigation selected. Rate discovery. Option 1 of 2. Select to discover current FX rate.</string>
+    <string name="content_desc_favourites">Favourites. Option 2 of 2. Select to edit your favourites.</string>
+    <string name="content_desc_rate_discovery_from_amount">From amount %1$s Number field. Adjustable. Swipe up or down with one finger to adjust the value or double tap to edit.</string>
+    <string name="content_desc_rate_discovery_to_amount">To amount %1$s Number field. Adjustable. Swipe up or down with one finger to adjust the value. </string>
+    <string name="content_desc_rate_discovery_to_currency">To currency %1$s. Button. Double tap to select another currency</string>
+    <string name="content_desc_rate_discovery_from_currency">From currency %1$s. Button. Double tap to select another currency</string>
+    <string name="content_desc_rate_discovery_timestamp">Your rate is updated at %1$s.</string>
+
+    <!-- Watchlist -->
+    <string name="coach_mark_watchlist_1">Double tap this icon to add the currency pairs to your Watchlist</string>
+    <string name="coach_mark_watchlist_2">Double tap this to set your rate goal</string>
+    <string name="coach_mark_edit_watchlist_1">Double tap and hold this icon to rearrange your watchlist</string>
+    <string name="coach_mark_edit_watchlist_2">Swipe left to delete from your watchlist</string>
+    <string name="content_desc_logon">Continue. Button</string>
+    <string name="content_desc_pop_next_button">Continue. Button. Tap to continue.</string>
+
+
+    <!-- Set Your Rate -->
+    <string name="content_desc_set_your_rate_drag_view">Double tap, hold and move your finger to adjust rate and expiry date</string>
+    <string name="content_desc_your_rate_target_rate">Double tap on the number to change manually</string>
+    <string name="content_desc_set_your_rate_amount">Double tap on the amount to change manually</string>
+    <string name="content_desc_set_your_rate_expiry_date">Or double tap on the expiry date to change manually</string>
+    <string name="content_desc_rate_chart_line1">%1$s 1 = %2$s %3$s Text field. Double tap to edit your rate. </string>
+    <string name="content_desc_rate_chart_line2">%1$s %2$s Text field. Double tap to edit amount. </string>
+    <string name="content_desc_rate_chart_line3">%1$s Text field. Double tap to edit expiry date. </string>
+    <string name="content_desc_rate_chart_current_rate">HSBC current rate %1$s 1 = %2$s %3$s</string>
+    <string name="content_desc_rate_chart_watched_rate">HSBC watched rate %1$s 1 = %2$s %3$s</string>
+    <string name="content_desc_rate_chart_graph">Set your rate chart. Graph. Visual representation of your rate over time period. Interact to select your target rate.
+        Your Client Target Conversion Rate %1$s Range %2$s. Expiry date %3$s. Potential return %4$s %5$s. Double tap and swipe with one finger to select another rate.</string>
+
+    <!--Watchlist-->
+    <string name="content_desc_empty_watchlist">Your watchlist is empty.</string>
+    <string name="content_desc_add_currency_pair">Add a currency pair.</string>
+    <string name="content_desc_add_currency_pair_button">Add a currency pair. Button.</string>
+    <string name="content_desc_watchlist_topmover_See_all">See all. Button. Double tap to read all market top movers.</string>
+    <string name="content_desc_add_watchlist_icon">Add to watchlist. Button. Tap to add this currency pair to watchlist.</string>
+    <string name="content_desc_carosel">Page 1 of 3. Adjustable. Swipe up or down with one finger to read the next top mover.</string>
+    <string name="content_desc_empty_left_currency_pair">From currency. Selection field. Double tap to select a currency.</string>
+    <string name="content_desc_empty_right_currency_pair">To currency. Selection field. Double tap to select a currency.</string>
+    <string name="content_desc_left_currency_pair_selected">From currency %1$s. Selection field. Double tap to select another currency.</string>
+    <string name="content_desc_right_currency_pair_selected">To currency %1$s. Selection field. Double tap to select another currency.</string>
+    <string name="content_desc_watchlist_add_icon">Add. Button. Double tap to add a currency pair to watchlist.</string>
+    <string name="content_desc_watchlist_edit_icon">Edit. Button. Double tap to edit currency pair in watchlist.</string>
+    <string name="content_desc_set_my_benchmark">Set my benchmark. Button.</string>
+    <string name="content_Desc_edit_my_benchmark">Edit my benchmark. Button.</string>
+    <string name="content_desc_reference_note">Reference note. Enter here. Text field. Double tap to edit.</string>
+    <string name="content_desc_edit_benchmark_confirm_button">Confirm Button.</string>
+    <string name="content_desc_watchlist_close_button">Close.</string>
+    <string name="content_desc_reference_note_start_editing">Reference note. Enter here. Text field. Is editing. Character mode. Insertion point at start.</string>
+    <string name="content_desc_reference_note_end_editing">Reference note. Enter here. Text field. Is editing. %1$s. Character mode. Insertion point at end.</string>
+    <string name="content_desc_edit_watchlist_currency_pair">Double tap to select.</string>
+    <string name="content_desc_notification">Notification. %1$s</string>
+    <string name="content_desc_benchmark_progress">Your benchmark %1$s. %2$s reach the benchmark.</string>
+    <string name="content_desc_benchmark_achieved">Your benchmark %1$s. %2$s reach the benchmark. Benchmark achieved.</string>
+    <string name="content_desc_watchlist_currency_pair">%1$s to %2$s</string>
+    <string name="content_desc_watchlist_market_rate">Market Rate. %1$s</string>
+    <string name="content_desc_watchlist_variance">Variance. %1$s</string>
+    <string name="content_desc_watchlist_marketrate_variance">%1$s to %2$s. Market rate. %3$s. Variance. %4$s %5$s. %6$s</string>
+    <string name="content_desc_currency_pair_with_position">%1$s - %2$s. %3$s of %4$s in list. Double tap to select.</string>
+    <string name="content_desc_currency_pair">Currency pair %1$s to %2$s</string>
+    <string name="content_desc_watchlist_inverse_rate">Inverse rate %1$s 1 equal %2$s %3$s</string>
+    <string name="content_desc_watchlist_market_rate_change">Currency pair %1$s to %2$s. Current market rate %3$s. Variance %4$s %5$s</string>
+    <string name="content_desc_currency_pair_edit_watchlist">%1$s to %2$s. %3$s of %4$s in list. Double tap to select.</string>
+    <string name="content_desc_watchlist_rearrange_icon">Rearrange. Button. Double tap and swipe up or down with one finger to rearrange currency pair %1$s to %2$s on your watchlist.</string>
+    <string name="content_desc_set_your_benchmark_current_rate_tv">Current rate %1$s 1 equal %2$s %3$s</string>
+    <string name="content_desc_set_your_benchmark_date_time">Time %1$s on %2$s</string>
+    <string name="content_desc_set_benchmark_seekbar">Minimum -10 percent maximum + 10 percent support range. %1$s percent selected range. Adjustable. Swipe up or down with one finger to adjust value.</string>
+    <string name="content_desc_add_close_currency_pair">Close Button. Tap to exit currency pair selection</string>
+</resources>

@@ -1,0 +1,329 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="fx_action_bar_height">55dp</dimen>
+    <dimen name="fx_action_bar_blur_red_line_height">35dp</dimen>
+    <dimen name="fx_bottom_menu_height">56dp</dimen>
+
+    <dimen name="general_height">56dp</dimen>
+    <dimen name="general_segment_tab_height">30dp</dimen>
+    <dimen name="general_padding_4dp">4dp</dimen>
+    <dimen name="general_padding_5dp">5dp</dimen>
+    <dimen name="general_padding_6dp">6dp</dimen>
+    <dimen name="general_padding_7dp">7dp</dimen>
+    <dimen name="general_padding_8dp">8dp</dimen>
+    <dimen name="general_padding_9dp">9dp</dimen>
+    <dimen name="general_padding_10dp">10dp</dimen>
+    <dimen name="general_padding_12dp">12dp</dimen>
+    <dimen name="general_padding_15dp">15dp</dimen>
+    <dimen name="general_padding_16dp">16dp</dimen>
+    <dimen name="general_padding_18dp">18dp</dimen>
+    <dimen name="general_padding_20dp">20dp</dimen>
+    <dimen name="general_padding_22dp">22dp</dimen>
+    <dimen name="general_padding_25dp">25dp</dimen>
+    <dimen name="general_padding_30dp">30dp</dimen>
+    <dimen name="general_padding_40dp">40dp</dimen>
+    <dimen name="general_padding_80dp">80dp</dimen>
+    <dimen name="general_padding_100dp">100dp</dimen>
+    <dimen name="general_padding_130dp">130dp</dimen>
+    <dimen name="general_padding_left_right_16dp">16dp</dimen>
+    <dimen name="general_padding_top_bottom_16dp">16dp</dimen>
+    <dimen name="general_margin_2dp">2dp</dimen>
+    <dimen name="general_margin_3dp">3dp</dimen>
+    <dimen name="general_margin_5dp">5dp</dimen>
+    <dimen name="general_margin_6dp">6dp</dimen>
+    <dimen name="general_margin_8dp">8dp</dimen>
+    <dimen name="general_margin_10dp">10dp</dimen>
+    <dimen name="general_margin_11dp">11dp</dimen>
+    <dimen name="general_margin_12dp">12dp</dimen>
+    <dimen name="general_margin_13dp">13dp</dimen>
+    <dimen name="general_margin_14dp">14dp</dimen>
+    <dimen name="general_margin_15dp">15dp</dimen>
+    <dimen name="general_margin_16dp">16dp</dimen>
+    <dimen name="general_margin_20dp">20dp</dimen>
+    <dimen name="general_margin_21dp">21dp</dimen>
+    <dimen name="general_margin_24dp">24dp</dimen>
+    <dimen name="general_margin_25dp">25dp</dimen>
+    <dimen name="general_margin_28dp">28dp</dimen>
+    <dimen name="general_margin_30dp">30dp</dimen>
+    <dimen name="general_margin_35dp">35dp</dimen>
+    <dimen name="general_margin_40dp">40dp</dimen>
+    <dimen name="general_margin_45dp">45dp</dimen>
+    <dimen name="general_margin_79dp">79dp</dimen>
+    <dimen name="general_margin_115dp">115dp</dimen>
+    <dimen name="general_margin_64dp">64dp</dimen>
+    <dimen name="general_divider_width">1dp</dimen>
+    <dimen name="general_divider_height">1.5dp</dimen>
+    <dimen name="general_promotion_divider_height">6dp</dimen>
+    <dimen name="general_textView_progress_bar_size">20dp</dimen>
+    <dimen name="general_multiple_line_edit_text_view_height">150dp</dimen>
+
+    <!-- font size -->
+    <dimen name="general_font_size_36">36sp</dimen>
+    <dimen name="general_font_size_30">30sp</dimen>
+    <dimen name="general_font_size_23">23sp</dimen>
+    <dimen name="general_font_size_19">19sp</dimen>
+    <dimen name="general_font_size_16">16sp</dimen>
+    <dimen name="general_font_size_15">15sp</dimen>
+    <dimen name="general_font_size_14">14sp</dimen>
+    <dimen name="general_font_size_13">13sp</dimen>
+    <dimen name="general_font_size_12">12sp</dimen>
+    <dimen name="general_font_size_11">11sp</dimen>
+    <dimen name="general_font_size_10">10sp</dimen>
+
+    <dimen name="contact_circle_radius">45dp</dimen>
+
+    <!-- Segmented Control bar -->
+    <dimen name="segment_control_bar_item_height">30dp</dimen>
+
+    <!-- Search Bar -->
+    <dimen name="search_bar_height">45dp</dimen>
+    <dimen name="search_bar_input_height">30dp</dimen>
+
+    <!--me to me convert now -->
+    <dimen name="buy_sell_currency_amount_cell_margin">55dp</dimen>
+    <dimen name="buy_sell_currency_amount_cell_bottom_margin">30dp</dimen>
+
+    <dimen name="button_generic_height">45dp</dimen>
+    <dimen name="button_generic_padding_compound_drawable">10dp</dimen>
+
+    <!-- Payee list -->
+    <dimen name="payee_list_tab_indicator_height">40dp</dimen>
+
+    <!--existing payee list -->
+    <dimen name="existing_payee_item_cell_height">72dp</dimen>
+    <dimen name="existing_payee_first_letter_circle_radius">45dp</dimen>
+    <dimen name="existing_payee_letter_and_flag_circle_radius">75dp</dimen>
+    <dimen name="existing_payee_flag_circle_radius">20dp</dimen>
+    <dimen name="existing_payee_first_letter_top_bottom_margin_16dp">16dp</dimen>
+    <dimen name="existing_payee_search_bar_height">33dp</dimen>
+    <dimen name="existing_payee_contact_info_top_bottom_padding_19dp">19dp</dimen>
+
+    <!-- floating action button -->
+    <dimen name="fab_margin_right">23dp</dimen>
+
+    <!-- transfer type cell -->
+    <dimen name="transfer_type_cell_padding_24dp">24dp</dimen>
+    <dimen name="transfer_type_cell_padding_16dp">16dp</dimen>
+
+
+    <!-- Logon -->
+    <dimen name="general_0px">0dp</dimen>
+    <dimen name="general_1px">1dp</dimen>
+    <dimen name="general_2px">2dp</dimen>
+    <dimen name="general_3px">3dp</dimen>
+    <dimen name="general_4px">4dp</dimen>
+    <dimen name="general_tiny_margin_5px">5dp</dimen>
+    <dimen name="general_small_margin_10px">10dp</dimen>
+    <dimen name="general_medium_margin_15px">15dp</dimen>
+    <dimen name="general_medium_margin_20px">20dp</dimen>
+    <dimen name="general_medium_margin_16px">16dp</dimen>
+    <dimen name="general_medium_margin_24px">24dp</dimen>
+    <dimen name="general_medium_margin_25px">25dp</dimen>
+    <dimen name="general_margin_35px">35dp</dimen>
+    <dimen name="general_margin_45px">45dp</dimen>
+    <dimen name="general_48dp">48dp</dimen>
+
+
+    <dimen name="general_large_margin_20px">20dp</dimen>
+    <dimen name="general_large_margin_30px">30dp</dimen>
+    <dimen name="general_large_margin_35px">35dp</dimen>
+    <dimen name="general_large_margin_40px">40dp</dimen>
+    <dimen name="general_large_margin_45px">45dp</dimen>
+    <dimen name="general_large_margin_50px">50dp</dimen>
+    <dimen name="general_large_margin_55px">55dp</dimen>
+    <dimen name="general_large_margin_60px">60dp</dimen>
+    <dimen name="general_large_margin_65px">65dp</dimen>
+    <dimen name="general_large_margin_70px">70dp</dimen>
+    <dimen name="general_large_margin_75px">75dp</dimen>
+    <dimen name="general_large_margin_80px">80dp</dimen>
+    <dimen name="general_large_margin_85px">85dp</dimen>
+    <dimen name="general_large_margin_90px">90dp</dimen>
+    <dimen name="general_large_margin_98px">98dp</dimen>
+    <dimen name="general_large_margin_100px">100dp</dimen>
+    <dimen name="general_large_margin_106px">106dp</dimen>
+    <dimen name="general_large_margin_120px">120dp</dimen>
+    <dimen name="general_large_margin_125px">125dp</dimen>
+    <dimen name="general_large_margin_160px">160dp</dimen>
+    <dimen name="general_large_margin_250px">250dp</dimen>
+    <dimen name="general_large_margin_270px">280dp</dimen>
+
+    <dimen name="logon_dialog_more_height">50dp</dimen>
+    <dimen name="logon_dialog_viewpager_height">85dp</dimen>
+    <dimen name="logon_dialog_circle_indicator_height">35dp</dimen>
+    <dimen name="logon_action_bar_spinner_width">55dp</dimen>
+
+    <dimen name="logon_input_field_width_height">44dp</dimen>
+    <dimen name="logon_input_field_margin">10dp</dimen>
+    <dimen name="logon_password_height">75dp</dimen>
+    <dimen name="logon_dialog_contact_person_cell_height">50dp</dimen>
+
+    <!-- AlertBuilder -->
+    <dimen name="alert_builder_min_height">250dp</dimen>
+
+    <dimen name="general_small_line_height">8dp</dimen>
+    <dimen name="general_medium_line_height">15dp</dimen>
+    <dimen name="general_large_line_height">17dp</dimen>
+
+    <dimen name="font_more_tiny">9sp</dimen>
+    <dimen name="font_tiny">11sp</dimen>
+    <dimen name="font_mini">12sp</dimen>
+    <dimen name="font_smaller">13sp</dimen>
+    <dimen name="font_small">16sp</dimen>
+    <dimen name="font_small_to_medium">17sp</dimen>
+    <dimen name="font_medium">19sp</dimen>
+    <dimen name="font_less_larger">23sp</dimen>
+    <dimen name="font_large">23sp</dimen>
+    <dimen name="font_bit_larger">26sp</dimen>
+    <dimen name="font_larger">30sp</dimen>
+    <dimen name="font_great">35sp</dimen>
+    <dimen name="font_greater">36sp</dimen>
+
+    <dimen name="action_bar_height">55dp</dimen>
+    <dimen name="general_button_height">45dp</dimen>
+    <dimen name="general_error_content_line_height">19dp</dimen>
+
+    <dimen name="general_bubble_button_height">70dp</dimen>
+    <dimen name="general_bubble_button_width">65dp</dimen>
+    <dimen name="general_bubble_pointer_height">10dp</dimen>
+    <dimen name="general_bubble_pointer_width">14dp</dimen>
+    <dimen name="contextual_menu_image_size">40dp</dimen>
+
+    <!-- Amount input -->
+    <dimen name="keyboard_tool_bar_height">43dp</dimen>
+
+    <!-- Confirm animated view -->
+    <dimen name="confirm_animated_view_width_height">30dp</dimen>
+    <dimen name="confirm_animated_view_tick_width">3dp</dimen>
+
+    <!-- Calendar -->
+    <dimen name="date_picker_width_height">40dp</dimen>
+    <dimen name="date_width_height">30dp</dimen>
+
+    <!--Transfer Note -->
+    <dimen name="transfer_note_min_height">85dp</dimen>
+
+    <!--Pay -->
+    <dimen name="pay_manully_add_height">98dp</dimen>
+
+    <!-- Indicator -->
+    <dimen name="indicator_height">30dp</dimen>
+
+    <!--chart-->
+    <dimen name="quote_full_chart_selected_arc_diameter">17dp</dimen>
+    <dimen name="quote_full_chart_selected_circle_diameter">7dp</dimen>
+    <dimen name="triangle_default_width">16dp</dimen>
+    <dimen name="triangle_default_height">10dp</dimen>
+
+    <!--Calculator-->
+    <dimen name="calculator_number_pad_item_height">55dp</dimen>
+    <dimen name="calculator_currency_edit_sticky_header_height">25dp</dimen>
+
+    <!--Market Info HeatMap-->
+    <dimen name="market_info_heatmap_cell_height">60dp</dimen>
+    <dimen name="market_info_heatmap_loading_indicator_cell_height">45dp</dimen>
+    <dimen name="market_info_heatmap_linear_cell_height">60dp</dimen>
+    <dimen name="market_info_heatmap_linear_rate_width">55dp</dimen>
+    <dimen name="market_info_heatmap_filtering_panel_height">45dp</dimen>
+    <dimen name="market_info_heatmap_sorting_type_height">30dp</dimen>
+    <dimen name="market_info_heatmap_back_parent_bar_height">40dp</dimen>
+    <dimen name="market_info_heatmap_bubble_tab_width">63dp</dimen>
+    <dimen name="market_info_heatmap_bubble_tab_container_width">65dp</dimen>
+    <dimen name="market_info_heatmap_bubble_tab_height">40dp</dimen>
+    <dimen name="market_info_heatmap_linear_cell_color_bar_width">4dp</dimen>
+
+    <dimen name="market_info_top_movers_cell_height">60dp</dimen>
+    <dimen name="market_info_top_movers_mover_type_height">40dp</dimen>
+    <dimen name="market_info_top_movers_footer_height">30dp</dimen>
+    <dimen name="market_info_exchange_type_cell_height">70dp</dimen>
+
+    <dimen name="market_info_indices_alert_width">40dp</dimen>
+    <dimen name="market_info_indices_alert_height">40dp</dimen>
+    <dimen name="market_info_indices_cell_height">60dp</dimen>
+    <dimen name="market_info_indices_empty_cell_default_height">1dp</dimen>
+    <dimen name="market_info_indices_chart_scrollup_height">50dp</dimen>
+    <dimen name="market_info_indices_chart_height">120dp</dimen>
+
+    <!--quickfx-->
+    <dimen name="quickfx_add_favourite_dialog_width_height">155dp</dimen>
+
+    <!--watchlist-->
+    <dimen name="watchlist_condense_view_height">125dp</dimen>
+    <dimen name="watchlist_circle_indicator_size">6dp</dimen>
+    <dimen name="watchlist_chart_scrollup_height">50dp</dimen>
+
+    <!--notification-->
+    <dimen name="set_notification_input_field_height">55dp</dimen>
+
+    <dimen name="pay_by_bank_new_payee_detail_input_field_height">55dp</dimen>
+
+    <!--orderStatus-->
+    <dimen name="order_status_tab_indicator_height">40dp</dimen>
+    <dimen name="order_status_cell_left_title_width">45dp</dimen>
+
+    <!--priceAlert-->
+    <dimen name="price_alert_cell_left_title_width">22dp</dimen>
+
+    <!-- Settings -->
+    <dimen name="settings_cell_height">70dp</dimen>
+
+    <!-- pie chart -->
+    <dimen name="pie_chart_legend_color_square_size">6dp</dimen>
+    <dimen name="pie_chart_min_height">90dp</dimen>
+    <dimen name="pie_chart_min_top_bottom_margin">15dp</dimen>
+    <dimen name="pie_chart_max_top_bottom_margin">25dp</dimen>
+    <dimen name="pie_chart_min_legend_space">30dp</dimen>
+    <dimen name="pie_chart_max_legend_space">45dp</dimen>
+    <dimen name="myfx_legend_size">8dp</dimen>
+
+    <!-- review -->
+    <dimen name="review_slide_bar_height">50dp</dimen>
+
+    <!--Rate discovery-->
+    <dimen name="donut_chart_min_height">120dp</dimen>
+    <dimen name="donut_chart_min_width">120dp</dimen>
+    <dimen name="donut_chart_min_height_big">240dp</dimen>
+    <dimen name="donut_chart_top_bottom_margin">48dp</dimen>
+    <dimen name="donut_chart_width">200dp</dimen>
+    <dimen name="donut_chart_vertical_legend_left_right_margin">32dp</dimen>
+    <dimen name="rate_discovery_24">24dp</dimen>
+    <dimen name="rate_dimension_13">13dp</dimen>
+    <dimen name="rate_discovery_29">29dp</dimen>
+    <dimen name="rate_discovery_text_16">16sp</dimen>
+    <dimen name="rate_discovery_8">8dp</dimen>
+    <dimen name="rate_discovery_140">140dp</dimen>
+    <dimen name="rate_discoverey_30">30dp</dimen>
+    <dimen name="rate_discovery_45">45dp</dimen>
+    <dimen name="rate_discovery_13">13dp</dimen>
+    <dimen name="rate_discovery_text_30">30sp</dimen>
+    <dimen name="rate_discovery_19">19dp</dimen>
+    <dimen name="rate_discovery_2">2dp</dimen>
+    <dimen name="rate_discovery_10">10dp</dimen>
+    <dimen name="rate_discovery_20">20dp</dimen>
+    <dimen name="rate_discovery_15">15dp</dimen>
+
+    <!--Text Height-->
+    <dimen name="general_line_height_19sp">19sp</dimen>
+    <dimen name="general_line_height_20sp">20sp</dimen>
+    <dimen name="general_line_height_03sp">03sp</dimen>
+    <dimen name="general_line_height_36sp">36sp</dimen>
+    <dimen name="general_line_height_24sp">24sp</dimen>
+    <dimen name="general_line_height_21sp">21sp</dimen>
+
+    <!--OnBoarding Error-->
+    <dimen name="onboarding_button_height_44dp">44dp</dimen>
+    <dimen name="onboarding_button_width_200dp">200dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_43">43dp</dimen>
+
+    <dimen name="line_spacing_7sp">7sp</dimen>
+    <dimen name="line_spacing_6sp">6sp</dimen>
+
+</resources>

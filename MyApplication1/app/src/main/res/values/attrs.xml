@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="label" format="string" />
+    <attr name="fontPath" format="string" />
+    <attr name="dividerColor" format="color" />
+    <attr name="title" format="string" />
+    <attr name="error" format="string" />
+    <attr name="hint" format="string" />
+    <attr name="desc" format="string" />
+    <attr name="showDivider" format="boolean" />
+
+    <attr name="themeStyle" format="enum">
+        <enum name="light" value="0" />
+        <enum name="dark" value="1" />
+        <enum name="black" value="2" />
+    </attr>
+
+    <attr name="button_style" format="enum">
+        <enum name="primary" value="1" />
+        <enum name="secondary" value="2" />
+        <enum name="tertiary" value="3" />
+        <enum name="stroke_divider" value="4" />
+        <enum name="success" value="5" />
+        <enum name="verify" value="6" />
+        <!--<enum name="locator" value="8" />-->
+        <!--<enum name="dark_blue" value="9" />-->
+        <!--<enum name="transparent" value="10" />-->
+    </attr>
+
+    <declare-styleable name="FxBaseTextView">
+        <attr name="fontPath" />
+        <attr name="maxWordLength" format="integer" />
+        <attr name="lineHeight" format="dimension" />
+        <attr name="android:textSize" />
+    </declare-styleable>
+
+    <declare-styleable name="FxCircleIndicator">
+        <attr name="deselectedColor" format="color" />
+        <attr name="selectedColor" format="color" />
+        <attr name="circleSize" format="dimension" />
+        <attr name="circleMargin" format="dimension" />
+        <attr name="strokeOnly" format="boolean" />
+        <attr name="strokeColor" format="color" />
+        <attr name="strokeSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="FxAmountInputField">
+        <attr name="android:imeOptions" />
+    </declare-styleable>
+
+    <declare-styleable name="TabIndicator">
+        <attr name="android:textColor" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="unselectedTextColor" format="color" />
+        <attr name="selectedBarSize" format="dimension" />
+        <attr name="tabBarBackground" format="color" />
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="selectedBarColor" format="color" />
+        <attr name="dividerColor" />
+        <attr name="dividerAlpha" format="float" />
+        <attr name="bottomDivider" format="boolean" />
+        <attr name="selectedStyle" format="enum">
+            <enum name="lineBar" value="0" />
+            <enum name="boldSize" value="1" />
+            <enum name="chartStyle" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="BaseButton">
+        <attr name="android:layout_height" />
+        <attr name="android:text" />
+        <attr name="android:textColor" />
+        <attr name="android:background" />
+        <attr name="android:drawableLeft" />
+        <attr name="android:drawablePadding" />
+    </declare-styleable>
+
+    <!-- Circle color -->
+    <declare-styleable name="CircleView">
+        <attr name="circleColor" format="color" />
+    </declare-styleable>
+
+    <!--Expandable List-->
+    <item name="fgelv_tag_changed_visibility" type="id" />
+
+    <!-- Purpose of payment -->
+    <declare-styleable name="FxSelectPopCell">
+        <attr name="title" />
+        <attr name="hint" />
+    </declare-styleable>
+
+    <declare-styleable name="PurposeOfPaymentSelectionView">
+        <attr name="title" />
+        <attr name="hint" />
+        <attr name="android:maxLength" />
+    </declare-styleable>
+
+    <declare-styleable name="SVGImageView">
+        <!-- Location of the SVG document. -->
+        <attr name="svg" format="reference|string" />
+    </declare-styleable>
+
+    <declare-styleable name="BaseCheckBox">
+        <attr name="src_normal" format="reference" />
+        <attr name="src_selected" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TabEditTextView">
+        <attr name="tabTitle" format="string" />
+        <attr name="tabError" format="string" />
+        <attr name="android:hint" />
+        <attr name="android:maxLength" />
+        <attr name="android:imeOptions" />
+        <attr name="android:inputType" />
+
+    </declare-styleable>
+
+    <declare-styleable name="InputFieldView">
+        <attr name="title" />
+        <attr name="error" />
+        <attr name="android:hint" />
+        <attr name="android:maxLength" />
+        <attr name="android:imeOptions" />
+        <attr name="android:inputType" />
+
+    </declare-styleable>
+
+    <declare-styleable name="DisclaimerView">
+        <attr name="disclaimerStyle" format="enum">
+            <enum name="LightBg" value="0" />
+            <enum name="DarkBg" value="1" />
+        </attr>
+        <attr name="isShowIcon" format="boolean" />
+        <attr name="android:text" />
+    </declare-styleable>
+
+    <declare-styleable name="TransferFormAmountCell">
+        <attr name="currencyColor" format="color" />
+        <attr name="inputColor" format="color" />
+        <attr name="dividerColor" />
+    </declare-styleable>
+
+    <declare-styleable name="CurrencyPairView">
+        <attr name="showDivider" />
+        <attr name="selectedTarget" format="enum">
+            <enum name="both" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="general" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="FxSearchView">
+        <attr name="themeStyle" />
+        <attr name="android:hint" />
+        <attr name="android:maxLength" />
+    </declare-styleable>
+
+    <declare-styleable name="CalculatorNumberPadView">
+        <attr name="themeStyle" />
+    </declare-styleable>
+
+    <declare-styleable name="FxTransferFormSelectAccountCell">
+        <attr name="label" />
+    </declare-styleable>
+
+    <declare-styleable name="FxOrderStatusSelectAccountCell">
+        <attr name="label" />
+    </declare-styleable>
+
+    <declare-styleable name="FxBasePickerView">
+        <attr name="title" />
+        <attr name="pickerTitle" format="string" />
+        <attr name="defaultValue" format="string" />
+        <attr name="android:entries" />
+        <attr name="isPickerCancelable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="InputToolBarView">
+        <attr name="android:text" />
+        <attr name="android:textColor" />
+        <attr name="android:src" />
+    </declare-styleable>
+
+    <declare-styleable name="PaymentTypeView">
+        <attr name="title" />
+        <attr name="desc" />
+        <attr name="icon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BankDetailView">
+        <attr name="android:padding" />
+        <attr name="themeStyle" />
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <declare-styleable name="TransferFormCalendarCell">
+        <attr name="title" />
+    </declare-styleable>
+
+    <declare-styleable name="PayConfirmationStepView">
+        <attr name="showDivider" />
+        <attr name="stepNumber" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SearchEmptyStateView">
+        <attr name="android:text" />
+        <attr name="themeStyle" />
+    </declare-styleable>
+
+    <declare-styleable name="SegmentedControlButton">
+        <attr name="backgroundColorSelector" format="color" />
+        <attr name="textColorSelector" format="color" />
+    </declare-styleable>
+
+    <!-- Logon -->
+    <declare-styleable name="LogonButtonView">
+        <attr name="android:text" />
+        <attr name="android:textColor" />
+        <attr name="android:src" />
+        <attr name="iconPadding" format="dimension" />
+        <attr name="fontPath" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageTextButton">
+        <attr name="android:src" />
+        <attr name="button_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="DonutChart">
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="IdvLogonInputTextView">
+        <attr name="android:maxLength" />
+        <attr name="android:imeOptions" />
+        <attr name="android:inputType" />
+
+    </declare-styleable>
+
+</resources>
