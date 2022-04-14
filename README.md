@@ -22,3 +22,11 @@ Click the button to see the recipe and also what nutritions and calories will co
 
 # Barcode Scan
 Lastly, user can use this barcode scanning feature by conveniently scanning the barcode of their selected grocery items. Our app will then update the database and keep track of the user's inventory.
+
+![barcode 1](https://github.com/miftahshidqi/Trabowl/blob/main/barcode1.png)
+
+![barcode 2](https://github.com/miftahshidqi/Trabowl/blob/main/barcode2.png)
+
+Move the camera to the desired barcode.
+
+![barcode 3](https://github.com/miftahshidqi/Trabowl/blob/main/barcode3.png)
