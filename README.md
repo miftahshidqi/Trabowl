@@ -21,3 +21,4 @@ The Trabowl app will give the food recipe recommedation based on what users need
 Click the button to see the recipe and also what nutritions and calories will contain inside.
 
 # Barcode Scan
+Lastly, user can use this barcode scanning feature by conveniently scanning the barcode of their selected grocery items. Our app will then update the database and keep track of the user's inventory.
